@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cxs_ui_action_config">
+    <cxs_ui_action_config action="DELETE">
+        <action_condition table="sn_customerservice_case">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </action_condition>
+        <action_label>Link to Case</action_label>
+        <action_undo_label/>
+        <action_value>Link to Case</action_value>
+        <active>true</active>
+        <advanced_visibility>false</advanced_visibility>
+        <attach_note_field>comments</attach_note_field>
+        <attachment_type/>
+        <badge_label/>
+        <current_action_condition/>
+        <current_table/>
+        <order>400</order>
+        <rest_api>link_to_case</rest_api>
+        <search_res_config display_value="対応中の重大な問題">a6a5c68793d02300a591f5be867ffbca</search_res_config>
+        <search_resource display_value="">com.snc.contextual_search.search_resource.GlideRecordSearchResource</search_resource>
+        <search_ui_action display_value="Link to Case">4250af1aad502300964f020676a944aa</search_ui_action>
+        <search_ui_config display_value="Related Search Results [x_bllt_bs_cc_inquiry]">41d47ff01bc416103de3fdd2cd4bcb12</search_ui_config>
+        <show_on_new>false</show_on_new>
+        <sys_class_name>cxs_ui_action_config</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 02:25:34</sys_created_on>
+        <sys_id>b43537341bc416103de3fdd2cd4bcb39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Link to Case</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>cxs_ui_action_config_b43537341bc416103de3fdd2cd4bcb39</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 02:25:34</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <trend_recommendation/>
+        <ui_action_visibility_script/>
+        <use_custom_field_for_attach>false</use_custom_field_for_attach>
+    </cxs_ui_action_config>
+    <sys_translated_text action="DELETE" query="documentkey=b43537341bc416103de3fdd2cd4bcb39"/>
+    <sys_translated_text action="DELETE">
+        <documentkey>b43537341bc416103de3fdd2cd4bcb39</documentkey>
+        <fieldname>action_label</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 02:25:34</sys_created_on>
+        <sys_id>703537341bc416103de3fdd2cd4bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 02:25:34</sys_updated_on>
+        <tablename>cxs_ui_action_config</tablename>
+        <value>Link to Case</value>
+    </sys_translated_text>
+    <sys_translated_text action="DELETE">
+        <documentkey>b43537341bc416103de3fdd2cd4bcb39</documentkey>
+        <fieldname>action_undo_label</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 02:25:34</sys_created_on>
+        <sys_id>b83537341bc416103de3fdd2cd4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 02:25:34</sys_updated_on>
+        <tablename>cxs_ui_action_config</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="DELETE">
+        <documentkey>b43537341bc416103de3fdd2cd4bcb39</documentkey>
+        <fieldname>badge_label</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 02:25:34</sys_created_on>
+        <sys_id>743537341bc416103de3fdd2cd4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 02:25:34</sys_updated_on>
+        <tablename>cxs_ui_action_config</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>08fde53ddb6fe010a667cac5059619a7</instance_id>
+        <instance_name>blueshipcoltddemo4</instance_name>
+        <name>cxs_ui_action_config_b43537341bc416103de3fdd2cd4bcb39</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cxs_ui_action_config"><cxs_ui_action_config action="INSERT_OR_UPDATE"><action_condition table="sn_customerservice_case">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></action_condition><action_label>Link to Case</action_label><action_undo_label/><action_value>Link to Case</action_value><active>true</active><advanced_visibility>false</advanced_visibility><attach_note_field>comments</attach_note_field><attachment_type/><badge_label/><current_action_condition/><current_table/><order>400</order><rest_api>link_to_case</rest_api><search_res_config display_value="対応中の重大な問題">a6a5c68793d02300a591f5be867ffbca</search_res_config><search_resource display_value="">com.snc.contextual_search.search_resource.GlideRecordSearchResource</search_resource><search_ui_action display_value="Link to Case">4250af1aad502300964f020676a944aa</search_ui_action><search_ui_config display_value="Related Search Results [x_bllt_bs_cc_inquiry]">41d47ff01bc416103de3fdd2cd4bcb12</search_ui_config><show_on_new>false</show_on_new><sys_class_name>cxs_ui_action_config</sys_class_name><sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by><sys_created_on>2024-08-14 02:25:34</sys_created_on><sys_id>b43537341bc416103de3fdd2cd4bcb39</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Link to Case</sys_name><sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package><sys_policy/><sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope><sys_update_name>cxs_ui_action_config_b43537341bc416103de3fdd2cd4bcb39</sys_update_name><sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by><sys_updated_on>2024-08-14 02:25:34</sys_updated_on><table>sn_customerservice_case</table><trend_recommendation/><ui_action_visibility_script/><use_custom_field_for_attach>false</use_custom_field_for_attach></cxs_ui_action_config><sys_translated_text action="delete_multiple" query="documentkey=b43537341bc416103de3fdd2cd4bcb39"/><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>b43537341bc416103de3fdd2cd4bcb39</documentkey><fieldname>action_label</fieldname><language>ja</language><sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by><sys_created_on>2024-08-14 02:25:34</sys_created_on><sys_id>703537341bc416103de3fdd2cd4bcb3a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by><sys_updated_on>2024-08-14 02:25:34</sys_updated_on><tablename>cxs_ui_action_config</tablename><value>Link to Case</value></sys_translated_text><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>b43537341bc416103de3fdd2cd4bcb39</documentkey><fieldname>action_undo_label</fieldname><language>ja</language><sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by><sys_created_on>2024-08-14 02:25:34</sys_created_on><sys_id>b83537341bc416103de3fdd2cd4bcb3e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by><sys_updated_on>2024-08-14 02:25:34</sys_updated_on><tablename>cxs_ui_action_config</tablename><value/></sys_translated_text><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>b43537341bc416103de3fdd2cd4bcb39</documentkey><fieldname>badge_label</fieldname><language>ja</language><sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by><sys_created_on>2024-08-14 02:25:34</sys_created_on><sys_id>743537341bc416103de3fdd2cd4bcb3c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by><sys_updated_on>2024-08-14 02:25:34</sys_updated_on><tablename>cxs_ui_action_config</tablename><value/></sys_translated_text></record_update>]]></payload>
+        <payload_hash>-962461498</payload_hash>
+        <record_name>Link to Case</record_name>
+        <reverted_from/>
+        <source>57a8ef741b8416103de3fdd2cd4bcb16</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 02:25:34</sys_created_on>
+        <sys_id>f83537341bc416103de3fdd2cd4bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1914eb472700000001</sys_recorded_at>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 02:25:34</sys_updated_on>
+        <type>Search Action Configuration</type>
+        <update_guid>3435373455c416107ab26dcba9f44840</update_guid>
+        <update_guid_history>3435373455c416107ab26dcba9f44840:-962461498,3c3537349bc41610821378b574c59d3d:589052673,b4353734dcc41610616043d2b8e14c3b:-1826262682</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Link to Case">2e66d8051b0412103de3fdd2cd4bcb59</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 04:50:42</sys_created_on>
+        <sys_db_object display_value="" name="cxs_ui_action_config">cxs_ui_action_config</sys_db_object>
+        <sys_id>b13b106e8a2b4742a656afc4e1dd5eb1</sys_id>
+        <sys_metadata>b43537341bc416103de3fdd2cd4bcb39</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Link to Case</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>cxs_ui_action_config_b43537341bc416103de3fdd2cd4bcb39</sys_update_name>
+        <sys_update_version display_value="cxs_ui_action_config_b43537341bc416103de3fdd2cd4bcb39">f83537341bc416103de3fdd2cd4bcb40</sys_update_version>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 04:50:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

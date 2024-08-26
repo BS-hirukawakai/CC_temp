@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="問い合わせ">6ab83ed31b3fc6103de3fdd2cd4bcbd7</application>
+        <filter/>
+        <name>問い合わせs</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_bllt_bs_cc._user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>muramatsu.keishin</sys_created_by>
+        <sys_created_on>2024-08-09 06:10:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>22b83ed31b3fc6103de3fdd2cd4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>問い合わせs</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ui_module_22b83ed31b3fc6103de3fdd2cd4bcbdb</sys_update_name>
+        <sys_updated_by>muramatsu.keishin</sys_updated_by>
+        <sys_updated_on>2024-08-09 06:10:29</sys_updated_on>
+        <table>x_bllt_bs_cc_inquiry</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

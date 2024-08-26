@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="escalation_reason" table="x_bllt_bs_cc_inquiry" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>escalation_reason</element>
+            <name>x_bllt_bs_cc_inquiry</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nagatomo.kaito@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-23 04:47:33</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>escalation_reason</sys_name>
+            <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+            <sys_update_name>sys_choice_x_bllt_bs_cc_inquiry_escalation_reason</sys_update_name>
+            <sys_updated_by>nagatomo.kaito@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-23 04:47:33</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>escalation_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>取次希望</label>
+            <language>en</language>
+            <name>x_bllt_bs_cc_inquiry</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>nagatomo.kaito@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-23 04:47:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nagatomo.kaito@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-23 04:47:50</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>escalation_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>個人情報が必要な案件</label>
+            <language>en</language>
+            <name>x_bllt_bs_cc_inquiry</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>nagatomo.kaito@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-23 04:48:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nagatomo.kaito@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-23 04:48:30</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>escalation_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>各課から取次指定の問合せの内容の案件</label>
+            <language>en</language>
+            <name>x_bllt_bs_cc_inquiry</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>nagatomo.kaito@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-23 04:48:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nagatomo.kaito@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-23 04:49:39</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>escalation_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>行政的な判断が必要となる要件</label>
+            <language>en</language>
+            <name>x_bllt_bs_cc_inquiry</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>nagatomo.kaito@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-23 04:49:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>nagatomo.kaito@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-23 04:49:51</sys_updated_on>
+            <value>30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>escalation_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CCで対応可否の判断ができなかった案件</label>
+            <language>en</language>
+            <name>x_bllt_bs_cc_inquiry</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>nagatomo.kaito@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-23 04:50:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>nagatomo.kaito@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-23 04:50:33</sys_updated_on>
+            <value>40</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>escalation_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>各課へ対応方針確認後、折返し対応</label>
+            <language>en</language>
+            <name>x_bllt_bs_cc_inquiry</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>nagatomo.kaito@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-23 04:51:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nagatomo.kaito@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-23 04:52:06</sys_updated_on>
+            <value>50</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>escalation_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ホームページに記載がないため</label>
+            <language>en</language>
+            <name>x_bllt_bs_cc_inquiry</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>nagatomo.kaito@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-23 04:52:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nagatomo.kaito@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-23 06:40:23</sys_updated_on>
+            <value>60</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

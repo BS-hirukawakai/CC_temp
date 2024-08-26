@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_toolbar</name>
+        <page display_value="INQ">97702efa1b4416103de3fdd2cd4bcb9d</page>
+        <required_translations>[ {
+  "message" : "List",
+  "comment" : ""
+}, {
+  "message" : "Record",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-20 01:38:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>d504a2721b8416103de3fdd2cd4bcbf1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ux_page_property_d504a2721b8416103de3fdd2cd4bcbf1</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-21 04:38:53</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_bllt_bs_cc.97702efa1b4416103de3fdd2cd4bcb9d.root.chrome_toolbar</unique_name>
+        <value>[{"id":"inq-default-list","label":{"translatable":true,"message":"List"},"icon":"home-outline","routeInfo":{"route":"inq-default-list"},"group":"top","badge":{},"presence":{},"availability":{},"order":100},{"id":"inq-default-record","label":{"translatable":true,"message":"Record"},"icon":"add-item-above-fill","routeInfo":{"route":"inq-default-record"},"group":"top","badge":{},"presence":{},"availability":{},"order":100}]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=d504a2721b8416103de3fdd2cd4bcbf1"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>d504a2721b8416103de3fdd2cd4bcbf1</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-20 01:38:44</sys_created_on>
+        <sys_id>dd04a2721b8416103de3fdd2cd4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-20 01:38:44</sys_updated_on>
+        <tablename>sys_ux_page_property</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>NAV_ITEM_SELECTED_RELAY_e945b2ba1bc416103de3fdd2cd4bcbac</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Link to destination Relay (デフォルト)</label>
+        <props>[
+    {
+        "defaultValue": null,
+        "fieldType": "string",
+        "interfaceApiName": "global.route",
+        "label": "ルートタイプ",
+        "name": "route",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "ルートフィールド",
+        "name": "fields",
+        "type": "json",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "オプションのパラメーター",
+        "name": "params",
+        "type": "json",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "boolean",
+        "label": "ブラウザー履歴から以前の URL を削除",
+        "name": "redirect",
+        "type": "boolean",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "バックグラウンドでレコードをロードするオプション",
+        "fieldType": "boolean",
+        "label": "バックグラウンドでロード (詳細)",
+        "name": "passiveNavigation",
+        "type": "boolean",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "タブの名前とブラウザータイトル",
+        "fieldType": "string",
+        "label": "タイトル (詳細)",
+        "name": "title",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "新しいレコードの複数のインスタンスを有効にするために使用するルート構成のフィールドを指定します",
+        "fieldType": "string",
+        "label": "マルチインスタンスフィールド (詳細)",
+        "name": "multiInstField",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "「current」と入力すると、サブタブにレコードが開きます",
+        "fieldType": "string",
+        "label": "サブナビゲーションルーティング (詳細)",
+        "name": "targetRoute",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "外部 URL にリンクするためのオブジェクト",
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "外部 URL オブジェクト",
+        "name": "external",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "target": {
+                        "description": "Target window to open. Default is _blank",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "The URL to open",
+                        "type": "string"
+                    }
+                },
+                "title": "External URL Object",
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "その他のナビゲーションオプションのオブジェクト",
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "ナビゲーションオプションオブジェクト",
+        "name": "navigationOptions",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "navigateExternal": {
+                        "description": "Enable external navigation",
+                        "type": "boolean"
+                    },
+                    "targetWindowRef": {
+                        "description": "Target window opened by action dispatcher",
+                        "type": "object"
+                    },
+                    "windowOptions": {
+                        "description": "Target and windowOptions with which window.open to be called. Default values are _blank and emptyString",
+                        "type": "json"
+                    }
+                },
+                "title": "Navigation Options Object",
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "「current」と入力すると、サブタブにレコードが開きます",
+  "comment" : ""
+}, {
+  "message" : "その他のナビゲーションオプションのオブジェクト",
+  "comment" : ""
+}, {
+  "message" : "オプションのパラメーター",
+  "comment" : ""
+}, {
+  "message" : "サブナビゲーションルーティング (詳細)",
+  "comment" : ""
+}, {
+  "message" : "タイトル (詳細)",
+  "comment" : ""
+}, {
+  "message" : "タブの名前とブラウザータイトル",
+  "comment" : ""
+}, {
+  "message" : "ナビゲーションオプションオブジェクト",
+  "comment" : ""
+}, {
+  "message" : "バックグラウンドでレコードをロードするオプション",
+  "comment" : ""
+}, {
+  "message" : "バックグラウンドでロード (詳細)",
+  "comment" : ""
+}, {
+  "message" : "ブラウザー履歴から以前の URL を削除",
+  "comment" : ""
+}, {
+  "message" : "マルチインスタンスフィールド (詳細)",
+  "comment" : ""
+}, {
+  "message" : "ルートタイプ",
+  "comment" : ""
+}, {
+  "message" : "ルートフィールド",
+  "comment" : ""
+}, {
+  "message" : "外部 URL にリンクするためのオブジェクト",
+  "comment" : ""
+}, {
+  "message" : "外部 URL オブジェクト",
+  "comment" : ""
+}, {
+  "message" : "新しいレコードの複数のインスタンスを有効にするために使用するルート構成のフィールドを指定します",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>kuniyoshi.kosuke@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-20 07:44:36</sys_created_on>
+        <sys_id>4627b7ba1b4c16103de3fdd2cd4bcb7d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Link to destination Relay (デフォルト)</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ux_event_4627b7ba1b4c16103de3fdd2cd4bcb7d</sys_update_name>
+        <sys_updated_by>kuniyoshi.kosuke@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-20 07:51:03</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=4627b7ba1b4c16103de3fdd2cd4bcb7d"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>4627b7ba1b4c16103de3fdd2cd4bcb7d</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>kuniyoshi.kosuke@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-20 07:44:36</sys_created_on>
+        <sys_id>20c7b7ba1b4c16103de3fdd2cd4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kuniyoshi.kosuke@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-20 07:44:36</sys_updated_on>
+        <tablename>sys_ux_event</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

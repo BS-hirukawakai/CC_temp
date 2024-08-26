@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_assignment_action_config">
+    <sys_ux_m2m_action_assignment_action_config action="INSERT_OR_UPDATE">
+        <action_assignment display_value="agent_assist_x_bllt_bs_cc_inquiry">7190fbbc1b8416103de3fdd2cd4bcb2b</action_assignment>
+        <action_configuration display_value="CSM/FSM Configurable Workspace Action Config">46e658c35322101043d7ddeeff7b12b4</action_configuration>
+        <sys_class_name>sys_ux_m2m_action_assignment_action_config</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 07:07:53</sys_created_on>
+        <sys_id>48d57cc11b0812103de3fdd2cd4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_assignment_action_config_48d57cc11b0812103de3fdd2cd4bcb5f</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 07:07:53</sys_updated_on>
+    </sys_ux_m2m_action_assignment_action_config>
+</record_update>

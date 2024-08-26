@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config/>
+        <screen display_value="デフォルト">affae6fa1b8416103de3fdd2cd4bcb88</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-20 02:09:13</sys_created_on>
+        <sys_id>6ffae6fa1b8416103de3fdd2cd4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_6ffae6fa1b8416103de3fdd2cd4bcb8d</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-20 02:09:13</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>08fde53ddb6fe010a667cac5059619a7</instance_id>
+        <instance_name>blueshipcoltddemo4</instance_name>
+        <name>sys_uib_screen_test_values_6ffae6fa1b8416103de3fdd2cd4bcb8d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config/><screen display_value="デフォルト">affae6fa1b8416103de3fdd2cd4bcb88</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by><sys_created_on>2024-08-20 02:09:13</sys_created_on><sys_id>6ffae6fa1b8416103de3fdd2cd4bcb8d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package><sys_policy/><sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope><sys_update_name>sys_uib_screen_test_values_6ffae6fa1b8416103de3fdd2cd4bcb8d</sys_update_name><sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by><sys_updated_on>2024-08-20 02:09:13</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>1325003040</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6f8f16ba1b4416103de3fdd2cd4bcbfc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-20 02:09:13</sys_created_on>
+        <sys_id>ebfae6fa1b8416103de3fdd2cd4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1916d8ba2930000001</sys_recorded_at>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-20 02:09:13</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>effae6faf084161006afd6fcc68b7a8e</update_guid>
+        <update_guid_history>effae6faf084161006afd6fcc68b7a8e:1325003040</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-20 02:10:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>0cb681aead374262a0e4e381ef90c1b1</sys_id>
+        <sys_metadata>6ffae6fa1b8416103de3fdd2cd4bcb8d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_6ffae6fa1b8416103de3fdd2cd4bcb8d</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_6ffae6fa1b8416103de3fdd2cd4bcb8d">ebfae6fa1b8416103de3fdd2cd4bcb8f</sys_update_version>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-20 02:10:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

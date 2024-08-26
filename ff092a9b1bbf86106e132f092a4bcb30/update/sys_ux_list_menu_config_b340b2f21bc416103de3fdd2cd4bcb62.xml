@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>CC用のWSにリストを追加する</description>
+        <name>CC Template Workspace List Menu Config</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-20 02:33:12</sys_created_on>
+        <sys_id>b340b2f21bc416103de3fdd2cd4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CC Template Workspace List Menu Config</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_b340b2f21bc416103de3fdd2cd4bcb62</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-20 02:33:12</sys_updated_on>
+    </sys_ux_list_menu_config>
+</record_update>

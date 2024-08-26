@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
+        <action display_value="Agent Assist">bd300d7553332300099addeeff7b12fc</action>
+        <action_attributes>{"cxsTableConfig":"41d47ff01bc416103de3fdd2cd4bcb12"}</action_attributes>
+        <action_name>agent_assist_x_bllt_bs_cc_inquiry</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>primary</button_type>
+        <client_action/>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <client_script><![CDATA[function onClick() { }]]></client_script>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode/>
+        <declarative_action_type>action_component</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon display_value="graduation-cap-outline">graduation_cap_outline</design_icon>
+        <dynamic_record_condition/>
+        <dynamic_script_condition/>
+        <enable_dynamic_evaluation>false</enable_dynamic_evaluation>
+        <enable_for_all_experiences>false</enable_for_all_experiences>
+        <enabled>true</enabled>
+        <experience_restricted>false</experience_restricted>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position>contexual_sidebar</form_position>
+        <group/>
+        <group_by>false</group_by>
+        <icon/>
+        <label>エージェント支援</label>
+        <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>0</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>false</record_selection_required>
+        <required_roles/>
+        <required_translations/>
+        <required_user_role_names/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <scripted_client_condition/>
+        <server_script/>
+        <specificity>42</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 02:10:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7190fbbc1b8416103de3fdd2cd4bcb2b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>agent_assist_x_bllt_bs_cc_inquiry</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_7190fbbc1b8416103de3fdd2cd4bcb2b</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-15 08:51:39</sys_updated_on>
+        <table>x_bllt_bs_cc_inquiry</table>
+        <tooltip/>
+        <ui_component display_value="now-agent-assist">9873ed15229a74ad4927707f31a0e56e</ui_component>
+        <view/>
+        <workspace display_value="Agent Workspace">7b24ceae5304130084acddeeff7b12a3</workspace>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="delete_multiple" query="documentkey=7190fbbc1b8416103de3fdd2cd4bcb2b"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>7190fbbc1b8416103de3fdd2cd4bcb2b</documentkey>
+        <fieldname>confirmation_message</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 02:10:44</sys_created_on>
+        <sys_id>7fc1f3301bc416103de3fdd2cd4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 02:10:44</sys_updated_on>
+        <tablename>sys_declarative_action_assignment</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>7190fbbc1b8416103de3fdd2cd4bcb2b</documentkey>
+        <fieldname>label</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 02:10:45</sys_created_on>
+        <sys_id>73c1f3301bc416103de3fdd2cd4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 02:10:45</sys_updated_on>
+        <tablename>sys_declarative_action_assignment</tablename>
+        <value>エージェント支援</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>7190fbbc1b8416103de3fdd2cd4bcb2b</documentkey>
+        <fieldname>tooltip</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 02:10:45</sys_created_on>
+        <sys_id>bbc1f3301bc416103de3fdd2cd4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 02:10:45</sys_updated_on>
+        <tablename>sys_declarative_action_assignment</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

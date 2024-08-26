@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>INQ default</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-23 08:45:12</sys_created_on>
+        <sys_id>a162e7f71bccd6106e132f092a4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>INQ default</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ux_screen_type_a162e7f71bccd6106e132f092a4bcba3</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-23 08:45:12</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=a162e7f71bccd6106e132f092a4bcba3"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a162e7f71bccd6106e132f092a4bcba3</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-23 08:45:12</sys_created_on>
+        <sys_id>e962e7f71bccd6106e132f092a4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-23 08:45:12</sys_updated_on>
+        <tablename>sys_ux_screen_type</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

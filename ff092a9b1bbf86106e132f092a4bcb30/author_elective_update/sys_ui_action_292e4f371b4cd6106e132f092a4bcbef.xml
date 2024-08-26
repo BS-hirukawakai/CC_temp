@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>setAssign</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[if (current.escalation_reason == '') {
+    alert("エスカレーション理由が選択されていません");
+	gs.info('if test');
+} else {
+	alert("エスカレーション");
+	gs.info('else if test');
+}
+
+//現在のレコードにとどまる
+action.setRedirectURL(current);
+current.update();]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-23 07:18:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>292e4f371b4cd6106e132f092a4bcbef</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>setAssign</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ui_action_292e4f371b4cd6106e132f092a4bcbef</sys_update_name>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-23 07:23:48</sys_updated_on>
+        <table>x_bllt_bs_cc_inquiry</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>08fde53ddb6fe010a667cac5059619a7</instance_id>
+        <instance_name>blueshipcoltddemo4</instance_name>
+        <name>sys_ui_action_292e4f371b4cd6106e132f092a4bcbef</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;setAssign&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[if (current.escalation_reason == '') {
+    alert("エスカレーション理由が選択されていません");
+	gs.info('if test');
+} else {
+	alert("エスカレーション");
+	gs.info('else if test');
+}
+
+//現在のレコードにとどまる
+action.setRedirectURL(current);
+current.update();]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;hirukawa.kai@blueship.co.jp&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-23 07:18:00&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;292e4f371b4cd6106e132f092a4bcbef&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;setAssign&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CCテンプレート" source="x_bllt_bs_cc"&gt;ff092a9b1bbf86106e132f092a4bcb30&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CCテンプレート"&gt;ff092a9b1bbf86106e132f092a4bcb30&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_292e4f371b4cd6106e132f092a4bcbef&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;hirukawa.kai@blueship.co.jp&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-23 07:23:48&lt;/sys_updated_on&gt;&lt;table&gt;x_bllt_bs_cc_inquiry&lt;/table&gt;&lt;ui11_compatible&gt;false&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2100260217</payload_hash>
+        <record_name>setAssign</record_name>
+        <reverted_from/>
+        <source>730e0f371b4cd6106e132f092a4bcb2e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-23 07:23:48</sys_created_on>
+        <sys_id>91cf4bf71b4cd6106e132f092a4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1917e1ebb0f0000001</sys_recorded_at>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-23 07:23:48</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>59cf4bf7e84cd610d7021c243759dcbd</update_guid>
+        <update_guid_history>59cf4bf7e84cd610d7021c243759dcbd:2100260217,685fc7b7b24cd6102e24d63357f6a20d:685909227,772f4f77d84cd610e446599262df3034:774787045,4a8e4b77c54cd610856f11a82dd2b034:1596455070,cc7e4377c14cd61060089fa2f46ebbbf:152768530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-23 07:26:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>94903b5e9d17486f855d7056dc122a89</sys_id>
+        <sys_metadata>292e4f371b4cd6106e132f092a4bcbef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>setAssign</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent display_value="問い合わせ">ce183e931b3fc6103de3fdd2cd4bcb4b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>sys_ui_action_292e4f371b4cd6106e132f092a4bcbef</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_292e4f371b4cd6106e132f092a4bcbef">91cf4bf71b4cd6106e132f092a4bcbbe</sys_update_version>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-23 07:26:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

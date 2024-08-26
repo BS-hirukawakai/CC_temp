@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view_workspace">
+    <sysrule_view_workspace action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <default_tab_focus>Details</default_tab_focus>
+        <default_tab_order>true</default_tab_order>
+        <description/>
+        <disable_section_collapse>false</disable_section_collapse>
+        <experience_restricted>true</experience_restricted>
+        <hide_details>false</hide_details>
+        <hide_journal_input_fields>false</hide_journal_input_fields>
+        <hide_section_menu>false</hide_section_menu>
+        <name>問合せのworkspaceビュー</name>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sysrule_view_workspace</sys_class_name>
+        <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-16 02:19:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d196c2ad1b80d2103de3fdd2cd4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>問合せのworkspaceビュー</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sysrule_view_workspace_d196c2ad1b80d2103de3fdd2cd4bcb90</sys_update_name>
+        <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-16 02:19:42</sys_updated_on>
+        <table>x_bllt_bs_cc_inquiry</table>
+        <tabs_order>[{"label":"Details","value":"Details"}]</tabs_order>
+        <view display_value="inqws" name="inqws">6c26ca2d1b80d2103de3fdd2cd4bcb69</view>
+        <workspace display_value="Agent Workspace">7b24ceae5304130084acddeeff7b12a3</workspace>
+    </sysrule_view_workspace>
+</record_update>

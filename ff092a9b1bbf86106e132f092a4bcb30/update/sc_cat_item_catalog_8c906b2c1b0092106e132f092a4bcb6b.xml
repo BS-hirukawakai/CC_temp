@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="お問い合わせフォーム">1a1b9fa41b0092106e132f092a4bcb5e</sc_cat_item>
+        <sc_catalog display_value="カスタマーサービス">65bcd377c3011200b12d9f2974d3aea0</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-13 06:16:56</sys_created_on>
+        <sys_id>8c906b2c1b0092106e132f092a4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Service.お問い合わせフォーム</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_8c906b2c1b0092106e132f092a4bcb6b</sys_update_name>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-13 06:16:56</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

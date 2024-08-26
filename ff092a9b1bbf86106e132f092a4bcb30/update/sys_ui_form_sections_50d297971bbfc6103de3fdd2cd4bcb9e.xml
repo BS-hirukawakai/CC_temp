@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="50d297971bbfc6103de3fdd2cd4bcb9e" sys_domain="global" table="x_bllt_bs_cc_inquiry" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-09 08:04:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4d297971bbfc6103de3fdd2cd4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="Default view">50d297971bbfc6103de3fdd2cd4bcb9e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="Default view">20d297971bbfc6103de3fdd2cd4bcbca</sys_ui_section>
+            <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-09 08:04:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-09 08:04:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24d297971bbfc6103de3fdd2cd4bcbab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="Default view">50d297971bbfc6103de3fdd2cd4bcb9e</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="Default view">2cd297971bbfc6103de3fdd2cd4bcba5</sys_ui_section>
+            <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-09 08:04:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-09 08:04:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8d297971bbfc6103de3fdd2cd4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="Default view">50d297971bbfc6103de3fdd2cd4bcb9e</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="関連レコード" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="Default view">a8d297971bbfc6103de3fdd2cd4bcbab</sys_ui_section>
+            <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-09 08:04:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-09 08:04:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4d297971bbfc6103de3fdd2cd4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="Default view">50d297971bbfc6103de3fdd2cd4bcb9e</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="クローズ情報" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="Default view">d0d297971bbfc6103de3fdd2cd4bcba0</sys_ui_section>
+            <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-09 08:04:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_bllt_bs_cc_inquiry</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-09 08:04:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50d297971bbfc6103de3fdd2cd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_bllt_bs_cc_inquiry</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+            <sys_update_name>sys_ui_form_sections_50d297971bbfc6103de3fdd2cd4bcb9e</sys_update_name>
+            <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-09 08:04:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="デフォルトビュー" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

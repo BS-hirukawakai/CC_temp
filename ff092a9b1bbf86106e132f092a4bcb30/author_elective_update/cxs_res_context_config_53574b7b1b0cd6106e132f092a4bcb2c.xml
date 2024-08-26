@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_res_context_config">
+    <cxs_res_context_config action="DELETE">
+        <active>true</active>
+        <cxs_context_config display_value="CCINQ">73492a3f1b48d6106e132f092a4bcbd9</cxs_context_config>
+        <cxs_search_res_config display_value="類似のナレッジ記事">ad75ff7dc7520010fedf0bcbe2c26066</cxs_search_res_config>
+        <default_search>false</default_search>
+        <name>Similar Knowledge articles </name>
+        <order>100</order>
+        <search_operator>IR_AND_OR_QUERY</search_operator>
+        <sys_class_name>cxs_res_context_config</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-23 06:47:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>53574b7b1b0cd6106e132f092a4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CCINQ.類似のナレッジ記事</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>cxs_res_context_config_53574b7b1b0cd6106e132f092a4bcb2c</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-23 06:47:05</sys_updated_on>
+    </cxs_res_context_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>08fde53ddb6fe010a667cac5059619a7</instance_id>
+        <instance_name>blueshipcoltddemo4</instance_name>
+        <name>cxs_res_context_config_53574b7b1b0cd6106e132f092a4bcb2c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_res_context_config"><cxs_res_context_config action="INSERT_OR_UPDATE"><active>true</active><cxs_context_config display_value="CCINQ">73492a3f1b48d6106e132f092a4bcbd9</cxs_context_config><cxs_search_res_config display_value="類似のナレッジ記事">ad75ff7dc7520010fedf0bcbe2c26066</cxs_search_res_config><default_search>false</default_search><name>Similar Knowledge articles </name><order>100</order><search_operator>IR_AND_OR_QUERY</search_operator><sys_class_name>cxs_res_context_config</sys_class_name><sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by><sys_created_on>2024-08-23 06:47:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>53574b7b1b0cd6106e132f092a4bcb2c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CCINQ.類似のナレッジ記事</sys_name><sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package><sys_policy/><sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope><sys_update_name>cxs_res_context_config_53574b7b1b0cd6106e132f092a4bcb2c</sys_update_name><sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by><sys_updated_on>2024-08-23 06:47:05</sys_updated_on></cxs_res_context_config></record_update>]]></payload>
+        <payload_hash>-259545390</payload_hash>
+        <record_name>Similar Knowledge articles </record_name>
+        <reverted_from/>
+        <source>a4f98a731bc4d6106e132f092a4bcb1f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-23 06:47:07</sys_created_on>
+        <sys_id>3f570f7b1b0cd6106e132f092a4bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1917dfd23110000001</sys_recorded_at>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-23 06:47:07</sys_updated_on>
+        <type>Resource Configuration</type>
+        <update_guid>33570f7b610cd610f0815b9232680eea</update_guid>
+        <update_guid_history>33570f7b610cd610f0815b9232680eea:-259545390</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Similar Knowledge articles ">bec022b81b9cda106e132f092a4bcb37</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-26 06:32:29</sys_created_on>
+        <sys_db_object display_value="" name="cxs_res_context_config">cxs_res_context_config</sys_db_object>
+        <sys_id>18d7fb2f010e482284eda97821ab3464</sys_id>
+        <sys_metadata>53574b7b1b0cd6106e132f092a4bcb2c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CCINQ.類似のナレッジ記事</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>cxs_res_context_config_53574b7b1b0cd6106e132f092a4bcb2c</sys_update_name>
+        <sys_update_version display_value="cxs_res_context_config_53574b7b1b0cd6106e132f092a4bcb2c">3f570f7b1b0cd6106e132f092a4bcbea</sys_update_version>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-26 06:32:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

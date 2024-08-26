@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_bllt_bs_cc_inquiry</basic_apply_to>
+        <basic_query_from>x_bllt_bs_cc_inquiry</basic_query_from>
+        <insert_callback/>
+        <name>同一のメールアドレス</name>
+        <query_from/>
+        <query_with><![CDATA[/*(function refineQuery(current, parent) {
+
+	var INQGR = new GlideRecord('x_bllt_bs_cc_inquiry');
+	INQGR.addNotNullQuery('u_mailaddress');
+	INQGR.addQuery('u_mailaddress', parent.u_mailaddress);
+	INQGR.addNotNullQuery('u_mailaddress');
+	INQGR.query();
+
+	var n = INQGR.getRowCount();
+	var Ids = '';
+
+	while (INQGR.next()) {
+		//レコードのメールアドレスと同一のレコードを羅列
+		if (n==0) {
+			Ids += INQGR.sys_id + ',';
+		}else
+			Ids = Ids + ',' + INQGR.sys_id;
+	}
+
+	
+	current.addQuery('sys_id', 'IN', Ids);
+
+})(current, parent);*/]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-20 06:30:05</sys_created_on>
+        <sys_id>de5627fe1bc816103de3fdd2cd4bcba9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>同一のメールアドレス</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_relationship_de5627fe1bc816103de3fdd2cd4bcba9</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-21 05:10:55</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=de5627fe1bc816103de3fdd2cd4bcba9"/>
+    <sys_translated_text action="DELETE">
+        <documentkey>de5627fe1bc816103de3fdd2cd4bcba9</documentkey>
+        <fieldname>name</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-20 06:30:05</sys_created_on>
+        <sys_id>81b6abfe1bc816103de3fdd2cd4bcb80</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-21 01:47:30</sys_updated_on>
+        <tablename>sys_relationship</tablename>
+        <value>同一のメールアドレス</value>
+    </sys_translated_text>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>08fde53ddb6fe010a667cac5059619a7</instance_id>
+        <instance_name>blueshipcoltddemo4</instance_name>
+        <name>sys_relationship_de5627fe1bc816103de3fdd2cd4bcba9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_bllt_bs_cc_inquiry&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_bllt_bs_cc_inquiry&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;同一のメールアドレス&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[/*(function refineQuery(current, parent) {
+
+	var INQGR = new GlideRecord('x_bllt_bs_cc_inquiry');
+	INQGR.addNotNullQuery('u_mailaddress');
+	INQGR.addQuery('u_mailaddress', parent.u_mailaddress);
+	INQGR.addNotNullQuery('u_mailaddress');
+	INQGR.query();
+
+	var n = INQGR.getRowCount();
+	var Ids = '';
+
+	while (INQGR.next()) {
+		//レコードのメールアドレスと同一のレコードを羅列
+		if (n==0) {
+			Ids += INQGR.sys_id + ',';
+		}else
+			Ids = Ids + ',' + INQGR.sys_id;
+	}
+
+	
+	current.addQuery('sys_id', 'IN', Ids);
+
+})(current, parent);*/]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;muramatsu.keishin@blueship.co.jp&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-20 06:30:05&lt;/sys_created_on&gt;&lt;sys_id&gt;de5627fe1bc816103de3fdd2cd4bcba9&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;同一のメールアドレス&lt;/sys_name&gt;&lt;sys_package display_value="CCテンプレート" source="x_bllt_bs_cc"&gt;ff092a9b1bbf86106e132f092a4bcb30&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CCテンプレート"&gt;ff092a9b1bbf86106e132f092a4bcb30&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_de5627fe1bc816103de3fdd2cd4bcba9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;muramatsu.keishin@blueship.co.jp&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-21 05:10:55&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=de5627fe1bc816103de3fdd2cd4bcba9"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;de5627fe1bc816103de3fdd2cd4bcba9&lt;/documentkey&gt;&lt;fieldname&gt;name&lt;/fieldname&gt;&lt;language&gt;ja&lt;/language&gt;&lt;sys_created_by&gt;muramatsu.keishin@blueship.co.jp&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-20 06:30:05&lt;/sys_created_on&gt;&lt;sys_id&gt;81b6abfe1bc816103de3fdd2cd4bcb80&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;muramatsu.keishin@blueship.co.jp&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-21 01:47:30&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_relationship&lt;/tablename&gt;&lt;value&gt;同一のメールアドレス&lt;/value&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1893711060</payload_hash>
+        <record_name>同一のメールアドレス</record_name>
+        <reverted_from/>
+        <source>6f8f16ba1b4416103de3fdd2cd4bcbfc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-21 05:10:55</sys_created_on>
+        <sys_id>c32ed05b1b8496103de3fdd2cd4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191735857cd0000001</sys_recorded_at>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-21 05:10:55</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>8b2ed05be684961044596aba0f67d42a</update_guid>
+        <update_guid_history>8b2ed05be684961044596aba0f67d42a:-1893711060,dd40ff8f8c409610441c95958ce1c053:1640437366,179feb4f93409610d23c779021b6558d:-77052497,979e6bcbd4409610dde443322938979d:1828415753,58cfe77eb70c16105ad073511d08f748:-1773650367,0db663328d0c1610f55b7b06f3f60e10:2086004580</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-21 05:51:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>02d96904a1874bcd927060440e2c3da9</sys_id>
+        <sys_metadata>de5627fe1bc816103de3fdd2cd4bcba9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>同一のメールアドレス</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent display_value="問い合わせ">ce183e931b3fc6103de3fdd2cd4bcb4b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>sys_relationship_de5627fe1bc816103de3fdd2cd4bcba9</sys_update_name>
+        <sys_update_version display_value="sys_relationship_de5627fe1bc816103de3fdd2cd4bcba9">c32ed05b1b8496103de3fdd2cd4bcb2b</sys_update_version>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-21 05:51:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

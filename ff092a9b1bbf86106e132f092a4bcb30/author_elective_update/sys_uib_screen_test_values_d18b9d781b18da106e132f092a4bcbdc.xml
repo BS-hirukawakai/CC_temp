@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+    "table": "x_bllt_bs_cc_inquiry",
+    "sysId": "0d29c73f1b0cd6106e132f092a4bcb9f",
+    "query": "",
+    "extraParams": "",
+    "views": "",
+    "selectedTabIndex": "",
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "inputTable": "x_bllt_bs_cc_inquiry",
+        "screen": null,
+        "selectedTabIndex": null,
+        "userPrefs": null
+    },
+    "5865e308432021105571609dc7b8f23b": {
+        "allRecordsSelected": false,
+        "columnFilteringPopoverDisplay": "allowBoth",
+        "columnLimit": 0,
+        "currentPage": 0,
+        "enableCellFiltering": true,
+        "enableColumnSorting": true,
+        "enableDeclarativeActions": true,
+        "enableDotWalk": true,
+        "enableLiveList": false,
+        "enableQuickEdit": true,
+        "enableReferenceLinks": true,
+        "fetchHighlightedValues": false,
+        "onlyEnableSelectionWhenRequiredByActions": true,
+        "table": "task"
+    },
+    "a4a0fbae64611110fa9baad96557fb37": {},
+    "625bc24c43f51110772811618bb8f253": {
+        "sysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "tableName": "x_bllt_bs_cc_inquiry"
+    },
+    "ff29f706f8266110f8779039584d84c2": {
+        "sysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "tableName": "x_bllt_bs_cc_inquiry"
+    },
+    "819f84251b347910a96e76a9cc4bcbc0": {
+        "sysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "table": "x_bllt_bs_cc_inquiry"
+    }
+}</macroponent_config>
+        <screen display_value="INQテーブルバリアント">958b9d781b18da106e132f092a4bcbbd</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-26 01:29:50</sys_created_on>
+        <sys_id>d18b9d781b18da106e132f092a4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_d18b9d781b18da106e132f092a4bcbdc</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-26 01:29:50</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>08fde53ddb6fe010a667cac5059619a7</instance_id>
+        <instance_name>blueshipcoltddemo4</instance_name>
+        <name>sys_uib_screen_test_values_d18b9d781b18da106e132f092a4bcbdc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{
+    "table": "x_bllt_bs_cc_inquiry",
+    "sysId": "0d29c73f1b0cd6106e132f092a4bcb9f",
+    "query": "",
+    "extraParams": "",
+    "views": "",
+    "selectedTabIndex": "",
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "inputTable": "x_bllt_bs_cc_inquiry",
+        "screen": null,
+        "selectedTabIndex": null,
+        "userPrefs": null
+    },
+    "5865e308432021105571609dc7b8f23b": {
+        "allRecordsSelected": false,
+        "columnFilteringPopoverDisplay": "allowBoth",
+        "columnLimit": 0,
+        "currentPage": 0,
+        "enableCellFiltering": true,
+        "enableColumnSorting": true,
+        "enableDeclarativeActions": true,
+        "enableDotWalk": true,
+        "enableLiveList": false,
+        "enableQuickEdit": true,
+        "enableReferenceLinks": true,
+        "fetchHighlightedValues": false,
+        "onlyEnableSelectionWhenRequiredByActions": true,
+        "table": "task"
+    },
+    "a4a0fbae64611110fa9baad96557fb37": {},
+    "625bc24c43f51110772811618bb8f253": {
+        "sysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "tableName": "x_bllt_bs_cc_inquiry"
+    },
+    "ff29f706f8266110f8779039584d84c2": {
+        "sysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "tableName": "x_bllt_bs_cc_inquiry"
+    },
+    "819f84251b347910a96e76a9cc4bcbc0": {
+        "sysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "table": "x_bllt_bs_cc_inquiry"
+    }
+}</macroponent_config><screen display_value="INQテーブルバリアント">958b9d781b18da106e132f092a4bcbbd</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by><sys_created_on>2024-08-26 01:29:50</sys_created_on><sys_id>d18b9d781b18da106e132f092a4bcbdc</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package><sys_policy/><sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope><sys_update_name>sys_uib_screen_test_values_d18b9d781b18da106e132f092a4bcbdc</sys_update_name><sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by><sys_updated_on>2024-08-26 01:29:50</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>1523197754</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a4f98a731bc4d6106e132f092a4bcb1f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-26 01:29:51</sys_created_on>
+        <sys_id>a18b9d781b18da106e132f092a4bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1918c4dbe940000001</sys_recorded_at>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-26 01:29:51</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>958b9d787618da1056d5a1688cdb82dd</update_guid>
+        <update_guid_history>958b9d787618da1056d5a1688cdb82dd:1523197754</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-26 01:30:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>38c318db1172486090431be0d6611e91</sys_id>
+        <sys_metadata>d18b9d781b18da106e132f092a4bcbdc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_d18b9d781b18da106e132f092a4bcbdc</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_d18b9d781b18da106e132f092a4bcbdc">a18b9d781b18da106e132f092a4bcbde</sys_update_version>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-26 01:30:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

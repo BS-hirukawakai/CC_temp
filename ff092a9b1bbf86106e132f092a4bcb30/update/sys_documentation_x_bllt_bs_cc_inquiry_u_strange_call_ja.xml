@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_strange_call" label="不審電話" language="ja" table="x_bllt_bs_cc_inquiry">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_strange_call</element>
+            <help/>
+            <hint/>
+            <label>不審電話</label>
+            <language>ja</language>
+            <name>x_bllt_bs_cc_inquiry</name>
+            <plural>不審電話s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-19 07:56:51</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>不審電話</sys_name>
+            <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+            <sys_update_name>sys_documentation_x_bllt_bs_cc_inquiry_u_strange_call_ja</sys_update_name>
+            <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-19 07:56:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

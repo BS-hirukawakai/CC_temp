@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>com_glideapp_questionset_default_question_editor</formatter>
+        <name>inquiry_variable_formatter</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>chida.kaisuke@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-16 08:50:01</sys_created_on>
+        <sys_id>047e93e11bc8d2103de3fdd2cd4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>inquiry_variable_formatter</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ui_formatter_047e93e11bc8d2103de3fdd2cd4bcb1b</sys_update_name>
+        <sys_updated_by>chida.kaisuke@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-16 08:50:01</sys_updated_on>
+        <table>x_bllt_bs_cc_inquiry</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

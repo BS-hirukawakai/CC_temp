@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_bllt_bs_cc._user" name="x_bllt_bs_cc._user">96b8bad31b3fc6103de3fdd2cd4bcb06</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>muramatsu.keishin</sys_created_by>
+        <sys_created_on>2024-08-09 06:10:28</sys_created_on>
+        <sys_id>92b8bad31b3fc6103de3fdd2cd4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>96b8bad31b3fc6103de3fdd2cd4bcb06</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_embedded_help_role_92b8bad31b3fc6103de3fdd2cd4bcb09</sys_update_name>
+        <sys_updated_by>muramatsu.keishin</sys_updated_by>
+        <sys_updated_on>2024-08-09 06:10:28</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

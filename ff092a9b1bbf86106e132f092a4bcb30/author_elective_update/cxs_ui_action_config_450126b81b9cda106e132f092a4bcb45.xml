@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cxs_ui_action_config">
+    <cxs_ui_action_config action="DELETE">
+        <action_condition/>
+        <action_label>Add link in email</action_label>
+        <action_undo_label/>
+        <action_value>Add link in email</action_value>
+        <active>true</active>
+        <advanced_visibility>true</advanced_visibility>
+        <attach_note_field>comments</attach_note_field>
+        <attachment_type/>
+        <badge_label/>
+        <current_action_condition/>
+        <current_table/>
+        <order>100</order>
+        <rest_api/>
+        <search_res_config display_value="類似のナレッジ記事">ad75ff7dc7520010fedf0bcbe2c26066</search_res_config>
+        <search_resource display_value="">com.snc.contextual_search.search_resource.ScriptSearchResource</search_resource>
+        <search_ui_action display_value="Add link in email">6232fc06772021103ec4557dcd5a9915</search_ui_action>
+        <search_ui_config display_value="Related Search Results [x_bllt_bs_cc_inquiry]">41d47ff01bc416103de3fdd2cd4bcb12</search_ui_config>
+        <show_on_new>false</show_on_new>
+        <sys_class_name>cxs_ui_action_config</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-26 06:33:27</sys_created_on>
+        <sys_id>450126b81b9cda106e132f092a4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add link in email</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>cxs_ui_action_config_450126b81b9cda106e132f092a4bcb45</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-26 06:33:27</sys_updated_on>
+        <table>kb_knowledge</table>
+        <trend_recommendation/>
+        <ui_action_visibility_script><![CDATA[/**
+    * Description: scripting condition for Search UI Action's visibility.
+    * Variables available:
+    * 	current (GlideRecord): GlideRecord object of form record.
+    * 	resource (GlideRecord): GlideRecord object of search result record.
+    * Variable to set:
+    * 	visible (boolean): Script writer needs to set this variable to true/false to determine whether to show/hide this UI action.
+    * Example:
+    * 	visible = current.getValue('parent_incident') !== resource.getUniqueValue();
+    */
+    visible = new global.EmailEditorUtil().showInWorkspaceFormMenu(current);
+
+    ]]></ui_action_visibility_script>
+        <use_custom_field_for_attach>false</use_custom_field_for_attach>
+    </cxs_ui_action_config>
+    <sys_translated_text action="DELETE" query="documentkey=450126b81b9cda106e132f092a4bcb45"/>
+    <sys_translated_text action="DELETE">
+        <documentkey>450126b81b9cda106e132f092a4bcb45</documentkey>
+        <fieldname>action_label</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-26 06:33:28</sys_created_on>
+        <sys_id>c10126b81b9cda106e132f092a4bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-26 06:33:28</sys_updated_on>
+        <tablename>cxs_ui_action_config</tablename>
+        <value>Add link in email</value>
+    </sys_translated_text>
+    <sys_translated_text action="DELETE">
+        <documentkey>450126b81b9cda106e132f092a4bcb45</documentkey>
+        <fieldname>action_undo_label</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-26 06:33:28</sys_created_on>
+        <sys_id>450126b81b9cda106e132f092a4bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-26 06:33:28</sys_updated_on>
+        <tablename>cxs_ui_action_config</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="DELETE">
+        <documentkey>450126b81b9cda106e132f092a4bcb45</documentkey>
+        <fieldname>badge_label</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-26 06:33:28</sys_created_on>
+        <sys_id>050126b81b9cda106e132f092a4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-26 06:33:28</sys_updated_on>
+        <tablename>cxs_ui_action_config</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>08fde53ddb6fe010a667cac5059619a7</instance_id>
+        <instance_name>blueshipcoltddemo4</instance_name>
+        <name>cxs_ui_action_config_450126b81b9cda106e132f092a4bcb45</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="cxs_ui_action_config"&gt;&lt;cxs_ui_action_config action="INSERT_OR_UPDATE"&gt;&lt;action_condition/&gt;&lt;action_label&gt;Add link in email&lt;/action_label&gt;&lt;action_undo_label/&gt;&lt;action_value&gt;Add link in email&lt;/action_value&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_visibility&gt;true&lt;/advanced_visibility&gt;&lt;attach_note_field&gt;comments&lt;/attach_note_field&gt;&lt;attachment_type/&gt;&lt;badge_label/&gt;&lt;current_action_condition/&gt;&lt;current_table/&gt;&lt;order&gt;100&lt;/order&gt;&lt;rest_api/&gt;&lt;search_res_config display_value="類似のナレッジ記事"&gt;ad75ff7dc7520010fedf0bcbe2c26066&lt;/search_res_config&gt;&lt;search_resource display_value=""&gt;com.snc.contextual_search.search_resource.ScriptSearchResource&lt;/search_resource&gt;&lt;search_ui_action display_value="Add link in email"&gt;6232fc06772021103ec4557dcd5a9915&lt;/search_ui_action&gt;&lt;search_ui_config display_value="Related Search Results [x_bllt_bs_cc_inquiry]"&gt;41d47ff01bc416103de3fdd2cd4bcb12&lt;/search_ui_config&gt;&lt;show_on_new&gt;false&lt;/show_on_new&gt;&lt;sys_class_name&gt;cxs_ui_action_config&lt;/sys_class_name&gt;&lt;sys_created_by&gt;muramatsu.keishin@blueship.co.jp&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-26 06:33:27&lt;/sys_created_on&gt;&lt;sys_id&gt;450126b81b9cda106e132f092a4bcb45&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Add link in email&lt;/sys_name&gt;&lt;sys_package display_value="CCテンプレート" source="x_bllt_bs_cc"&gt;ff092a9b1bbf86106e132f092a4bcb30&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CCテンプレート"&gt;ff092a9b1bbf86106e132f092a4bcb30&lt;/sys_scope&gt;&lt;sys_update_name&gt;cxs_ui_action_config_450126b81b9cda106e132f092a4bcb45&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;muramatsu.keishin@blueship.co.jp&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-26 06:33:27&lt;/sys_updated_on&gt;&lt;table&gt;kb_knowledge&lt;/table&gt;&lt;trend_recommendation/&gt;&lt;ui_action_visibility_script&gt;&lt;![CDATA[/**
+    * Description: scripting condition for Search UI Action's visibility.
+    * Variables available:
+    * 	current (GlideRecord): GlideRecord object of form record.
+    * 	resource (GlideRecord): GlideRecord object of search result record.
+    * Variable to set:
+    * 	visible (boolean): Script writer needs to set this variable to true/false to determine whether to show/hide this UI action.
+    * Example:
+    * 	visible = current.getValue('parent_incident') !== resource.getUniqueValue();
+    */
+    visible = new global.EmailEditorUtil().showInWorkspaceFormMenu(current);
+
+    ]]&gt;&lt;/ui_action_visibility_script&gt;&lt;use_custom_field_for_attach&gt;false&lt;/use_custom_field_for_attach&gt;&lt;/cxs_ui_action_config&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=450126b81b9cda106e132f092a4bcb45"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;450126b81b9cda106e132f092a4bcb45&lt;/documentkey&gt;&lt;fieldname&gt;action_label&lt;/fieldname&gt;&lt;language&gt;ja&lt;/language&gt;&lt;sys_created_by&gt;muramatsu.keishin@blueship.co.jp&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-26 06:33:28&lt;/sys_created_on&gt;&lt;sys_id&gt;c10126b81b9cda106e132f092a4bcb47&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;muramatsu.keishin@blueship.co.jp&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-26 06:33:28&lt;/sys_updated_on&gt;&lt;tablename&gt;cxs_ui_action_config&lt;/tablename&gt;&lt;value&gt;Add link in email&lt;/value&gt;&lt;/sys_translated_text&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;450126b81b9cda106e132f092a4bcb45&lt;/documentkey&gt;&lt;fieldname&gt;action_undo_label&lt;/fieldname&gt;&lt;language&gt;ja&lt;/language&gt;&lt;sys_created_by&gt;muramatsu.keishin@blueship.co.jp&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-26 06:33:28&lt;/sys_created_on&gt;&lt;sys_id&gt;450126b81b9cda106e132f092a4bcb4c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;muramatsu.keishin@blueship.co.jp&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-26 06:33:28&lt;/sys_updated_on&gt;&lt;tablename&gt;cxs_ui_action_config&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;450126b81b9cda106e132f092a4bcb45&lt;/documentkey&gt;&lt;fieldname&gt;badge_label&lt;/fieldname&gt;&lt;language&gt;ja&lt;/language&gt;&lt;sys_created_by&gt;muramatsu.keishin@blueship.co.jp&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-26 06:33:28&lt;/sys_created_on&gt;&lt;sys_id&gt;050126b81b9cda106e132f092a4bcb4a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;muramatsu.keishin@blueship.co.jp&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-26 06:33:28&lt;/sys_updated_on&gt;&lt;tablename&gt;cxs_ui_action_config&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1204042723</payload_hash>
+        <record_name>Add link in email</record_name>
+        <reverted_from/>
+        <source>a4f98a731bc4d6106e132f092a4bcb1f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-26 06:33:28</sys_created_on>
+        <sys_id>8d0126b81b9cda106e132f092a4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1918d63b7c90000001</sys_recorded_at>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-26 06:33:28</sys_updated_on>
+        <type>Search Action Configuration</type>
+        <update_guid>050126b8d59cda10456fc370401bab4d</update_guid>
+        <update_guid_history>050126b8d59cda10456fc370401bab4d:-1204042723,c10126b89f9cda101528c516bab06d4b:784279832,0d0126b89e9cda10874772d107de0148:778927357</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Add link in email">19a1e2f81b9cda106e132f092a4bcbc5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-26 06:36:13</sys_created_on>
+        <sys_db_object display_value="" name="cxs_ui_action_config">cxs_ui_action_config</sys_db_object>
+        <sys_id>19f5e7e3c1084cec8473de9a4a6c4821</sys_id>
+        <sys_metadata>450126b81b9cda106e132f092a4bcb45</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add link in email</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>cxs_ui_action_config_450126b81b9cda106e132f092a4bcb45</sys_update_name>
+        <sys_update_version display_value="cxs_ui_action_config_450126b81b9cda106e132f092a4bcb45">8d0126b81b9cda106e132f092a4bcb4d</sys_update_version>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-26 06:36:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

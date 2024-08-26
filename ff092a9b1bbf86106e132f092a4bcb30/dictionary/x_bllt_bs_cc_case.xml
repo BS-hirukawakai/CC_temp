@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2fb6b2531b3fc6103de3fdd2cd4bcb60" extends="sn_customerservice_case" label="CC Case" max_length="40" name="x_bllt_bs_cc_case" type="collection"/>
+</database>

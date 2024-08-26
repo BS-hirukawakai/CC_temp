@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="INQ">4f702efa1b4416103de3fdd2cd4bcb97</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <name>INQ default record</name>
+        <optional_parameters>query,extraParams,views,selectedTabIndex</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>inq-default-record</route_type>
+        <screen_type display_value="INQ default record">e692aebe1b4416103de3fdd2cd4bcbc6</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-20 01:32:33</sys_created_on>
+        <sys_id>2692aebe1b4416103de3fdd2cd4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>INQ default record</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ux_app_route_2692aebe1b4416103de3fdd2cd4bcbcc</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-20 01:32:33</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=2692aebe1b4416103de3fdd2cd4bcbcc"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>2692aebe1b4416103de3fdd2cd4bcbcc</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-20 01:32:33</sys_created_on>
+        <sys_id>e692aebe1b4416103de3fdd2cd4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-20 01:32:33</sys_updated_on>
+        <tablename>sys_ux_app_route</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

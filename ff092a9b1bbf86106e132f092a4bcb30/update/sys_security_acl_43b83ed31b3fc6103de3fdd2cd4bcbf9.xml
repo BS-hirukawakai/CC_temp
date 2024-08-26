@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>x_bllt_bs_cc_inquiry におけるデフォルトアクセス制御</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_bllt_bs_cc_inquiry</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>muramatsu.keishin</sys_created_by>
+        <sys_created_on>2024-08-09 06:10:31</sys_created_on>
+        <sys_id>43b83ed31b3fc6103de3fdd2cd4bcbf9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_bllt_bs_cc_inquiry</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_security_acl_43b83ed31b3fc6103de3fdd2cd4bcbf9</sys_update_name>
+        <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-16 06:11:20</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

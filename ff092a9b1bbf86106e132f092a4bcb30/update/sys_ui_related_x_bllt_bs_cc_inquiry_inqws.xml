@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_bllt_bs_cc_inquiry" version="2" view="inqws">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="問い合わせ - inqws" name="x_bllt_bs_cc_inquiry" related_list="NULL" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">d4b0423c1bd8da106e132f092a4bcba6</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:c42046f81bd8da106e132f092a4bcb6c</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-26 04:12:15</sys_created_on>
+            <sys_id>1cb0423c1bd8da106e132f092a4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-26 04:12:15</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="問い合わせ - inqws" name="x_bllt_bs_cc_inquiry" related_list="NULL" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">d4b0423c1bd8da106e132f092a4bcba6</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:57cfbdb81bd8da106e132f092a4bcbe4</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-26 04:12:15</sys_created_on>
+            <sys_id>14b0423c1bd8da106e132f092a4bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-26 04:12:15</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>問い合わせ - inqws</calculated_name>
+            <filter/>
+            <name>x_bllt_bs_cc_inquiry</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-08-26 04:12:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4b0423c1bd8da106e132f092a4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>問い合わせ - inqws</sys_name>
+            <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+            <sys_update_name>sys_ui_related_x_bllt_bs_cc_inquiry_inqws</sys_update_name>
+            <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-08-26 04:12:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="inqws" name="inqws">6c26ca2d1b80d2103de3fdd2cd4bcb69</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cxs_ui_action_config">
+    <cxs_ui_action_config action="INSERT_OR_UPDATE">
+        <action_condition/>
+        <action_label>Add link in email</action_label>
+        <action_undo_label/>
+        <action_value>Add link in email</action_value>
+        <active>true</active>
+        <advanced_visibility>true</advanced_visibility>
+        <attach_note_field>comments</attach_note_field>
+        <attachment_type/>
+        <badge_label/>
+        <current_action_condition/>
+        <current_table/>
+        <order>1000</order>
+        <rest_api/>
+        <search_res_config/>
+        <search_resource display_value="">com.snc.contextual_search.search_resource.KnowledgeSearchResource</search_resource>
+        <search_ui_action display_value="Add link in email">6232fc06772021103ec4557dcd5a9915</search_ui_action>
+        <search_ui_config display_value="Related Search Results [x_bllt_bs_cc_inquiry]">41d47ff01bc416103de3fdd2cd4bcb12</search_ui_config>
+        <show_on_new>false</show_on_new>
+        <sys_class_name>cxs_ui_action_config</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 04:50:37</sys_created_on>
+        <sys_id>116618051b0412103de3fdd2cd4bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add link in email</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>cxs_ui_action_config_116618051b0412103de3fdd2cd4bcbec</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 04:50:37</sys_updated_on>
+        <table>kb_knowledge</table>
+        <trend_recommendation/>
+        <ui_action_visibility_script><![CDATA[/**
+    * Description: scripting condition for Search UI Action's visibility.
+    * Variables available:
+    * 	current (GlideRecord): GlideRecord object of form record.
+    * 	resource (GlideRecord): GlideRecord object of search result record.
+    * Variable to set:
+    * 	visible (boolean): Script writer needs to set this variable to true/false to determine whether to show/hide this UI action.
+    * Example:
+    * 	visible = current.getValue('parent_incident') !== resource.getUniqueValue();
+    */
+    visible = new global.EmailEditorUtil().showInWorkspaceFormMenu(current);
+
+    ]]></ui_action_visibility_script>
+        <use_custom_field_for_attach>false</use_custom_field_for_attach>
+    </cxs_ui_action_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=116618051b0412103de3fdd2cd4bcbec"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>116618051b0412103de3fdd2cd4bcbec</documentkey>
+        <fieldname>action_label</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 04:50:37</sys_created_on>
+        <sys_id>596618051b0412103de3fdd2cd4bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 04:50:37</sys_updated_on>
+        <tablename>cxs_ui_action_config</tablename>
+        <value>Add link in email</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>116618051b0412103de3fdd2cd4bcbec</documentkey>
+        <fieldname>action_undo_label</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 04:50:37</sys_created_on>
+        <sys_id>596658051b0412103de3fdd2cd4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 04:50:37</sys_updated_on>
+        <tablename>cxs_ui_action_config</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>116618051b0412103de3fdd2cd4bcbec</documentkey>
+        <fieldname>badge_label</fieldname>
+        <language>ja</language>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-14 04:50:37</sys_created_on>
+        <sys_id>1d6658051b0412103de3fdd2cd4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-14 04:50:37</sys_updated_on>
+        <tablename>cxs_ui_action_config</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

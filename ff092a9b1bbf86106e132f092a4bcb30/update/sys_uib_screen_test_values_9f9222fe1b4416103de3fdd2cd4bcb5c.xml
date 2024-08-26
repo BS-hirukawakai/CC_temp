@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "table": "x_bllt_bs_cc_inquiry",
+    "sysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+    "query": "",
+    "extraParams": "",
+    "views": "",
+    "selectedTabIndex": "",
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "inputTable": "x_bllt_bs_cc_inquiry",
+        "screen": null,
+        "selectedTabIndex": null,
+        "userPrefs": null
+    },
+    "a4a0fbae64611110fa9baad96557fb37": {
+        "inputIsLoading": false,
+        "inputSecondaryItems": [
+            {
+                "label": "優先度",
+                "value": {
+                    "type": "string",
+                    "value": "4 - Low",
+                    "data": {
+                        "fieldName": "priority",
+                        "fieldLabel": "優先度",
+                        "displayValue": "4 - Low",
+                        "highlightedValueStyle": null,
+                        "referenceItem": null,
+                        "type": "simple"
+                    }
+                }
+            },
+            {
+                "label": "状況",
+                "value": {
+                    "type": "string",
+                    "value": "New",
+                    "data": {
+                        "fieldName": "state",
+                        "fieldLabel": "状況",
+                        "displayValue": "New",
+                        "highlightedValueStyle": null,
+                        "referenceItem": null,
+                        "type": "simple"
+                    }
+                }
+            }
+        ],
+        "isNewRecord": false
+    },
+    "625bc24c43f51110772811618bb8f253": {
+        "sysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "tableName": "x_bllt_bs_cc_inquiry"
+    },
+    "ff29f706f8266110f8779039584d84c2": {
+        "sysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "tableName": "x_bllt_bs_cc_inquiry"
+    },
+    "819f84251b347910a96e76a9cc4bcbc0": {
+        "sysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "table": "x_bllt_bs_cc_inquiry"
+    },
+    "5865e308432021105571609dc7b8f23b": {
+        "allRecordsSelected": false,
+        "columnFilteringPopoverDisplay": "allowBoth",
+        "columnLimit": 0,
+        "currentPage": 0,
+        "enableCellFiltering": true,
+        "enableColumnSorting": true,
+        "enableDeclarativeActions": true,
+        "enableDotWalk": true,
+        "enableLiveList": false,
+        "enableQuickEdit": true,
+        "enableReferenceLinks": true,
+        "fetchHighlightedValues": false,
+        "onlyEnableSelectionWhenRequiredByActions": true,
+        "table": "task"
+    }
+}</macroponent_config>
+        <screen display_value="デフォルト">db9222fe1b4416103de3fdd2cd4bcb56</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-20 01:32:36</sys_created_on>
+        <sys_id>9f9222fe1b4416103de3fdd2cd4bcb5c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_9f9222fe1b4416103de3fdd2cd4bcb5c</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-21 23:32:55</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

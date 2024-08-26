@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>muramatsu.keishin</sys_created_by>
+        <sys_created_on>2024-08-09 06:10:32</sys_created_on>
+        <sys_id>53b87ed31b3fc6103de3fdd2cd4bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_bllt_bs_cc_inquiry.x_bllt_bs_cc._user</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_security_acl display_value="x_bllt_bs_cc_inquiry">57b87ed31b3fc6103de3fdd2cd4bcb0d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_53b87ed31b3fc6103de3fdd2cd4bcb38</sys_update_name>
+        <sys_updated_by>muramatsu.keishin</sys_updated_by>
+        <sys_updated_on>2024-08-09 06:10:32</sys_updated_on>
+        <sys_user_role display_value="x_bllt_bs_cc._user" name="x_bllt_bs_cc._user">96b8bad31b3fc6103de3fdd2cd4bcb06</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

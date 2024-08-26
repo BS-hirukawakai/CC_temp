@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_bllt_bs_cc.CC上席" name="x_bllt_bs_cc.CC上席">e574ad271bc01a103de3fdd2cd4bcb75</contains>
+        <role display_value="x_bllt_bs_cc.CC管理者" name="x_bllt_bs_cc.CC管理者">a42865ab1bc01a103de3fdd2cd4bcbb8</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>nagatomo.kaito@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-22 05:13:05</sys_created_on>
+        <sys_id>e848a9631b0496106e132f092a4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_bllt_bs_cc.CC上席.x_bllt_bs_cc.CC管理者</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_user_role_contains_e848a9631b0496106e132f092a4bcbd0</sys_update_name>
+        <sys_updated_by>nagatomo.kaito@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-22 05:13:05</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

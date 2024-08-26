@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="DELETE">
+        <description/>
+        <operation>execute</operation>
+        <rca_type>real_rca</rca_type>
+        <source>NULL</source>
+        <source_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</source_scope>
+        <source_table/>
+        <source_type>5</source_type>
+        <status>0</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-09 09:14:36</sys_created_on>
+        <sys_id>2ec2679b1bffc6103de3fdd2cd4bcb53</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>51d811fad7223100b7490ee60e61034f</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_2ec2679b1bffc6103de3fdd2cd4bcb53</sys_update_name>
+        <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-09 09:16:08</sys_updated_on>
+        <target>NULL</target>
+        <target_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</target_scope>
+        <target_table/>
+        <target_type>3</target_type>
+    </sys_restricted_caller_access>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>08fde53ddb6fe010a667cac5059619a7</instance_id>
+        <instance_name>blueshipcoltddemo4</instance_name>
+        <name>sys_restricted_caller_access_2ec2679b1bffc6103de3fdd2cd4bcb53</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access"><sys_restricted_caller_access action="INSERT_OR_UPDATE"><description/><operation>execute</operation><rca_type>real_rca</rca_type><source>NULL</source><source_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</source_scope><source_table/><source_type>5</source_type><status>0</status><sys_class_name>sys_restricted_caller_access</sys_class_name><sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by><sys_created_on>2024-08-09 09:14:36</sys_created_on><sys_id>2ec2679b1bffc6103de3fdd2cd4bcb53</sys_id><sys_mod_count>1</sys_mod_count><sys_name>51d811fad7223100b7490ee60e61034f</sys_name><sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package><sys_policy/><sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope><sys_update_name>sys_restricted_caller_access_2ec2679b1bffc6103de3fdd2cd4bcb53</sys_update_name><sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by><sys_updated_on>2024-08-09 09:16:08</sys_updated_on><target>NULL</target><target_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</target_scope><target_table/><target_type>3</target_type></sys_restricted_caller_access></record_update>]]></payload>
+        <payload_hash>-1730138852</payload_hash>
+        <record_name>51d811fad7223100b7490ee60e61034f</record_name>
+        <reverted_from/>
+        <source>d103325f1bfbc6103de3fdd2cd4bcb56</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-09 09:16:08</sys_created_on>
+        <sys_id>4a33eb9b1bffc6103de3fdd2cd4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191366c8b090000001</sys_recorded_at>
+        <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-09 09:16:08</sys_updated_on>
+        <type>Restricted Caller Access Privilege</type>
+        <update_guid>8233eb9b18ffc610b8d1d20ac054fa35</update_guid>
+        <update_guid_history>8233eb9b18ffc610b8d1d20ac054fa35:-1730138852,bbd2e79b03ffc610f6a0422359d69d97:726156479</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-09 09:20:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_restricted_caller_access">sys_restricted_caller_access</sys_db_object>
+        <sys_id>368368afa3b8495296325e3fd9a5d6a9</sys_id>
+        <sys_metadata>2ec2679b1bffc6103de3fdd2cd4bcb53</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>51d811fad7223100b7490ee60e61034f</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>sys_restricted_caller_access_2ec2679b1bffc6103de3fdd2cd4bcb53</sys_update_name>
+        <sys_update_version display_value="sys_restricted_caller_access_2ec2679b1bffc6103de3fdd2cd4bcb53">4a33eb9b1bffc6103de3fdd2cd4bcb35</sys_update_version>
+        <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-09 09:20:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

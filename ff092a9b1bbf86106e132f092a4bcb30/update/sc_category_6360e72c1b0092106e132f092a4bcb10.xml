@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="カテゴリアイテム">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="カスタマーサービス">65bcd377c3011200b12d9f2974d3aea0</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-13 06:16:43</sys_created_on>
+        <sys_id>6360e72c1b0092106e132f092a4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>青船市お問い合わせ窓口</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sc_category_6360e72c1b0092106e132f092a4bcb10</sys_update_name>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-13 06:16:43</sys_updated_on>
+        <title>青船市お問い合わせ窓口</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=6360e72c1b0092106e132f092a4bcb10"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>6360e72c1b0092106e132f092a4bcb10</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-13 06:16:43</sys_created_on>
+        <sys_id>4d8027e81b0092106e132f092a4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-13 06:16:43</sys_updated_on>
+        <tablename>sc_category</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>6360e72c1b0092106e132f092a4bcb10</documentkey>
+        <fieldname>title</fieldname>
+        <language>ja</language>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-13 06:16:44</sys_created_on>
+        <sys_id>19802b2c1b0092106e132f092a4bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-13 06:16:44</sys_updated_on>
+        <tablename>sc_category</tablename>
+        <value>青船市お問い合わせ窓口</value>
+    </sys_translated_text>
+</record_update>
