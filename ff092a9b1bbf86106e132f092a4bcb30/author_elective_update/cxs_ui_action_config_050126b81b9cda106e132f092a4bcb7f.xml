@@ -101,7 +101,7 @@
         <update_guid_history>810126b87c9cda1032759569c81e2f85:1688352078,410126b8699cda104d3354054d0a6e83:1274298103,cd0126b8b49cda10bf722ae1a0c83e80:-152456886</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Flag Article">95a1e2f81b9cda106e132f092a4bcbb8</sys_audit_delete>
+        <sys_audit_delete display_value="">95a1e2f81b9cda106e132f092a4bcbb8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
         <sys_created_on>2024-08-26 06:36:12</sys_created_on>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>title</element>
+        <id/>
+        <label>インタラクション</label>
+        <language>ja</language>
+        <name>sys_ux_list_category</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-28 05:43:41</sys_created_on>
+        <sys_id>a7c8e06dc35c9a50e8adb011150131dd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>インタラクション</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_translated_a7c8e06dc35c9a50e8adb011150131dd</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-28 05:52:59</sys_updated_on>
+        <value>自分にアサイン</value>
+    </sys_translated>
+</record_update>

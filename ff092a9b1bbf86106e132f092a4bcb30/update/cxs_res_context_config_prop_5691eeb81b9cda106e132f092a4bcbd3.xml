@@ -2,7 +2,7 @@
     <cxs_res_context_config_prop action="INSERT_OR_UPDATE">
         <active>true</active>
         <choices/>
-        <cxs_res_context_config display_value="knowledge">d691eeb81b9cda106e132f092a4bcbd0</cxs_res_context_config>
+        <cxs_res_context_config/>
         <default_value/>
         <description>A Condition to apply before searching. The condition must be an encoded query.</description>
         <id>knowledge_sr.conditions</id>

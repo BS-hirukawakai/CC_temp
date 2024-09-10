@@ -9,8 +9,8 @@
             <sys_id>e9d2d7971bbfc6103de3fdd2cd4bcb3a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6d25def41bfb4a506e132f092a4bcb03">01d297971bbfc6103de3fdd2cd4bcbd6</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6d25def41bfb4a506e132f092a4bcb03">a1d2d7971bbfc6103de3fdd2cd4bcb26</sys_ui_section>
+            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="457b8357c3f74210e8adb0111501315b">01d297971bbfc6103de3fdd2cd4bcbd6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="457b8357c3f74210e8adb0111501315b">a1d2d7971bbfc6103de3fdd2cd4bcb26</sys_ui_section>
             <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
             <sys_updated_on>2024-08-09 08:04:33</sys_updated_on>
         </sys_ui_form_section>
@@ -23,8 +23,8 @@
             <sys_id>55d297971bbfc6103de3fdd2cd4bcbdd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6d25def41bfb4a506e132f092a4bcb03">01d297971bbfc6103de3fdd2cd4bcbd6</sys_ui_form>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6d25def41bfb4a506e132f092a4bcb03">81d297971bbfc6103de3fdd2cd4bcbd8</sys_ui_section>
+            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="457b8357c3f74210e8adb0111501315b">01d297971bbfc6103de3fdd2cd4bcbd6</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="457b8357c3f74210e8adb0111501315b">81d297971bbfc6103de3fdd2cd4bcbd8</sys_ui_section>
             <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
             <sys_updated_on>2024-08-09 08:04:32</sys_updated_on>
         </sys_ui_form_section>
@@ -37,8 +37,8 @@
             <sys_id>3dd2d7971bbfc6103de3fdd2cd4bcb40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6d25def41bfb4a506e132f092a4bcb03">01d297971bbfc6103de3fdd2cd4bcbd6</sys_ui_form>
-            <sys_ui_section caption="Resolution Information" display_value="解決情報" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6d25def41bfb4a506e132f092a4bcb03">61d2d7971bbfc6103de3fdd2cd4bcb3b</sys_ui_section>
+            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="457b8357c3f74210e8adb0111501315b">01d297971bbfc6103de3fdd2cd4bcbd6</sys_ui_form>
+            <sys_ui_section caption="Resolution Information" display_value="解決情報" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="457b8357c3f74210e8adb0111501315b">61d2d7971bbfc6103de3fdd2cd4bcb3b</sys_ui_section>
             <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
             <sys_updated_on>2024-08-09 08:04:34</sys_updated_on>
         </sys_ui_form_section>
@@ -51,8 +51,8 @@
             <sys_id>2dd2d7971bbfc6103de3fdd2cd4bcb25</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6d25def41bfb4a506e132f092a4bcb03">01d297971bbfc6103de3fdd2cd4bcbd6</sys_ui_form>
-            <sys_ui_section caption="Major Case Information" display_value="重大なケース情報" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6d25def41bfb4a506e132f092a4bcb03">55d2d7971bbfc6103de3fdd2cd4bcb21</sys_ui_section>
+            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="457b8357c3f74210e8adb0111501315b">01d297971bbfc6103de3fdd2cd4bcbd6</sys_ui_form>
+            <sys_ui_section caption="Major Case Information" display_value="重大なケース情報" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="457b8357c3f74210e8adb0111501315b">55d2d7971bbfc6103de3fdd2cd4bcb21</sys_ui_section>
             <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
             <sys_updated_on>2024-08-09 08:04:33</sys_updated_on>
         </sys_ui_form_section>
@@ -65,8 +65,8 @@
             <sys_id>ddd2d7971bbfc6103de3fdd2cd4bcb20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6d25def41bfb4a506e132f092a4bcb03">01d297971bbfc6103de3fdd2cd4bcbd6</sys_ui_form>
-            <sys_ui_section caption="Related Records" display_value="関連レコード" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6d25def41bfb4a506e132f092a4bcb03">d9d297971bbfc6103de3fdd2cd4bcbdd</sys_ui_section>
+            <sys_ui_form display_value="x_bllt_bs_cc_inquiry" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="457b8357c3f74210e8adb0111501315b">01d297971bbfc6103de3fdd2cd4bcbd6</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="関連レコード" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="457b8357c3f74210e8adb0111501315b">d9d297971bbfc6103de3fdd2cd4bcbdd</sys_ui_section>
             <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
             <sys_updated_on>2024-08-09 08:04:32</sys_updated_on>
         </sys_ui_form_section>
@@ -89,7 +89,7 @@
             <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
             <sys_updated_on>2024-08-09 08:04:31</sys_updated_on>
             <sys_user/>
-            <view display_value="重大なケース" name="major_case">6d25def41bfb4a506e132f092a4bcb03</view>
+            <view display_value="重大なケース" name="major_case">457b8357c3f74210e8adb0111501315b</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

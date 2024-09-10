@@ -3,27 +3,27 @@
         <app_config display_value="INQ">4f702efa1b4416103de3fdd2cd4bcb97</app_config>
         <description/>
         <extension_point/>
-        <fields>table,sysId</fields>
+        <fields/>
         <icon/>
-        <name>INQ default record 2</name>
-        <optional_parameters>query,views,activityLogs,extraParams,fields,screen,selectedTabIndex,userPrefs</optional_parameters>
+        <name>INQ mail draft</name>
+        <optional_parameters/>
         <order>0</order>
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
-        <route_type>inq-default-record-2</route_type>
+        <route_type>inq-mail-draft</route_type>
         <screen_type display_value="INQ default record 2">89ab0fbf1b0cd6106e132f092a4bcb72</screen_type>
         <sys_class_name>sys_ux_app_route</sys_class_name>
         <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
         <sys_created_on>2024-08-23 07:05:47</sys_created_on>
         <sys_id>45abc3331b4cd6106e132f092a4bcbbe</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>INQ default record 2</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>INQ mail draft</sys_name>
         <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
         <sys_update_name>sys_ux_app_route_45abc3331b4cd6106e132f092a4bcbbe</sys_update_name>
-        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
-        <sys_updated_on>2024-08-23 07:09:35</sys_updated_on>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-01 23:49:22</sys_updated_on>
     </sys_ux_app_route>
     <sys_translated_text action="delete_multiple" query="documentkey=45abc3331b4cd6106e132f092a4bcbbe"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

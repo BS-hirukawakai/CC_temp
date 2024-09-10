@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>cc_mail_template_body</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+    var taskSysId = current.sys_id;
+
+    //添付されているナレッジを検索する
+    var gr = new GlideRecord("m2m_kb_task");
+    gr.addQuery("task", taskSysId);
+    gr.query();
+    var result = '';
+    var instanceName = gs.getProperty('glide.servlet.uri'); // インスタンスのURLを取得
+    if (gr.getRowCount() > 0) {
+        // 検索結果をループ処理
+        while (gr.next()) {
+            var kb = new GlideRecord("kb_knowledge");
+            kb.get(gr.kb_knowledge);
+            var articleSysId = kb.getValue('sys_id');
+            var articleNumber = kb.getValue('number');
+            var articleLink = instanceName + 'kb_view.do?sys_kb_id=' + articleSysId;
+
+            result += '<p><a href="' + articleLink + '">' + articleNumber + '</a></p>';
+        }
+        template.print('<p>この度は、お問い合わせをいただき、誠にありがとうございます。<br />今回、お問い合わせいただいた「' + current.short_description + '」の回答は以下をご確認ください。</p>');
+        template.print('<p>以下のリンクをクリックして、ナレッジ記事をご覧ください:</p>');
+        template.print(result);
+        template.print('<p>その他、ご不明点がございましたら、お気軽にお問い合わせください。<br />今後ともよろしくお願い申し上げます。</p>');
+        template.print('<p>-----------------------------------------------------------------</p>');
+        template.print('<p>株式会社〇〇<br />');
+        template.print('〇〇部 △△ △△<br />');
+        template.print('住所：〒***-**** 東京都渋谷区渋谷****-***<br />');
+        template.print('TEL：**-****-****<br />');
+        template.print('URL：https://www.XXXX.co.jp/<br />');
+        template.print('Mail：XXXX＠UUUU.co.jp</p>');
+        template.print('<p>-----------------------------------------------------------------</p>');
+
+    } else {
+        template.print('<font color="red" font size="4"><b>＊紐づくナレッジがありません。他のテンプレートをご利用ください。＊</b></font>');
+    }
+
+
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>iida.rio@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-28 06:34:11</sys_created_on>
+        <sys_id>2d44b0ad93541a903a7efca97bba106e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>cc_mail_template_body</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_script_email_2d44b0ad93541a903a7efca97bba106e</sys_update_name>
+        <sys_updated_by>iida.rio@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-28 09:45:50</sys_updated_on>
+    </sys_script_email>
+</record_update>

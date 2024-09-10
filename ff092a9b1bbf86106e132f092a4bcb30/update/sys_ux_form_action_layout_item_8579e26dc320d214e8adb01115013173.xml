@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="関連チケットを作成">189dd9075331011059c6ddeeff7b1220</action>
+        <active>true</active>
+        <color>secondary</color>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>Create Associated Ticket</label>
+        <layout_group/>
+        <name>Create Associated Ticket</name>
+        <order>110</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-10 01:21:27</sys_created_on>
+        <sys_id>8579e26dc320d214e8adb01115013173</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Associated Ticket</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_8579e26dc320d214e8adb01115013173</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-10 01:21:27</sys_updated_on>
+        <table>task</table>
+    </sys_ux_form_action_layout_item>
+</record_update>

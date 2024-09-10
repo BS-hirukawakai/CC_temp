@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="DELETE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-02 08:41:26</sys_created_on>
+        <sys_id>73614b8f93581ad03a7efca97bba1062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>上席へエスカレーション.CSM Workspace</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_ui_action display_value="上席へエスカレーション">0fb9fac793181ad03a7efca97bba101b</sys_ui_action>
+        <sys_ui_view display_value="CSM Workspace" name="workspace_csm">866f7ba9733303001923054dfff6a783</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_73614b8f93581ad03a7efca97bba1062</sys_update_name>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-02 08:41:26</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>a12977c7ebbf065856eafddacad0cda9</instance_id>
+        <instance_name>democreatorwf81141</instance_name>
+        <name>sys_ui_action_view_73614b8f93581ad03a7efca97bba1062</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by><sys_created_on>2024-09-02 08:41:26</sys_created_on><sys_id>73614b8f93581ad03a7efca97bba1062</sys_id><sys_mod_count>0</sys_mod_count><sys_name>上席へエスカレーション.CSM Workspace</sys_name><sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package><sys_policy/><sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope><sys_ui_action display_value="上席へエスカレーション">0fb9fac793181ad03a7efca97bba101b</sys_ui_action><sys_ui_view display_value="CSM Workspace" name="workspace_csm">866f7ba9733303001923054dfff6a783</sys_ui_view><sys_update_name>sys_ui_action_view_73614b8f93581ad03a7efca97bba1062</sys_update_name><sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by><sys_updated_on>2024-09-02 08:41:26</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+        <payload_hash>1608929750</payload_hash>
+        <record_name>include</record_name>
+        <reverted_from/>
+        <source>7a730a4793dcd6d03a7efca97bba10b7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-02 08:41:26</sys_created_on>
+        <sys_id>7b614b8f93581ad03a7efca97bba1065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191b1e5665c0000001</sys_recorded_at>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-02 08:41:26</sys_updated_on>
+        <type>UI View Action</type>
+        <update_guid>fb614b8f69581ad0aecc8fc8b2ed8964</update_guid>
+        <update_guid_history>fb614b8f69581ad0aecc8fc8b2ed8964:1608929750</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-02 08:54:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_view">sys_ui_action_view</sys_db_object>
+        <sys_id>7ec729a3940a4bd0afb1101ab47b1404</sys_id>
+        <sys_metadata>73614b8f93581ad03a7efca97bba1062</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>上席へエスカレーション.CSM Workspace</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent display_value="上席へエスカレーション">0fb9fac793181ad03a7efca97bba101b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>sys_ui_action_view_73614b8f93581ad03a7efca97bba1062</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_view_73614b8f93581ad03a7efca97bba1062">7b614b8f93581ad03a7efca97bba1065</sys_update_version>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-02 08:54:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

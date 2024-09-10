@@ -4,7 +4,7 @@
         <controller/>
         <description>CSM</description>
         <name>Open create collab chat</name>
-        <parent_macroponent display_value="CSM デフォルトのレコードページ 問い合わせ">fe0fec491bc412103de3fdd2cd4bcbd3</parent_macroponent>
+        <parent_macroponent display_value="【廃止】CSM デフォルトのレコードページ 問い合わせ">fe0fec491bc412103de3fdd2cd4bcbd3</parent_macroponent>
         <source_component/>
         <source_da display_value="Open create collab chat modal">040b41b5c31130100f24c87af040dd66</source_da>
         <source_element_id>ui_action_bar</source_element_id>

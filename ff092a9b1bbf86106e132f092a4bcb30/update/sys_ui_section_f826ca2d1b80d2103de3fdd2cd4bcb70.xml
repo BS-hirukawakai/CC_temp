@@ -8,7 +8,7 @@
             <sys_id>01260e2d1b80d2103de3fdd2cd4bcb66</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
             <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
             <sys_updated_on>2024-08-16 02:15:48</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>09260e2d1b80d2103de3fdd2cd4bcb66</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
             <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
             <sys_updated_on>2024-08-16 02:15:48</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>01260e2d1b80d2103de3fdd2cd4bcb67</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
             <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
             <sys_updated_on>2024-08-16 02:15:48</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_id>09260e2d1b80d2103de3fdd2cd4bcb67</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
             <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
             <sys_updated_on>2024-08-16 02:15:48</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_id>01260e2d1b80d2103de3fdd2cd4bcb68</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
             <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
             <sys_updated_on>2024-08-16 02:15:48</sys_updated_on>
             <sys_user/>
@@ -78,7 +78,7 @@
             <sys_id>09260e2d1b80d2103de3fdd2cd4bcb68</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
             <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
             <sys_updated_on>2024-08-16 02:15:48</sys_updated_on>
             <sys_user/>
@@ -92,7 +92,7 @@
             <sys_id>01260e2d1b80d2103de3fdd2cd4bcb69</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">f826ca2d1b80d2103de3fdd2cd4bcb70</sys_ui_section>
             <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
             <sys_updated_on>2024-08-16 02:15:49</sys_updated_on>
             <sys_user/>

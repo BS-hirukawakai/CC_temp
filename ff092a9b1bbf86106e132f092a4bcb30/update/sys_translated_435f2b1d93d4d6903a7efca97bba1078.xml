@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <id/>
+        <label>CC_在庫ヘッダー</label>
+        <language>ja</language>
+        <name>sp_widget</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>akimoto.miri@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-28 01:32:43</sys_created_on>
+        <sys_id>435f2b1d93d4d6903a7efca97bba1078</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CC_在庫ヘッダー</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_translated_435f2b1d93d4d6903a7efca97bba1078</sys_update_name>
+        <sys_updated_by>akimoto.miri@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-03 03:26:20</sys_updated_on>
+        <value>Copy of CSP Stock Header </value>
+    </sys_translated>
+</record_update>

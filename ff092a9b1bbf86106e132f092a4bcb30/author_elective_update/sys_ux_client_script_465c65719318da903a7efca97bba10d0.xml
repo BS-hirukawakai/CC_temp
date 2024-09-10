@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="デフォルト">e945b2ba1bc416103de3fdd2cd4bcbac</macroponent>
+        <name>Open Record With Crometab (custom)</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+    const {
+        routeMapping,
+        buildDefaultRoutePayload
+    } = imports["global.recordRoutesMapping"]();
+
+    var route = 'inq-default-record';
+    var targetRoute = '';
+    const defaultRoutePayload = buildDefaultRoutePayload(route, targetRoute, event);
+
+    const routeMap = api.data.dynamic_routing_simplelist.routeMap;
+    const payload = routeMapping(routeMap, defaultRoutePayload, event);
+
+    // If a table name passed into trueupTable matches the existing table
+    // refresh trueup DR to get real table name; otherwise use existing.
+    if(api.state.routeParentTables && api.state.routeParentTables.split(',').find(table => table === payload.fields.table)) {
+        api.setState('navigationPayload', payload); 
+        api.data.resolve_route_parent_tables.refresh(); 
+    } else { 
+        api.emit('NAV_ITEM_SELECTED', payload); 
+    } 
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-29 05:50:13</sys_created_on>
+        <sys_id>465c65719318da903a7efca97bba10d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Open Record With Crometab (custom)</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ux_client_script_465c65719318da903a7efca97bba10d0</sys_update_name>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-29 05:50:13</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>a12977c7ebbf065856eafddacad0cda9</instance_id>
+        <instance_name>democreatorwf81141</instance_name>
+        <name>sys_ux_client_script_465c65719318da903a7efca97bba10d0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="デフォルト"&gt;e945b2ba1bc416103de3fdd2cd4bcbac&lt;/macroponent&gt;&lt;name&gt;Open Record With Crometab (custom)&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+    const {
+        routeMapping,
+        buildDefaultRoutePayload
+    } = imports["global.recordRoutesMapping"]();
+
+    var route = 'inq-default-record';
+    var targetRoute = '';
+    const defaultRoutePayload = buildDefaultRoutePayload(route, targetRoute, event);
+
+    const routeMap = api.data.dynamic_routing_simplelist.routeMap;
+    const payload = routeMapping(routeMap, defaultRoutePayload, event);
+
+    // If a table name passed into trueupTable matches the existing table
+    // refresh trueup DR to get real table name; otherwise use existing.
+    if(api.state.routeParentTables &amp;&amp; api.state.routeParentTables.split(',').find(table =&gt; table === payload.fields.table)) {
+        api.setState('navigationPayload', payload); 
+        api.data.resolve_route_parent_tables.refresh(); 
+    } else { 
+        api.emit('NAV_ITEM_SELECTED', payload); 
+    } 
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;akamatsu.shota@blueship.co.jp&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-29 05:50:13&lt;/sys_created_on&gt;&lt;sys_id&gt;465c65719318da903a7efca97bba10d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Open Record With Crometab (custom)&lt;/sys_name&gt;&lt;sys_package display_value="CCテンプレート" source="x_bllt_bs_cc"&gt;ff092a9b1bbf86106e132f092a4bcb30&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CCテンプレート"&gt;ff092a9b1bbf86106e132f092a4bcb30&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_465c65719318da903a7efca97bba10d0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;akamatsu.shota@blueship.co.jp&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-29 05:50:13&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-61900705</payload_hash>
+        <record_name>Open Record With Crometab (custom)</record_name>
+        <reverted_from/>
+        <source>cf79e4a993d01a903a7efca97bba10e4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-29 05:50:13</sys_created_on>
+        <sys_id>b0e3f5b59358da903a7efca97bba1096</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1919caf356f0000001</sys_recorded_at>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-29 05:50:13</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>34e3f5b58b58da90b608372e36ebeb95</update_guid>
+        <update_guid_history>34e3f5b58b58da90b608372e36ebeb95:-61900705</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-29 05:55:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>a5711dfb33fc4e248d748c0dece23dc1</sys_id>
+        <sys_metadata>465c65719318da903a7efca97bba10d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Record With Crometab (custom)</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_465c65719318da903a7efca97bba10d0</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_465c65719318da903a7efca97bba10d0">b0e3f5b59358da903a7efca97bba1096</sys_update_version>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-29 05:55:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

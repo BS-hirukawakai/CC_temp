@@ -448,24 +448,7 @@
                         }
                     ],
                     "extensionPoints": [
-                        {
-                            "controllerDependencyMap": {},
-                            "controllerElementId": "record",
-                            "name": "CSM default record pre-Details",
-                            "sysId": "338ea57331b01110fa9bff487f76374b"
-                        },
-                        {
-                            "controllerDependencyMap": {},
-                            "controllerElementId": "record",
-                            "name": "CSM default record post-Details",
-                            "sysId": "06ece18461011110fa9ba6da704974b3"
-                        },
-                        {
-                            "controllerDependencyMap": {},
-                            "controllerElementId": "record",
-                            "name": "CSM default record post-related lists",
-                            "sysId": "ca1de18461011110fa9ba6da704974a6"
-                        }
+                        
                     ],
                     "isHero": false,
                     "isHidden": {
@@ -591,21 +574,6 @@
                                 "type": "JSON_LITERAL",
                                 "value": null
                             },
-                            "extensionPoint": "338ea57331b01110fa9bff487f76374b",
-                            "icon": null,
-                            "id": "cl6741b4p03d53b7rctvee7fb",
-                            "label": {
-                                "type": "JSON_LITERAL",
-                                "value": "CSM default record pre-Details"
-                            },
-                            "order": 0,
-                            "type": "extension_point"
-                        },
-                        {
-                            "conditional": {
-                                "type": "JSON_LITERAL",
-                                "value": null
-                            },
                             "extensionPoint": null,
                             "icon": "",
                             "id": "cl1kajg2y015e3f71kyb7f5qr",
@@ -614,26 +582,11 @@
                                 "value": {
                                     "code": null,
                                     "comment": "",
-                                    "message": "Details"
+                                    "message": "詳細"
                                 }
                             },
-                            "order": 100,
+                            "order": 0,
                             "type": "local"
-                        },
-                        {
-                            "conditional": {
-                                "type": "JSON_LITERAL",
-                                "value": null
-                            },
-                            "extensionPoint": "06ece18461011110fa9ba6da704974b3",
-                            "icon": null,
-                            "id": "cl6741pi603d93b7rhoe4teaz",
-                            "label": {
-                                "type": "JSON_LITERAL",
-                                "value": "CSM default record post-Details"
-                            },
-                            "order": 200,
-                            "type": "extension_point"
                         },
                         {
                             "conditional": {
@@ -648,72 +601,22 @@
                                 "value": {
                                     "code": null,
                                     "comment": "",
-                                    "message": "RelatedList"
+                                    "message": "関連リスト"
                                 }
                             },
-                            "order": 300,
+                            "order": 100,
                             "type": "template"
-                        },
-                        {
-                            "conditional": {
-                                "type": "JSON_LITERAL",
-                                "value": null
-                            },
-                            "extensionPoint": "ca1de18461011110fa9ba6da704974a6",
-                            "icon": null,
-                            "id": "cl67428hy03db3b7r3befio90",
-                            "label": {
-                                "type": "JSON_LITERAL",
-                                "value": "CSM default record post-related lists"
-                            },
-                            "order": 500,
-                            "type": "extension_point"
                         }
                     ],
                     "overrides": {
                         "composition": [
                             {
                                 "definition": {
-                                    "id": "MACROPONENT_VIEWPORT_HEADLESS",
-                                    "type": "MACROPONENT_VIEWPORT_HEADLESS"
-                                },
-                                "elementId": "clgghheebbbffeaadddggddbhhrffeeipggtpg",
-                                "elementLabel": "CSM default record pre-Details",
-                                "eventMappings": [
-                                    
-                                ],
-                                "extensionPoints": [
-                                    
-                                ],
-                                "isHero": false,
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "isNonDestructive": false,
-                                "items": [
-                                    
-                                ],
-                                "overrides": null,
-                                "propertyValues": {
-                                    "defaultRoute": null,
-                                    "dynamicTabData": "",
-                                    "pageCollectionMode": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "repeatedTabData": null
-                                },
-                                "slot": "cl6741b4p03d53b7rctvee7fb",
-                                "styles": {}
-                            },
-                            {
-                                "definition": {
                                     "id": "d356d14b6e293a3020a244b63d278d8f",
                                     "type": "MACROPONENT"
                                 },
                                 "elementId": "clbbkajgqfaabbffkddfhhbbcixaawahhff",
-                                "elementLabel": "Details",
+                                "elementLabel": "詳細",
                                 "eventMappings": [
                                     
                                 ],
@@ -1370,46 +1273,11 @@
                             },
                             {
                                 "definition": {
-                                    "id": "MACROPONENT_VIEWPORT_HEADLESS",
-                                    "type": "MACROPONENT_VIEWPORT_HEADLESS"
-                                },
-                                "elementId": "clgghheebbpiiaadddaddbhhrffsovvxtc",
-                                "elementLabel": "CSM default record post-Details",
-                                "eventMappings": [
-                                    
-                                ],
-                                "extensionPoints": [
-                                    
-                                ],
-                                "isHero": false,
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "isNonDestructive": false,
-                                "items": [
-                                    
-                                ],
-                                "overrides": null,
-                                "propertyValues": {
-                                    "defaultRoute": null,
-                                    "dynamicTabData": "",
-                                    "pageCollectionMode": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "repeatedTabData": null
-                                },
-                                "slot": "cl6741pi603d93b7rhoe4teaz",
-                                "styles": {}
-                            },
-                            {
-                                "definition": {
                                     "id": "",
                                     "type": "REPEATER"
                                 },
                                 "elementId": "clbbkalijjhaabbggjjddfhhbbyjjjlzjia",
-                                "elementLabel": "RelatedList",
+                                "elementLabel": "関連リスト",
                                 "eventMappings": [
                                     
                                 ],
@@ -1432,110 +1300,33 @@
                                                 "id": "3e6ce775e9b2140536acf1276b4d20bc",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "list_related",
-                                            "elementLabel": "list Related",
+                                            "elementId": "list___related_1",
+                                            "elementLabel": "List - Related 1",
                                             "eventMappings": [
-                                                {
-                                                    "eventMappingId": "clccsjjjpaayaaffnzddghhgfdbbhhtaggt",
-                                                    "isConfiguration": false,
-                                                    "offRowStorageId": null,
-                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#PREVIEW_RECORD",
-                                                    "sourceEventCorrelationId": null,
-                                                    "sourceEventDefinition": {
-                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#PREVIEW_RECORD",
-                                                        "id": null,
-                                                        "type": "UXEVENT"
-                                                    },
-                                                    "sourceEventSysId": null,
-                                                    "targets": [
-                                                        {
-                                                            "broker": null,
-                                                            "clientScript": null,
-                                                            "conditional": null,
-                                                            "declarativeAction": null,
-                                                            "event": null,
-                                                            "operation": {
-                                                                "dataBrokerId": "029f04e053610110ac9bddeeff7b1294",
-                                                                "operationName": "RECORD#NAV_ITEM_SELECTED",
-                                                                "parentResourceId": "record",
-                                                                "payload": {
-                                                                    "container": {
-                                                                        "multiInstField": {
-                                                                            "binding": {
-                                                                                "address": [
-                                                                                    "multiInstField"
-                                                                                ]
-                                                                            },
-                                                                            "type": "EVENT_PAYLOAD_BINDING"
-                                                                        },
-                                                                        "params": {
-                                                                            "binding": {
-                                                                                "address": [
-                                                                                    "params"
-                                                                                ]
-                                                                            },
-                                                                            "type": "EVENT_PAYLOAD_BINDING"
-                                                                        },
-                                                                        "query": {
-                                                                            "binding": {
-                                                                                "address": [
-                                                                                    "query"
-                                                                                ]
-                                                                            },
-                                                                            "type": "EVENT_PAYLOAD_BINDING"
-                                                                        },
-                                                                        "sys_id": {
-                                                                            "binding": {
-                                                                                "address": [
-                                                                                    "sys_id"
-                                                                                ]
-                                                                            },
-                                                                            "type": "EVENT_PAYLOAD_BINDING"
-                                                                        },
-                                                                        "table": {
-                                                                            "binding": {
-                                                                                "address": [
-                                                                                    "table"
-                                                                                ]
-                                                                            },
-                                                                            "type": "EVENT_PAYLOAD_BINDING"
-                                                                        }
-                                                                    },
-                                                                    "type": "MAP_CONTAINER"
-                                                                }
-                                                            },
-                                                            "targetId": "clccsjjjpaayaaffoaaddghhgcfxhhevz",
-                                                            "type": "DATABROKER_OP"
-                                                        }
-                                                    ]
-                                                }
-                                            ],
-                                            "extensionPoints": [
                                                 
                                             ],
-                                            "isHero": false,
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
                                             },
-                                            "isNonDestructive": false,
-                                            "items": [
-                                                
-                                            ],
-                                            "overrides": null,
+                                            "preset": null,
                                             "propertyValues": {
                                                 "actionConfigId": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "actionConfigId"
-                                                        ],
-                                                        "category": "app"
-                                                    },
-                                                    "type": "CONTEXT_BINDING"
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
                                                 },
-                                                "columns": null,
-                                                "fixedQuery": null,
-                                                "groupByField": null,
+                                                "columns": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "fixedQuery": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "groupByField": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
                                                 "hideCheckboxHover": {
                                                     "type": "JSON_LITERAL",
                                                     "value": false
@@ -1550,7 +1341,7 @@
                                                 },
                                                 "hideColumnResizing": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": true
+                                                    "value": false
                                                 },
                                                 "hideDeclarativeActions": {
                                                     "type": "JSON_LITERAL",
@@ -1625,18 +1416,25 @@
                                                     "type": "JSON_LITERAL",
                                                     "value": ""
                                                 },
+                                                "isParentNewRecord": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "isParentReadOnly": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
                                                 "limit": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": 20
+                                                    "value": null
                                                 },
                                                 "listTitle": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "displayName"
-                                                        ],
-                                                        "category": "value"
-                                                    },
-                                                    "type": "REPEATER_ITEM_BINDING"
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "All Active Tasks"
+                                                    }
                                                 },
                                                 "maxCharLimit": {
                                                     "type": "JSON_LITERAL",
@@ -1644,58 +1442,43 @@
                                                 },
                                                 "maxColumns": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": 0
+                                                    "value": null
+                                                },
+                                                "nrlLandmark": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
                                                 },
                                                 "overrideWordWrapUserPref": {
                                                     "type": "JSON_LITERAL",
                                                     "value": false
                                                 },
                                                 "parentRecordSysId": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "parentRecordSysId"
-                                                        ],
-                                                        "category": "value"
-                                                    },
-                                                    "type": "REPEATER_ITEM_BINDING"
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
                                                 },
                                                 "parentTable": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "parentTable"
-                                                        ],
-                                                        "category": "value"
-                                                    },
-                                                    "type": "REPEATER_ITEM_BINDING"
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "task"
                                                 },
-                                                "query": null,
+                                                "query": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "active=true"
+                                                },
                                                 "refreshRequested": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "refreshRequested"
-                                                        ],
-                                                        "category": "value"
-                                                    },
-                                                    "type": "REPEATER_ITEM_BINDING"
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
                                                 },
                                                 "relatedListName": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "relatedListName"
-                                                        ],
-                                                        "category": "value"
-                                                    },
-                                                    "type": "REPEATER_ITEM_BINDING"
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Change Task"
                                                 },
-                                                "table": null,
+                                                "table": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "task"
+                                                },
                                                 "view": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "view"
-                                                        ],
-                                                        "category": "value"
-                                                    },
-                                                    "type": "REPEATER_ITEM_BINDING"
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Default"
                                                 },
                                                 "wordWrap": {
                                                     "type": "JSON_LITERAL",
@@ -1703,7 +1486,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {}
+                                            "styles": null
                                         }
                                     ],
                                     "layout": null
@@ -1720,51 +1503,27 @@
                                 },
                                 "slot": "cl1kali8f01683f712up7uv9s",
                                 "styles": {}
-                            },
-                            {
-                                "definition": {
-                                    "id": "MACROPONENT_VIEWPORT_HEADLESS",
-                                    "type": "MACROPONENT_VIEWPORT_HEADLESS"
-                                },
-                                "elementId": "clgghheecciiihaadddcddbhhraahhsigpgff",
-                                "elementLabel": "CSM default record post-related lists",
-                                "eventMappings": [
-                                    
-                                ],
-                                "extensionPoints": [
-                                    
-                                ],
-                                "isHero": false,
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "isNonDestructive": false,
-                                "items": [
-                                    
-                                ],
-                                "overrides": null,
-                                "propertyValues": {
-                                    "defaultRoute": null,
-                                    "dynamicTabData": "",
-                                    "pageCollectionMode": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "repeatedTabData": null
-                                },
-                                "slot": "cl67428hy03db3b7r3befio90",
-                                "styles": {}
                             }
                         ],
                         "layout": null
                     },
                     "propertyValues": {
-                        "columns": null,
-                        "defaultRoute": {
-                            "type": "JSON_LITERAL",
-                            "value": null
+                        "activeRoute": {
+                            "icon": null,
+                            "id": "cm0lyisku07vf3581033pi9e5",
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "関連リスト"
+                                }
+                            },
+                            "order": 600,
+                            "type": "template"
                         },
+                        "columns": null,
+                        "defaultRoute": null,
                         "dynamicTabData": {
                             "type": "JSON_LITERAL",
                             "value": null
@@ -1971,24 +1730,7 @@
                         }
                     ],
                     "extensionPoints": [
-                        {
-                            "controllerDependencyMap": {},
-                            "controllerElementId": "record",
-                            "name": "CSM default record pre-tabs",
-                            "sysId": "b4e33063e5b01110fa9b335b70401bf1"
-                        },
-                        {
-                            "controllerDependencyMap": {},
-                            "controllerElementId": "record",
-                            "name": "CSM default record mid-tabs",
-                            "sysId": "37743063e5b01110fa9b335b70401be5"
-                        },
-                        {
-                            "controllerDependencyMap": {},
-                            "controllerElementId": "record",
-                            "name": "CSM default record post-tabs",
-                            "sysId": "7a947063e5b01110fa9b335b70401b15"
-                        }
+                        
                     ],
                     "isHero": false,
                     "isHidden": {
@@ -2111,21 +1853,6 @@
                     "items": [
                         {
                             "conditional": {
-                                "type": "JSON_LITERAL",
-                                "value": null
-                            },
-                            "extensionPoint": "b4e33063e5b01110fa9b335b70401bf1",
-                            "icon": null,
-                            "id": "cl67432vc03e03b7r2lzgcedm",
-                            "label": {
-                                "type": "JSON_LITERAL",
-                                "value": "CSM default record pre-tabs"
-                            },
-                            "order": 0,
-                            "type": "extension_point"
-                        },
-                        {
-                            "conditional": {
                                 "operation": {
                                     "left": {
                                         "binding": {
@@ -2190,107 +1917,6 @@
                                 }
                             },
                             "order": 200,
-                            "type": "local"
-                        },
-                        {
-                            "conditional": {
-                                "type": "JSON_LITERAL",
-                                "value": null
-                            },
-                            "extensionPoint": "37743063e5b01110fa9b335b70401be5",
-                            "icon": null,
-                            "id": "cl6743lyn03e23b7rwvofami3",
-                            "label": {
-                                "type": "JSON_LITERAL",
-                                "value": "CSM default record mid-tabs"
-                            },
-                            "order": 300,
-                            "type": "extension_point"
-                        },
-                        {
-                            "conditional": {
-                                "transform": {
-                                    "operands": {
-                                        "container": [
-                                            {
-                                                "binding": {
-                                                    "address": [
-                                                        "side_panel_tab_management_controller_1",
-                                                        "hideAttachment"
-                                                    ]
-                                                },
-                                                "type": "DATA_OUTPUT_BINDING"
-                                            },
-                                            {
-                                                "type": "JSON_LITERAL",
-                                                "value": true
-                                            },
-                                            {
-                                                "type": "JSON_LITERAL",
-                                                "value": false
-                                            }
-                                        ],
-                                        "type": "LIST_CONTAINER"
-                                    },
-                                    "operator": "IF"
-                                },
-                                "type": "CLIENT_TRANSFORM"
-                            },
-                            "extensionPoint": null,
-                            "icon": "paperclip-outline",
-                            "id": "cl1kaspl4018r3f71g8elq06t",
-                            "label": {
-                                "type": "TRANSLATION_LITERAL",
-                                "value": {
-                                    "code": null,
-                                    "comment": "",
-                                    "message": "Attachment"
-                                }
-                            },
-                            "order": 400,
-                            "type": "local"
-                        },
-                        {
-                            "conditional": {
-                                "transform": {
-                                    "operands": {
-                                        "container": [
-                                            {
-                                                "binding": {
-                                                    "address": [
-                                                        "side_panel_tab_management_controller_1",
-                                                        "hideTemplate"
-                                                    ]
-                                                },
-                                                "type": "DATA_OUTPUT_BINDING"
-                                            },
-                                            {
-                                                "type": "JSON_LITERAL",
-                                                "value": true
-                                            },
-                                            {
-                                                "type": "JSON_LITERAL",
-                                                "value": false
-                                            }
-                                        ],
-                                        "type": "LIST_CONTAINER"
-                                    },
-                                    "operator": "IF"
-                                },
-                                "type": "CLIENT_TRANSFORM"
-                            },
-                            "extensionPoint": null,
-                            "icon": "document-outline",
-                            "id": "cl1kat6qr018u3f717uit8kll",
-                            "label": {
-                                "type": "TRANSLATION_LITERAL",
-                                "value": {
-                                    "code": null,
-                                    "comment": "",
-                                    "message": "Template"
-                                }
-                            },
-                            "order": 500,
                             "type": "local"
                         },
                         {
@@ -2378,60 +2004,10 @@
                             },
                             "order": 700,
                             "type": "local"
-                        },
-                        {
-                            "conditional": {
-                                "type": "JSON_LITERAL",
-                                "value": null
-                            },
-                            "extensionPoint": "7a947063e5b01110fa9b335b70401b15",
-                            "icon": null,
-                            "id": "cl67447h203e43b7rsdgyu469",
-                            "label": {
-                                "type": "JSON_LITERAL",
-                                "value": "CSM default record post-tabs"
-                            },
-                            "order": 800,
-                            "type": "extension_point"
                         }
                     ],
                     "overrides": {
                         "composition": [
-                            {
-                                "definition": {
-                                    "id": "MACROPONENT_VIEWPORT_HEADLESS",
-                                    "type": "MACROPONENT_VIEWPORT_HEADLESS"
-                                },
-                                "elementId": "clggbbdoyiixaaeehqddbhhrmrvuaeegggg",
-                                "elementLabel": "CSM default record pre-tabs",
-                                "eventMappings": [
-                                    
-                                ],
-                                "extensionPoints": [
-                                    
-                                ],
-                                "isHero": false,
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "isNonDestructive": false,
-                                "items": [
-                                    
-                                ],
-                                "overrides": null,
-                                "propertyValues": {
-                                    "defaultRoute": null,
-                                    "dynamicTabData": "",
-                                    "pageCollectionMode": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "repeatedTabData": null
-                                },
-                                "slot": "cl67432vc03e03b7r2lzgcedm",
-                                "styles": {}
-                            },
                             {
                                 "definition": {
                                     "id": "d356d14b6e293a3020a244b63d278d8f",
@@ -2946,13 +2522,8 @@
                                             },
                                             "propertyValues": {
                                                 "cxsTableConfig": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "side_panel_tab_management_controller_1",
-                                                            "agentAssistConfigId"
-                                                        ]
-                                                    },
-                                                    "type": "DATA_OUTPUT_BINDING"
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "41d47ff01bc416103de3fdd2cd4bcb12"
                                                 },
                                                 "positionAbsolutely": {
                                                     "type": "JSON_LITERAL",
@@ -3023,284 +2594,6 @@
                                 },
                                 "slot": "cl1kankhk01893f71opig588d",
                                 "styles": {
-                                    "width": "100%"
-                                }
-                            },
-                            {
-                                "definition": {
-                                    "id": "MACROPONENT_VIEWPORT_HEADLESS",
-                                    "type": "MACROPONENT_VIEWPORT_HEADLESS"
-                                },
-                                "elementId": "clgghheeddlzaaaaddeddddbhhrddkkbeeeoaa",
-                                "elementLabel": "CSM default record mid-tabs",
-                                "eventMappings": [
-                                    
-                                ],
-                                "extensionPoints": [
-                                    
-                                ],
-                                "isHero": false,
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "isNonDestructive": false,
-                                "items": [
-                                    
-                                ],
-                                "overrides": null,
-                                "propertyValues": {
-                                    "defaultRoute": null,
-                                    "dynamicTabData": "",
-                                    "pageCollectionMode": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "repeatedTabData": null
-                                },
-                                "slot": "cl6743lyn03e23b7rwvofami3",
-                                "styles": {}
-                            },
-                            {
-                                "definition": {
-                                    "id": "d356d14b6e293a3020a244b63d278d8f",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "clbbkasplxaabbiisddfhhbbhhiimzggicc",
-                                "elementLabel": "Attachment",
-                                "eventMappings": [
-                                    
-                                ],
-                                "extensionPoints": [
-                                    
-                                ],
-                                "isHero": false,
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "isNonDestructive": false,
-                                "items": [
-                                    
-                                ],
-                                "overrides": {
-                                    "composition": [
-                                        {
-                                            "definition": {
-                                                "id": "0e238931bce36c9fe3b52475c69c85a3",
-                                                "type": "MACROPONENT"
-                                            },
-                                            "elementId": "attachment",
-                                            "elementLabel": "Attachment tab item",
-                                            "eventMappings": [
-                                                
-                                            ],
-                                            "extensionPoints": [
-                                                
-                                            ],
-                                            "isHero": false,
-                                            "isHidden": {
-                                                "type": "JSON_LITERAL",
-                                                "value": null
-                                            },
-                                            "isNonDestructive": false,
-                                            "items": [
-                                                
-                                            ],
-                                            "overrides": null,
-                                            "preset": {
-                                                "controllerElementId": "record",
-                                                "disabledEventTargetIds": [
-                                                    
-                                                ],
-                                                "id": "91616e506c60c163a00d1ac6f5568746"
-                                            },
-                                            "propertyValues": {},
-                                            "slot": null,
-                                            "styles": null
-                                        }
-                                    ],
-                                    "layout": {
-                                        "default": {
-                                            "children": null,
-                                            "isInline": null,
-                                            "items": [
-                                                {
-                                                    "element_id": "attachment",
-                                                    "styles": {
-                                                        "position": "relative"
-                                                    }
-                                                }
-                                            ],
-                                            "root": null,
-                                            "rules": null,
-                                            "styles": {
-                                                "height": "calc( 100% - ( (2rem * var(--now-scale-space--xl, 1)) + (var(--now-scale-space--xl, 1) * var(--now-static-space--xl))))",
-                                                "overflow": "auto",
-                                                "padding": "calc(var(--now-scale-space--xl, 1) * var(--now-static-space--xl))"
-                                            },
-                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
-                                            "type": "grid"
-                                        },
-                                        "version": "3.0.0"
-                                    }
-                                },
-                                "propertyValues": {
-                                    "ariaRegionHeadingLevel": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "1"
-                                    },
-                                    "ariaRegionName": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": ""
-                                        }
-                                    },
-                                    "ariaRole": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "includeAriaHeading": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "type": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "section"
-                                    }
-                                },
-                                "slot": "cl1kaspl4018r3f71g8elq06t",
-                                "styles": {
-                                    "height": "100%",
-                                    "position": "relative",
-                                    "width": "100%"
-                                }
-                            },
-                            {
-                                "definition": {
-                                    "id": "d356d14b6e293a3020a244b63d278d8f",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "clbbkatggrcaabbiivddfhhbbccjocthqm",
-                                "elementLabel": "Template",
-                                "eventMappings": [
-                                    
-                                ],
-                                "extensionPoints": [
-                                    
-                                ],
-                                "isHero": false,
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "isNonDestructive": false,
-                                "items": [
-                                    
-                                ],
-                                "overrides": {
-                                    "composition": [
-                                        {
-                                            "definition": {
-                                                "id": "9fa0b553c3649c0254f64f3a7983e61e",
-                                                "type": "MACROPONENT"
-                                            },
-                                            "elementId": "form_templates",
-                                            "elementLabel": "Form Template tab item",
-                                            "eventMappings": [
-                                                
-                                            ],
-                                            "extensionPoints": [
-                                                
-                                            ],
-                                            "isHero": false,
-                                            "isHidden": {
-                                                "type": "JSON_LITERAL",
-                                                "value": null
-                                            },
-                                            "isNonDestructive": false,
-                                            "items": [
-                                                
-                                            ],
-                                            "overrides": null,
-                                            "preset": {
-                                                "controllerElementId": "record",
-                                                "disabledEventTargetIds": [
-                                                    
-                                                ],
-                                                "id": "7288829a5f3eac46f3ba9b509e985f1e"
-                                            },
-                                            "propertyValues": {
-                                                "hideMyTemplates": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "refreshRequested": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": {}
-                                                }
-                                            },
-                                            "slot": null,
-                                            "styles": null
-                                        }
-                                    ],
-                                    "layout": {
-                                        "default": {
-                                            "children": null,
-                                            "isInline": null,
-                                            "items": [
-                                                {
-                                                    "element_id": "form_templates",
-                                                    "styles": {
-                                                        "height": "100%",
-                                                        "position": "relative",
-                                                        "width": "100%"
-                                                    }
-                                                }
-                                            ],
-                                            "root": null,
-                                            "rules": null,
-                                            "styles": {
-                                                "height": "100%",
-                                                "width": "100%"
-                                            },
-                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
-                                            "type": "flex"
-                                        },
-                                        "version": "3.0.0"
-                                    }
-                                },
-                                "propertyValues": {
-                                    "ariaRegionHeadingLevel": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "1"
-                                    },
-                                    "ariaRegionName": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": ""
-                                        }
-                                    },
-                                    "ariaRole": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "includeAriaHeading": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "type": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "section"
-                                    }
-                                },
-                                "slot": "cl1kat6qr018u3f717uit8kll",
-                                "styles": {
-                                    "height": "100%",
                                     "width": "100%"
                                 }
                             },
@@ -3805,41 +3098,6 @@
                                 "styles": {
                                     "width": "100%"
                                 }
-                            },
-                            {
-                                "definition": {
-                                    "id": "MACROPONENT_VIEWPORT_HEADLESS",
-                                    "type": "MACROPONENT_VIEWPORT_HEADLESS"
-                                },
-                                "elementId": "clgghheeeehhhiaaddeffddbhhrrpxtwmep",
-                                "elementLabel": "CSM default record post-tabs",
-                                "eventMappings": [
-                                    
-                                ],
-                                "extensionPoints": [
-                                    
-                                ],
-                                "isHero": false,
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "isNonDestructive": false,
-                                "items": [
-                                    
-                                ],
-                                "overrides": null,
-                                "propertyValues": {
-                                    "defaultRoute": null,
-                                    "dynamicTabData": "",
-                                    "pageCollectionMode": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "repeatedTabData": null
-                                },
-                                "slot": "cl67447h203e43b7rsdgyu469",
-                                "styles": {}
                             }
                         ],
                         "layout": null
@@ -5983,114 +5241,18 @@
             }
         ],
         "inputValues": {
-            "activityLogs": {
-                "binding": {
-                    "address": [
-                        "activityLogs"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "detailsContext": {
-                "binding": {
-                    "address": [
-                        "activityLogs"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "fields": {
-                "binding": {
-                    "address": [
-                        "fields"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "forcedViewName": {
-                "binding": {
-                    "address": [
-                        "views"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "inputExtraParams": {
-                "binding": {
-                    "address": [
-                        "extraParams"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "inputQuery": {
-                "binding": {
-                    "address": [
-                        "query"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "inputSysId": {
-                "binding": {
-                    "address": [
-                        "sysId"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "inputTable": {
-                "binding": {
-                    "address": [
-                        "table"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "screen": {
-                "binding": {
-                    "address": [
-                        "screen"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "selectedTabIndex": {
-                "binding": {
-                    "address": [
-                        "selectedTabIndex"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "userPrefs": {
-                "binding": {
-                    "address": [
-                        "userPrefs"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "view": {
-                "binding": {
-                    "address": [
-                        "view"
-                    ],
-                    "category": "app"
-                },
-                "type": "CONTEXT_BINDING"
-            }
+            "activityLogs": null,
+            "detailsContext": null,
+            "fields": null,
+            "forcedViewName": null,
+            "inputExtraParams": null,
+            "inputQuery": null,
+            "inputSysId": null,
+            "inputTable": null,
+            "screen": null,
+            "selectedTabIndex": null,
+            "userPrefs": null,
+            "view": null
         },
         "readEvaluationMode": "EAGER"
     },
@@ -6109,68 +5271,11 @@
             
         ],
         "inputValues": {
-            "inputIsLoading": {
-                "binding": {
-                    "address": [
-                        "record",
-                        "isLoading"
-                    ]
-                },
-                "type": "DATA_OUTPUT_BINDING"
-            },
-            "inputRibbonLocation": {
-                "binding": {
-                    "address": [
-                        "ribbonLocation"
-                    ],
-                    "category": "app"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "inputSecondaryItems": {
-                "operation": {
-                    "left": {
-                        "binding": {
-                            "address": [
-                                "record",
-                                "form",
-                                "header",
-                                "transformedSecondaryItems"
-                            ]
-                        },
-                        "type": "DATA_OUTPUT_BINDING"
-                    },
-                    "operator": "OR",
-                    "right": {
-                        "binding": {
-                            "address": [
-                                "record",
-                                "secondaryItems"
-                            ]
-                        },
-                        "type": "DATA_OUTPUT_BINDING"
-                    }
-                },
-                "type": "BINARY"
-            },
-            "inputSecondaryLocation": {
-                "binding": {
-                    "address": [
-                        "record_secondary_values_location"
-                    ],
-                    "category": "app"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "isNewRecord": {
-                "binding": {
-                    "address": [
-                        "record",
-                        "isNew"
-                    ]
-                },
-                "type": "DATA_OUTPUT_BINDING"
-            }
+            "inputIsLoading": null,
+            "inputRibbonLocation": null,
+            "inputSecondaryItems": null,
+            "inputSecondaryLocation": null,
+            "isNewRecord": null
         },
         "readEvaluationMode": "EAGER"
     },
@@ -6187,33 +5292,9 @@
             
         ],
         "inputValues": {
-            "configMapping": {
-                "binding": {
-                    "address": [
-                        "contextualTableConfigMapping_main"
-                    ],
-                    "category": "app"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "sysId": {
-                "binding": {
-                    "address": [
-                        "sysId"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "tableName": {
-                "binding": {
-                    "address": [
-                        "table"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            }
+            "configMapping": null,
+            "sysId": null,
+            "tableName": null
         },
         "readEvaluationMode": "EAGER"
     },
@@ -6292,24 +5373,8 @@
             }
         ],
         "inputValues": {
-            "sysId": {
-                "binding": {
-                    "address": [
-                        "sysId"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "tableName": {
-                "binding": {
-                    "address": [
-                        "table"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            }
+            "sysId": null,
+            "tableName": null
         },
         "preset": null,
         "readEvaluationMode": "EAGER"
@@ -6423,24 +5488,8 @@
             
         ],
         "inputValues": {
-            "sysId": {
-                "binding": {
-                    "address": [
-                        "sysId"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "table": {
-                "binding": {
-                    "address": [
-                        "table"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            }
+            "sysId": null,
+            "table": null
         },
         "readEvaluationMode": "EAGER"
     },
@@ -6631,7 +5680,7 @@
     "version": "3.0.0"
 }</layout>
         <macroponent_dependencies/>
-        <name>CSM デフォルトのレコードページ 問い合わせ</name>
+        <name>【廃止】CSM デフォルトのレコードページ 問い合わせ</name>
         <output_prop_mapping/>
         <props>[
     {
@@ -6704,7 +5753,7 @@
         "description": "",
         "disabled": false,
         "fieldType": null,
-        "label": "sysId",
+        "label": "SysId",
         "mandatory": true,
         "name": "sysId",
         "readOnly": false,
@@ -6780,7 +5829,7 @@
   "message" : "Agent assist",
   "comment" : ""
 }, {
-  "message" : "Attachment",
+  "message" : "All Active Tasks",
   "comment" : ""
 }, {
   "message" : "Cancel",
@@ -6793,9 +5842,6 @@
   "comment" : ""
 }, {
   "message" : "Custom Close Confirmation",
-  "comment" : ""
-}, {
-  "message" : "Details",
   "comment" : ""
 }, {
   "message" : "Editable record form and list of record activities",
@@ -6819,19 +5865,19 @@
   "message" : "Record not found",
   "comment" : ""
 }, {
-  "message" : "RelatedList",
-  "comment" : ""
-}, {
   "message" : "Response Template",
   "comment" : ""
 }, {
   "message" : "Security constraints prevent access to requested page",
   "comment" : ""
 }, {
-  "message" : "Template",
+  "message" : "Yes",
   "comment" : ""
 }, {
-  "message" : "Yes",
+  "message" : "詳細",
+  "comment" : ""
+}, {
+  "message" : "関連リスト",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -6847,14 +5893,14 @@
         <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
         <sys_created_on>2024-08-14 06:38:18</sys_created_on>
         <sys_id>fe0fec491bc412103de3fdd2cd4bcbd3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>CSM デフォルトのレコードページ 問い合わせ</sys_name>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>【廃止】CSM デフォルトのレコードページ 問い合わせ</sys_name>
         <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
         <sys_update_name>sys_ux_macroponent_fe0fec491bc412103de3fdd2cd4bcbd3</sys_update_name>
         <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
-        <sys_updated_on>2024-08-19 01:11:43</sys_updated_on>
+        <sys_updated_on>2024-09-03 05:40:01</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=fe0fec491bc412103de3fdd2cd4bcbd3"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="ce183e931b3fc6103de3fdd2cd4bcb4b" extends="x_bllt_bs_cc_case" label="問い合わせ" max_length="40" name="x_bllt_bs_cc_inquiry" type="collection">
+    <element attributes="email_client=true" audit="true" db_object_id="ce183e931b3fc6103de3fdd2cd4bcb4b" extends="x_bllt_bs_cc_case" label="問い合わせ" max_length="40" name="x_bllt_bs_cc_inquiry" type="collection">
         <element choice="1" label="エスカレーション理由" max_length="40" name="escalation_reason" type="choice">
             <choice>
-                <element inactive_on_update="false" label="取次希望" sequence="0" value="0"/>
-                <element inactive_on_update="false" label="個人情報が必要な案件" sequence="1" value="10"/>
                 <element inactive_on_update="false" label="各課から取次指定の問合せの内容の案件" sequence="2" value="20"/>
                 <element inactive_on_update="false" label="行政的な判断が必要となる要件" sequence="3" value="30"/>
                 <element inactive_on_update="false" label="CCで対応可否の判断ができなかった案件" sequence="4" value="40"/>
                 <element inactive_on_update="false" label="各課へ対応方針確認後、折返し対応" sequence="5" value="50"/>
+                <element inactive_on_update="false" label="取次希望" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="個人情報が必要な案件" sequence="1" value="10"/>
                 <element inactive_on_update="false" label="ホームページに記載がないため" sequence="6" value="60"/>
             </choice>
         </element>
-        <element label="問い合わせカテゴリ" max_length="32" name="u_inquiry_category" reference="kb_category" type="reference"/>
-        <element label="メールアドレス" max_length="40" name="u_mailaddress" type="string"/>
-        <element label="ご意見" max_length="2000" name="u_opinion" type="boolean"/>
         <element label="電話番号" max_length="40" name="u_phonenumber" type="string"/>
         <element label="不審電話" max_length="40" name="u_strange_call" type="boolean"/>
+        <element label="ご意見" max_length="2000" name="u_opinion" type="boolean"/>
+        <element label="メールアドレス" max_length="40" name="u_mailaddress" type="string"/>
+        <element label="問い合わせカテゴリ" max_length="32" name="u_inquiry_category" reference="kb_category" type="reference"/>
     </element>
 </database>

@@ -9,6 +9,7 @@
         <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>true</delete_access>
+        <is_document_table>false</is_document_table>
         <is_extendable>true</is_extendable>
         <label>CC共通テーブル</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -17,7 +18,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="ケース" name="sn_customerservice_case">065b82741b7b4a506e132f092a4bcb4b</super_class>
+        <super_class display_value="ケース" name="sn_customerservice_case">f12a8b57c3b74210e8adb01115013102</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>muramatsu.keishin</sys_created_by>
         <sys_created_on>2024-08-09 06:02:49</sys_created_on>

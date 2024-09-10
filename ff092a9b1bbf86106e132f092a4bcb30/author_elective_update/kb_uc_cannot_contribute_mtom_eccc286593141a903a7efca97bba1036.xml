@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_cannot_contribute_mtom">
+    <kb_uc_cannot_contribute_mtom action="DELETE">
+        <kb_knowledge_base display_value="もしもCCナレッジ">0dace06593141a903a7efca97bba10cf</kb_knowledge_base>
+        <sys_class_name>kb_uc_cannot_contribute_mtom</sys_class_name>
+        <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-28 06:00:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eccc286593141a903a7efca97bba1036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>もしもCCナレッジ.Guest User</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>kb_uc_cannot_contribute_mtom_eccc286593141a903a7efca97bba1036</sys_update_name>
+        <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-28 06:00:59</sys_updated_on>
+        <user_criteria display_value="Guest User">76f09af6cb1200108ad442fcf7076dbf</user_criteria>
+    </kb_uc_cannot_contribute_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>a12977c7ebbf065856eafddacad0cda9</instance_id>
+        <instance_name>democreatorwf81141</instance_name>
+        <name>kb_uc_cannot_contribute_mtom_eccc286593141a903a7efca97bba1036</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_cannot_contribute_mtom"><kb_uc_cannot_contribute_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="もしもCCナレッジ">0dace06593141a903a7efca97bba10cf</kb_knowledge_base><sys_class_name>kb_uc_cannot_contribute_mtom</sys_class_name><sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by><sys_created_on>2024-08-28 06:00:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>eccc286593141a903a7efca97bba1036</sys_id><sys_mod_count>0</sys_mod_count><sys_name>もしもCCナレッジ.Guest User</sys_name><sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package><sys_policy/><sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope><sys_update_name>kb_uc_cannot_contribute_mtom_eccc286593141a903a7efca97bba1036</sys_update_name><sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by><sys_updated_on>2024-08-28 06:00:59</sys_updated_on><user_criteria display_value="Guest User">76f09af6cb1200108ad442fcf7076dbf</user_criteria></kb_uc_cannot_contribute_mtom></record_update>]]></payload>
+        <payload_hash>1826392952</payload_hash>
+        <record_name>もしもCCナレッジ.Guest User</record_name>
+        <reverted_from/>
+        <source>ab09282593d01a903a7efca97bba10ed</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-28 06:00:59</sys_created_on>
+        <sys_id>accc286593141a903a7efca97bba1039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1919792b2830000001</sys_recorded_at>
+        <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-28 06:00:59</sys_updated_on>
+        <type>Who Cannot Contribute To Knowledge Base</type>
+        <update_guid>20cc2865f6141a902ac0c15350352e39</update_guid>
+        <update_guid_history>20cc2865f6141a902ac0c15350352e39:1826392952</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="もしもCCナレッジ.Guest User">dd48256993dc1a903a7efca97bba10ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-28 10:20:59</sys_created_on>
+        <sys_db_object display_value="" name="kb_uc_cannot_contribute_mtom">kb_uc_cannot_contribute_mtom</sys_db_object>
+        <sys_id>19b463fabfcb45a48d75ebeb543a2664</sys_id>
+        <sys_metadata>eccc286593141a903a7efca97bba1036</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>もしもCCナレッジ.Guest User</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>kb_uc_cannot_contribute_mtom_eccc286593141a903a7efca97bba1036</sys_update_name>
+        <sys_update_version display_value="kb_uc_cannot_contribute_mtom_eccc286593141a903a7efca97bba1036">accc286593141a903a7efca97bba1039</sys_update_version>
+        <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:20:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

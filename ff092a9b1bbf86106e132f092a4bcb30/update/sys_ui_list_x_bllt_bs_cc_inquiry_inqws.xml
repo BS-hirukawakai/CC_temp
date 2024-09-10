@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_bllt_bs_cc_inquiry" version="2" view="inqws">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_bllt_bs_cc_inquiry" element="NULL" name="x_bllt_bs_cc_inquiry" parent="NULL" relationship="NULL" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">4b0463efc31412d0e8adb011150131ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 00:29:37</sys_created_on>
+            <sys_id>0b0463efc31412d0e8adb011150131cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 00:29:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_bllt_bs_cc_inquiry" element="NULL" name="x_bllt_bs_cc_inquiry" parent="NULL" relationship="NULL" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">4b0463efc31412d0e8adb011150131ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 00:29:37</sys_created_on>
+            <sys_id>030463efc31412d0e8adb011150131d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 00:29:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>contact_type</element>
+            <list_id display_value="x_bllt_bs_cc_inquiry" element="NULL" name="x_bllt_bs_cc_inquiry" parent="NULL" relationship="NULL" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">4b0463efc31412d0e8adb011150131ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 00:29:37</sys_created_on>
+            <sys_id>070463efc31412d0e8adb011150131d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 00:29:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_bllt_bs_cc_inquiry" element="NULL" name="x_bllt_bs_cc_inquiry" parent="NULL" relationship="NULL" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">4b0463efc31412d0e8adb011150131ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 00:29:37</sys_created_on>
+            <sys_id>0b0463efc31412d0e8adb011150131d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 00:29:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_bllt_bs_cc_inquiry" element="NULL" name="x_bllt_bs_cc_inquiry" parent="NULL" relationship="NULL" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">4b0463efc31412d0e8adb011150131ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 00:29:37</sys_created_on>
+            <sys_id>0f0463efc31412d0e8adb011150131d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 00:29:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_bllt_bs_cc_inquiry" element="NULL" name="x_bllt_bs_cc_inquiry" parent="NULL" relationship="NULL" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">4b0463efc31412d0e8adb011150131ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 00:29:37</sys_created_on>
+            <sys_id>030463efc31412d0e8adb011150131d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 00:29:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_bllt_bs_cc_inquiry" element="NULL" name="x_bllt_bs_cc_inquiry" parent="NULL" relationship="NULL" sys_domain="global" view="6c26ca2d1b80d2103de3fdd2cd4bcb69">4b0463efc31412d0e8adb011150131ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 00:29:37</sys_created_on>
+            <sys_id>070463efc31412d0e8adb011150131d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 00:29:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_bllt_bs_cc_inquiry</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 00:29:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b0463efc31412d0e8adb011150131ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_bllt_bs_cc_inquiry</sys_name>
+            <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+            <sys_update_name>sys_ui_list_x_bllt_bs_cc_inquiry_inqws</sys_update_name>
+            <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 00:29:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="inqws" name="inqws">6c26ca2d1b80d2103de3fdd2cd4bcb69</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

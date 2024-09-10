@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>// &#13;
+// SASS Variables used in the Service Portal stylesheets&#13;
+// Lines starting with // are comments&#13;
+// Colors must use HEX color format (#000000)&#13;
+//&#13;
+&#13;
+$sp-logo-margin-x: 15px !default;&#13;
+$sp-homepage-bg: #fff !default;&#13;
+$sp-tagline-color: black !default;&#13;
+&#13;
+//### Colors ###&#13;
+$primary:			#cf1d25 !default;&#13;
+$success:			#5cb85c !default;&#13;
+$warning:			#f0ad4e !default;&#13;
+$danger:			#cf1d25 !default;&#13;
+$info:				#428bca !default;&#13;
+$gray-light:		#edf1f2 !default;&#13;
+$gray-dark:			#3a3f51 !default;&#13;
+$gray: 				lighten($sp-tagline-color, 29.02%);&#13;
+$gray-bg:			#e5e5e5 !default;&#13;
+&#13;
+$state-info-text:	$info !default;&#13;
+$state-success-text:$success !default;&#13;
+$field-success-text: darken($success,20%) !default;&#13;
+&#13;
+$state-start-bg: 	#b5ebd4 !default;&#13;
+$state-start-text:	#293e40 !default;&#13;
+&#13;
+//### Typography ###&#13;
+$text-color:		#717171 !default;&#13;
+$sp-tagline-color:	black !default;&#13;
+$text-muted: 		lighten($sp-tagline-color, 40%) !default;&#13;
+&#13;
+&#13;
+//### Navbar ###&#13;
+$navbar-default-bg: 	#f8f8f8 !default;&#13;
+&#13;
+//### Inverted Navbar ###&#13;
+$navbar-inverse-bg:	#000000 !default;&#13;
+$navbar-inverse-link-color: #ffffff !default;&#13;
+$navbar-inverse-link-hover-color: #cf1d25 !default;&#13;
+&#13;
+//### Components ###&#13;
+$body-bg:			#fefefe !default;&#13;
+$brand-primary-dark: $primary !default;&#13;
+&#13;
+$moderate-tertiary:#DDD5FB;&#13;
+$positive-tertiary:#CADFC0;&#13;
+$critical-tertiary:#F8C8CD;</css_variables>
+        <footer/>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="CSP 在庫ヘッダー ">c60d8fabc332120071d07bfaa2d3aebb</header>
+        <name>[廃止]CC_Thema</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>akimoto.miri@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-28 01:31:28</sys_created_on>
+        <sys_id>241f2f5d93d4d6903a7efca97bba1066</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>[廃止]CC_Thema</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sp_theme_241f2f5d93d4d6903a7efca97bba1066</sys_update_name>
+        <sys_updated_by>akimoto.miri@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-28 01:53:03</sys_updated_on>
+        <turn_off_scss_compilation>false</turn_off_scss_compilation>
+    </sp_theme>
+</record_update>

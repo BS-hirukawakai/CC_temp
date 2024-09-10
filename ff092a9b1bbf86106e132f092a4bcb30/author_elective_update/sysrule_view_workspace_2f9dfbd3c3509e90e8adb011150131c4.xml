@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view_workspace">
+    <sysrule_view_workspace action="DELETE">
+        <active>true</active>
+        <condition/>
+        <default_tab_focus>Details</default_tab_focus>
+        <default_tab_order>true</default_tab_order>
+        <description/>
+        <disable_section_collapse>false</disable_section_collapse>
+        <experience_restricted>true</experience_restricted>
+        <hide_details>false</hide_details>
+        <hide_journal_input_fields>false</hide_journal_input_fields>
+        <hide_section_menu>false</hide_section_menu>
+        <name>INQViewRule</name>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sysrule_view_workspace</sys_class_name>
+        <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-03 07:43:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2f9dfbd3c3509e90e8adb011150131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>INQViewRule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sysrule_view_workspace_2f9dfbd3c3509e90e8adb011150131c4</sys_update_name>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-03 07:43:35</sys_updated_on>
+        <table>x_bllt_bs_cc_inquiry</table>
+        <tabs_order>[{"label":"Details","value":"Details"},{"label":"同一アドレスの問合せ","value":"REL:c42046f81bd8da106e132f092a4bcb6c"},{"label":"同一番号の問合せ","value":"REL:57cfbdb81bd8da106e132f092a4bcbe4"},{"label":"Playbook","value":"af9f183e5368101031cdddeeff7b12c8"}]</tabs_order>
+        <view display_value="inqws" name="inqws">6c26ca2d1b80d2103de3fdd2cd4bcb69</view>
+        <workspace display_value="Agent Workspace">7b24ceae5304130084acddeeff7b12a3</workspace>
+    </sysrule_view_workspace>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>a12977c7ebbf065856eafddacad0cda9</instance_id>
+        <instance_name>democreatorwf81141</instance_name>
+        <name>sysrule_view_workspace_2f9dfbd3c3509e90e8adb011150131c4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view_workspace"><sysrule_view_workspace action="INSERT_OR_UPDATE"><active>true</active><condition/><default_tab_focus>Details</default_tab_focus><default_tab_order>true</default_tab_order><description/><disable_section_collapse>false</disable_section_collapse><experience_restricted>true</experience_restricted><hide_details>false</hide_details><hide_journal_input_fields>false</hide_journal_input_fields><hide_section_menu>false</hide_section_menu><name>INQViewRule</name><order>100</order><roles/><sys_class_name>sysrule_view_workspace</sys_class_name><sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by><sys_created_on>2024-09-03 07:43:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2f9dfbd3c3509e90e8adb011150131c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>INQViewRule</sys_name><sys_overrides/><sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package><sys_policy/><sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope><sys_update_name>sysrule_view_workspace_2f9dfbd3c3509e90e8adb011150131c4</sys_update_name><sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by><sys_updated_on>2024-09-03 07:43:35</sys_updated_on><table>x_bllt_bs_cc_inquiry</table><tabs_order>[{"label":"Details","value":"Details"},{"label":"同一アドレスの問合せ","value":"REL:c42046f81bd8da106e132f092a4bcb6c"},{"label":"同一番号の問合せ","value":"REL:57cfbdb81bd8da106e132f092a4bcbe4"},{"label":"Playbook","value":"af9f183e5368101031cdddeeff7b12c8"}]</tabs_order><view display_value="inqws" name="inqws">6c26ca2d1b80d2103de3fdd2cd4bcb69</view><workspace display_value="Agent Workspace">7b24ceae5304130084acddeeff7b12a3</workspace></sysrule_view_workspace></record_update>]]></payload>
+        <payload_hash>782639336</payload_hash>
+        <record_name>INQViewRule</record_name>
+        <reverted_from/>
+        <source>ef0b3edfc3145e90e8adb011150131d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-03 07:43:35</sys_created_on>
+        <sys_id>16cd3b17c3509e90e8adb01115013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191b6d6c9ba0000001</sys_recorded_at>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-03 07:43:35</sys_updated_on>
+        <type>View Rule</type>
+        <update_guid>96cd3b171d509e903632e99960a22a46</update_guid>
+        <update_guid_history>96cd3b171d509e903632e99960a22a46:782639336</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-03 07:44:26</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_view_workspace">sysrule_view_workspace</sys_db_object>
+        <sys_id>198e7c9a4dea4d4c89b94761f579d199</sys_id>
+        <sys_metadata>2f9dfbd3c3509e90e8adb011150131c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>INQViewRule</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>sysrule_view_workspace_2f9dfbd3c3509e90e8adb011150131c4</sys_update_name>
+        <sys_update_version display_value="sysrule_view_workspace_2f9dfbd3c3509e90e8adb011150131c4">16cd3b17c3509e90e8adb01115013147</sys_update_version>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-03 07:44:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -689,7 +689,7 @@
                             ]
                         },
                         {
-                            "eventMappingId": "cmaaccfflnaataaffmeeddffhhsdbjjhddddro",
+                            "eventMappingId": "cmaaevfloiiaadrffddffhhuddakhhjjggddd",
                             "isConfiguration": false,
                             "offRowStorageId": null,
                             "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
@@ -703,78 +703,19 @@
                             "targets": [
                                 {
                                     "broker": null,
-                                    "clientScript": null,
+                                    "clientScript": {
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {}
+                                        },
+                                        "sysId": "7545b2ba1bc416103de3fdd2cd4bcbd6"
+                                    },
                                     "conditional": null,
                                     "declarativeAction": null,
-                                    "event": {
-                                        "apiName": "x_bllt_bs_cc.NAV_ITEM_SELECTED_RELAY_e945b2ba1bc416103de3fdd2cd4bcbac",
-                                        "payload": {
-                                            "container": {
-                                                "external": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "fields": {
-                                                    "container": {
-                                                        "sysId": {
-                                                            "binding": {
-                                                                "address": [
-                                                                    "sys_id"
-                                                                ]
-                                                            },
-                                                            "type": "EVENT_PAYLOAD_BINDING"
-                                                        },
-                                                        "table": {
-                                                            "binding": {
-                                                                "address": [
-                                                                    "table"
-                                                                ]
-                                                            },
-                                                            "type": "EVENT_PAYLOAD_BINDING"
-                                                        }
-                                                    },
-                                                    "type": "MAP_CONTAINER"
-                                                },
-                                                "multiInstField": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "navigationOptions": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "params": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "passiveNavigation": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "redirect": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "route": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "inq-default-record"
-                                                },
-                                                "targetRoute": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "title": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                }
-                                            },
-                                            "type": "MAP_CONTAINER"
-                                        },
-                                        "sysId": "4627b7ba1b4c16103de3fdd2cd4bcb7d"
-                                    },
+                                    "event": null,
                                     "operation": null,
-                                    "targetId": "cmaaccfflnaataaffmffddffhhshaffaacdvi",
-                                    "type": "EVENT"
+                                    "targetId": "cmaaevflojjaadrggddffhhuxcchcceehhxbb",
+                                    "type": "CLIENT_SCRIPT"
                                 }
                             ]
                         }
@@ -2154,14 +2095,14 @@
         <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
         <sys_created_on>2024-08-20 02:54:08</sys_created_on>
         <sys_id>e945b2ba1bc416103de3fdd2cd4bcbac</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>デフォルト</sys_name>
         <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
         <sys_update_name>sys_ux_macroponent_e945b2ba1bc416103de3fdd2cd4bcbac</sys_update_name>
-        <sys_updated_by>kuniyoshi.kosuke@blueship.co.jp</sys_updated_by>
-        <sys_updated_on>2024-08-20 08:23:54</sys_updated_on>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-02 05:58:36</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=e945b2ba1bc416103de3fdd2cd4bcbac"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

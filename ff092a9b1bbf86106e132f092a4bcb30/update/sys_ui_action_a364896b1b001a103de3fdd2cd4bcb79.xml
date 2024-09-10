@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>toSuperiority</action_name>
-        <active>true</active>
-        <client>false</client>
+        <active>false</active>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
@@ -10,12 +10,12 @@
         <condition>(current.state == '10') &amp;&amp; !(current.assignment_group == 'b681b2a51bc4d2103de3fdd2cd4bcb6d')  &amp;&amp;  gs.hasRole('x_bllt_bs_cc.CC職員') </condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
-        <form_button_v2>false</form_button_v2>
+        <form_button_v2>true</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
-        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
         <hint/>
         <isolate_script>false</isolate_script>
         <list_action>false</list_action>
@@ -40,14 +40,14 @@ current.update();]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
-        <show_update>true</show_update>
+        <show_update>false</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>nagatomo.kaito@blueship.co.jp</sys_created_by>
         <sys_created_on>2024-08-22 02:46:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a364896b1b001a103de3fdd2cd4bcb79</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_name>上席へエスカレーション</sys_name>
         <sys_overrides/>
         <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
@@ -55,7 +55,7 @@ current.update();]]></script>
         <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
         <sys_update_name>sys_ui_action_a364896b1b001a103de3fdd2cd4bcb79</sys_update_name>
         <sys_updated_by>nagatomo.kaito@blueship.co.jp</sys_updated_by>
-        <sys_updated_on>2024-08-23 07:44:20</sys_updated_on>
+        <sys_updated_on>2024-09-04 08:17:42</sys_updated_on>
         <table>x_bllt_bs_cc_inquiry</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_client_template">
+    <sys_email_client_template action="INSERT_OR_UPDATE">
+        <blind_copied/>
+        <body/>
+        <body_html><![CDATA[<p>${mail_script:cc_mail_template_body}</p>
+<p>&nbsp;</p>]]></body_html>
+        <condition/>
+        <content_type>text/html</content_type>
+        <copied/>
+        <email_client_from_address/>
+        <from/>
+        <from_generation_type/>
+        <include_attachments>false</include_attachments>
+        <name>問い合わせ回答テンプレート（ナレッジあり）</name>
+        <order>90</order>
+        <recipients>javascript:current.u_mailaddress</recipients>
+        <reply_to/>
+        <script_from><![CDATA[(function (fromAddressQuery, targetRecord) {
+		/**
+		 * fromAddressQuery: A GlideRecord on the table "sys_email_client_from_address". Add conditions to filter the
+		 * 		the email addresses displayed in the Email Client. 
+		 * targetRecord: A GlideRecord representing the record in which the Email Client was opened from
+		 */
+
+})(fromAddressQuery, targetRecord);]]></script_from>
+        <subject>お問い合わせいただきました、「${short_description}」についてのご回答です。</subject>
+        <sys_class_name>sys_email_client_template</sys_class_name>
+        <sys_created_by>iida.rio@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-28 06:33:23</sys_created_on>
+        <sys_id>92a3f02d93541a903a7efca97bba100d</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>問い合わせ回答テンプレート（ナレッジあり）</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_email_client_template_92a3f02d93541a903a7efca97bba100d</sys_update_name>
+        <sys_updated_by>iida.rio@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:54:13</sys_updated_on>
+        <table>x_bllt_bs_cc_inquiry</table>
+    </sys_email_client_template>
+</record_update>

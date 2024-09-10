@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-21 04:38:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>02d6501f1b4496103de3fdd2cd4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>m2m_app_config_theme_02d6501f1b4496103de3fdd2cd4bcbcb</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-21 04:38:54</sys_updated_on>
+        <theme/>
+        <ux_app_configuration display_value="INQ">4f702efa1b4416103de3fdd2cd4bcb97</ux_app_configuration>
+    </m2m_app_config_theme>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>a12977c7ebbf065856eafddacad0cda9</instance_id>
+        <instance_name>democreatorwf81141</instance_name>
+        <name>m2m_app_config_theme_02d6501f1b4496103de3fdd2cd4bcbcb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-21 04:38:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>02d6501f1b4496103de3fdd2cd4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>m2m_app_config_theme_02d6501f1b4496103de3fdd2cd4bcbcb</sys_update_name>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-21 04:38:54</sys_updated_on>
+        <theme/>
+        <ux_app_configuration display_value="INQ">4f702efa1b4416103de3fdd2cd4bcb97</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>]]></payload>
+        <payload_hash>2061090360</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>4c666f3893d092903a7efca97bba1013</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-26 11:36:45</sys_created_on>
+        <sys_id>2f66677893d092903a7efca97bba10e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1918e7962600000001</sys_recorded_at>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-26 11:36:45</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>eb66677831d092909286b60ba71ec2e8</update_guid>
+        <update_guid_history>eb66677831d092909286b60ba71ec2e8:2061090360</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d099fa8dc354d650e8adb011150131ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-27 02:59:12</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>9a25fba910fc4538b378939d800f8310</sys_id>
+        <sys_metadata>02d6501f1b4496103de3fdd2cd4bcbcb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_02d6501f1b4496103de3fdd2cd4bcbcb</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_02d6501f1b4496103de3fdd2cd4bcbcb">2f66677893d092903a7efca97bba10e8</sys_update_version>
+        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-27 02:59:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

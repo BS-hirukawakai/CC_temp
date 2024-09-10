@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputTable": "task",
+        "inputSysId": "",
+        "inputQuery": "",
+        "forcedViewName": "",
+        "detailsContext": {},
+        "activityLogs": null,
+        "inputExtraParams": "",
+        "screen": null,
+        "fields": null,
+        "userPrefs": null,
+        "selectedTabIndex": 0,
+        "inputActionLayoutId": "",
+        "shouldDisplayFormErrorsAsPageAlerts": false,
+        "shouldSuppressGlobalEvents": false
+    },
+    "a4a0fbae64611110fa9baad96557fb37": {},
+    "625bc24c43f51110772811618bb8f253": {
+        "sysId": "ad76ace593501a903a7efca97bba105d",
+        "tableName": "x_bllt_bs_cc_inquiry"
+    },
+    "ff29f706f8266110f8779039584d84c2": {
+        "sysId": "ad76ace593501a903a7efca97bba105d",
+        "tableName": "x_bllt_bs_cc_inquiry"
+    },
+    "819f84251b347910a96e76a9cc4bcbc0": {
+        "sysId": "ad76ace593501a903a7efca97bba105d",
+        "table": "x_bllt_bs_cc_inquiry"
+    },
+    "table": "task",
+    "sysId": "90aac85793b702103a7efca97bba1080",
+    "query": "",
+    "views": "",
+    "activityLogs": "",
+    "extraParams": "",
+    "screen": "",
+    "fields": "",
+    "userPrefs": "",
+    "selectedTabIndex": ""
+}</macroponent_config>
+        <screen display_value="&quot;[ドラフトメール] ページ&quot;">e5f846cac31c1290e8adb0111501312a</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-30 02:00:46</sys_created_on>
+        <sys_id>e1f846cac31c1290e8adb01115013130</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_e1f846cac31c1290e8adb01115013130</sys_update_name>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-02 04:30:34</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

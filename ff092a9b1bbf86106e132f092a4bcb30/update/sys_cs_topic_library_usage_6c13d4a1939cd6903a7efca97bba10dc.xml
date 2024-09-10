@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_library_usage">
+    <sys_cs_topic_library_usage action="INSERT_OR_UPDATE">
+        <calling_cs_topic_id display_value="csp_va_flow_main">1c13d4a1939cd6903a7efca97bba10c9</calling_cs_topic_id>
+        <library_cs_topic_id display_value="Request Catalog Item CC Custom">735d4c63c3149e90e8adb011150131e6</library_cs_topic_id>
+        <library_usage>{"type":"LibraryCall","library_topic_name":"Request Catalog Item CC Custom","library_topic_id":"735d4c63c3149e90e8adb011150131e6","library_topic_is_template":false,"parameter-mappings":[{"parameter-name":"catalog_item_id","value":{"type":"String","mode":"string","value":"1a1b9fa41b0092106e132f092a4bcb5e"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"execute_contextual_search","value":{"type":"String","mode":"string","value":"false"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"confirm_catalog_item","value":{"type":"String","mode":"string","value":"false"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"show_end_state_card","value":{"type":"String","mode":"string","value":"true"},"metadata":{"type":"True/False","list":false,"items":[],"use_items":false}},{"parameter-name":"hello","value":{"type":"String","mode":"string","value":"{{vaInputs.hello}}"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}}],"return-value-mappings":[{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"record_id","main_topic_mapped_variable_name":"record_id1"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"record_table","main_topic_mapped_variable_name":"record_table1"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"variables","main_topic_mapped_variable_name":"variables1"}],"id":"114f05f3610748819832045e1d1096ce","name":"Request Catalog Item CC Custom","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false}</library_usage>
+        <node_id>114f05f3610748819832045e1d1096ce</node_id>
+        <sys_class_name>sys_cs_topic_library_usage</sys_class_name>
+        <sys_created_by>doiguchi.kazuya@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-28 04:08:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6c13d4a1939cd6903a7efca97bba10dc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_cs_topic_library_usage_6c13d4a1939cd6903a7efca97bba10dc</sys_update_name>
+        <sys_updated_by>doiguchi.kazuya@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-03 08:59:06</sys_updated_on>
+    </sys_cs_topic_library_usage>
+</record_update>

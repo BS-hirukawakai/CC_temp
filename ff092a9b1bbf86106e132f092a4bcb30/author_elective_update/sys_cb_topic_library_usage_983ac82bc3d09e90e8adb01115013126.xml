@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_library_usage">
+    <sys_cb_topic_library_usage action="DELETE">
+        <calling_cb_topic_id display_value="csp_va_flow_main">14f2c06593d8d6903a7efca97bba10d7</calling_cb_topic_id>
+        <library_cb_topic_id display_value="Request Catalog Item CC Custom">3bd980e7c3d09e90e8adb01115013192</library_cb_topic_id>
+        <sys_class_name>sys_cb_topic_library_usage</sys_class_name>
+        <sys_created_by>doiguchi.kazuya@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-03 08:37:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>983ac82bc3d09e90e8adb01115013126</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_cb_topic_library_usage_983ac82bc3d09e90e8adb01115013126</sys_update_name>
+        <sys_updated_by>doiguchi.kazuya@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-03 08:37:47</sys_updated_on>
+    </sys_cb_topic_library_usage>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>a12977c7ebbf065856eafddacad0cda9</instance_id>
+        <instance_name>democreatorwf81141</instance_name>
+        <name>sys_cb_topic_library_usage_983ac82bc3d09e90e8adb01115013126</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_library_usage"><sys_cb_topic_library_usage action="INSERT_OR_UPDATE"><calling_cb_topic_id display_value="csp_va_flow_main">14f2c06593d8d6903a7efca97bba10d7</calling_cb_topic_id><library_cb_topic_id display_value="Request Catalog Item CC Custom">3bd980e7c3d09e90e8adb01115013192</library_cb_topic_id><sys_class_name>sys_cb_topic_library_usage</sys_class_name><sys_created_by>doiguchi.kazuya@blueship.co.jp</sys_created_by><sys_created_on>2024-09-03 08:37:47</sys_created_on><sys_domain>global</sys_domain><sys_id>983ac82bc3d09e90e8adb01115013126</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package><sys_policy/><sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope><sys_update_name>sys_cb_topic_library_usage_983ac82bc3d09e90e8adb01115013126</sys_update_name><sys_updated_by>doiguchi.kazuya@blueship.co.jp</sys_updated_by><sys_updated_on>2024-09-03 08:37:47</sys_updated_on></sys_cb_topic_library_usage></record_update>]]></payload>
+        <payload_hash>-635102151</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>78df7b5d9398d6903a7efca97bba1050</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>doiguchi.kazuya@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-03 08:37:47</sys_created_on>
+        <sys_id>5c3ac82bc3d09e90e8adb01115013128</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191b70868900000001</sys_recorded_at>
+        <sys_updated_by>doiguchi.kazuya@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-03 08:37:47</sys_updated_on>
+        <type>Topic Library Usage</type>
+        <update_guid>103ac82b33d09e9002e163897790ac28</update_guid>
+        <update_guid_history>103ac82b33d09e9002e163897790ac28:-635102151</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>doiguchi.kazuya@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-03 08:49:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic_library_usage">sys_cb_topic_library_usage</sys_db_object>
+        <sys_id>93cf2b03d90348beb8724b71aa7460b9</sys_id>
+        <sys_metadata>983ac82bc3d09e90e8adb01115013126</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_library_usage_983ac82bc3d09e90e8adb01115013126</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_library_usage_983ac82bc3d09e90e8adb01115013126">5c3ac82bc3d09e90e8adb01115013128</sys_update_version>
+        <sys_updated_by>doiguchi.kazuya@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-03 08:49:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

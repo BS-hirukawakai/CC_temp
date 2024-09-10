@@ -2,6 +2,7 @@
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
         <active>true</active>
+        <additional_review>false</additional_review>
         <allow_edit>false</allow_edit>
         <availability>on_desktop</availability>
         <billable>false</billable>
@@ -9,6 +10,7 @@
         <category display_value="青船市お問い合わせ窓口">6360e72c1b0092106e132f092a4bcb10</category>
         <checked_out/>
         <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
@@ -31,7 +33,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>お問い合わせフォーム</name>
+        <name>Inquiry Form</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -47,7 +49,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="kai hirukawa">89c7c7691b9f02106e132f092a4bcb53</owner>
+        <owner display_value="kai hirukawa">210cde7893d452903a7efca97bba10fd</owner>
         <picture/>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
@@ -83,11 +85,11 @@
 */
 
 //申請後にcspページに遷移させる
-producer.portal_redirect = "csp?id=csp_index";
+producer.portal_redirect = "cc?id=cc_index";
 
 //申請完了メッセージの表示
-gs.addInfoMessage(gs.getMessage('問い合わせの送信が完了しました。\nご入力いただきましたメールアドレス宛てに回答を差し上げます。'));]]></script>
-        <short_description>市へのお問い合わせはこちらから</short_description>
+gs.addInfoMessage(gs.getMessage('Your inquiry has been sent. We will reply to the e-mail address you entered.'));]]></script>
+        <short_description>Click here to contact the City.</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
@@ -95,14 +97,14 @@ gs.addInfoMessage(gs.getMessage('問い合わせの送信が完了しました�
         <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
         <sys_created_on>2024-08-13 05:58:15</sys_created_on>
         <sys_id>1a1b9fa41b0092106e132f092a4bcb5e</sys_id>
-        <sys_mod_count>27</sys_mod_count>
-        <sys_name>お問い合わせフォーム</sys_name>
+        <sys_mod_count>81</sys_mod_count>
+        <sys_name>Inquiry Form</sys_name>
         <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
         <sys_update_name>sc_cat_item_producer_1a1b9fa41b0092106e132f092a4bcb5e</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-08-26 08:08:22</sys_updated_on>
+        <sys_updated_on>2024-09-04 09:08:09</sys_updated_on>
         <table_name>x_bllt_bs_cc_inquiry</table_name>
         <taxonomy_topic/>
         <template/>
@@ -111,7 +113,7 @@ gs.addInfoMessage(gs.getMessage('問い合わせの送信が完了しました�
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>27</version>
+        <version>81</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

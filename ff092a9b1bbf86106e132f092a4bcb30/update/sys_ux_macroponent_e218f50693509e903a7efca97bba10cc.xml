@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "1b22584e9eef62e459e90fa9ec495a4f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "email_composer_1",
+        "elementLabel": "Email composer 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "5eaab08d6314088e41409c303674622a",
+                        "type": "MACROPONENT_VIEWPORT"
+                    },
+                    "elementId": "contextual_sidebar_1",
+                    "elementLabel": "Contextual sidebar 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "collapsable": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "defaultCollapsed": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "defaultRoute": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "hideLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "position": {
+                            "type": "JSON_LITERAL",
+                            "value": "right"
+                        },
+                        "viewportConfiguration": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "enableDataDrivenTabs": false,
+                                "validation": {
+                                    "icon": {
+                                        "required": true
+                                    },
+                                    "name": {
+                                        "required": true
+                                    },
+                                    "order": {
+                                        "required": false
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "slot": "sidebar-slot",
+                    "styles": null
+                }
+            ]
+        },
+        "preset": null,
+        "propertyValues": {
+            "extraParams": {
+                "binding": {
+                    "address": [
+                        "extraParams"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "insertLinkInEmail": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "isCompact": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "replyId": {
+                "script": {
+                    "apiVersion": "2.0.0",
+                    "controllerElementId": null,
+                    "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperty({api, helpers}) {\n    if(api.context.props.replyId) {\n      return api.context.props.replyId;\n    }\n\n    if(api.state.params.replyId) {\n      return api.state.params.replyId;\n    }\n\n    if(api.context.props.extraParams) {\n      const extraParams = api.context.props.extraParams.split('/');\n      const params = extraParams.reduce((result, currentValue, currentIndex, arr) =&gt; {\n              if (currentIndex % 2 != 0) {\n                  result[arr[currentIndex - 1]] = currentValue;\n              }\n              return result;\n          },\n          {}\n      );\n      return params[\"replyId\"];\n    }\n}",
+                    "scriptSysId": "771835c293509e903a7efca97bba106b",
+                    "target": null
+                },
+                "type": "CLIENT_TRANSFORM_SCRIPT"
+            },
+            "replyType": {
+                "script": {
+                    "apiVersion": "2.0.0",
+                    "controllerElementId": null,
+                    "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperty({api, helpers}) {\n    if(api.context.props.replyType) {\n      return api.context.props.replyType;\n    }\n\n    if(api.state.params.replyType) {\n      return api.state.params.replyType;\n    }\n\n    if(api.context.props.extraParams) {\n      const extraParams = api.context.props.extraParams.split('/');\n      const params = extraParams.reduce((result, currentValue, currentIndex, arr) =&gt; {\n              if (currentIndex % 2 != 0) {\n                  result[arr[currentIndex - 1]] = currentValue;\n              }\n              return result;\n          },\n          {}\n      );\n      return params[\"replyType\"];\n    }\n}",
+                    "scriptSysId": "371835c293509e903a7efca97bba106b",
+                    "target": null
+                },
+                "type": "CLIENT_TRANSFORM_SCRIPT"
+            },
+            "sendEmailButtonVariant": {
+                "type": "JSON_LITERAL",
+                "value": "primary"
+            },
+            "showCreateNewEmail": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "showDiscardDraft": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "showEmailDetails": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "showViewDrafts": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "sidebarDefaultDividerPosition": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "sidebarDisabled": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "sidebarRatioPreference": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "sidebarRightPaneConstraints": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "sysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "targetRecord": {
+                "script": {
+                    "apiVersion": "2.0.0",
+                    "controllerElementId": null,
+                    "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperty({api, helpers}) {\n    if(api.context.props.parentSysId) {\n      return api.context.props.parentSysId;\n    }\n\n    if(api.state.params.parentSysId) {\n      return api.state.params.parentSysId;\n    }\n\n    if(api.context.props.extraParams) {\n      const extraParams = api.context.props.extraParams.split('/');\n      const params = extraParams.reduce((result, currentValue, currentIndex, arr) =&gt; {\n              if (currentIndex % 2 != 0) {\n                  result[arr[currentIndex - 1]] = currentValue;\n              }\n              return result;\n          },\n          {}\n      );\n      return params[\"parentSysId\"];\n    }\n}",
+                    "scriptSysId": "f31835c293509e903a7efca97bba106b",
+                    "target": null
+                },
+                "type": "CLIENT_TRANSFORM_SCRIPT"
+            },
+            "targetTable": {
+                "script": {
+                    "apiVersion": "2.0.0",
+                    "controllerElementId": null,
+                    "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperty({api, helpers}) {\n    if(api.context.props.parentTable) {\n      return api.context.props.parentTable;\n    }\n\n    if(api.state.params.parentTable) {\n      return api.state.params.parentTable;\n    }\n\n    if(api.context.props.extraParams) {\n      const extraParams = api.context.props.extraParams.split('/');\n      const params = extraParams.reduce((result, currentValue, currentIndex, arr) =&gt; {\n              if (currentIndex % 2 != 0) {\n                  result[arr[currentIndex - 1]] = currentValue;\n              }\n              return result;\n          },\n          {}\n      );\n      return params[\"parentTable\"];\n    }\n}",
+                    "scriptSysId": "b31835c293509e903a7efca97bba106b",
+                    "target": null
+                },
+                "type": "CLIENT_TRANSFORM_SCRIPT"
+            },
+            "templateDetails": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "0b84084c536910105a20ddeeff7b124b",
+            "type": "GRAPHQL"
+        },
+        "dependencies": {},
+        "elementId": "save_user_preference_1",
+        "elementLabel": "Save User Preference 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "name": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "value": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    },
+    {
+        "definition": {
+            "id": "21f155c65310101024e5ddeeff7b1210",
+            "type": "GRAPHQL"
+        },
+        "dependencies": {},
+        "elementId": "gliderecord_collection_query_1",
+        "elementLabel": "GlideRecord Collection Query 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "encodedQuery": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": "1000"
+            },
+            "offset": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "orderBy": {
+                "type": "JSON_LITERAL"
+            },
+            "queryCategory": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL"
+            },
+            "returnRowCount": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "returnTableMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "sortType": {
+                "type": "JSON_LITERAL",
+                "value": "asc"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "cxs_table_config"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "email_composer_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>INQ mail draft</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "テーブル",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "SysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "extraParams",
+        "mandatory": false,
+        "name": "extraParams",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "cmaagaatzfkaaeeaagddffiibbaajobbeeccjjii",
+        "inherited": false,
+        "label": "query",
+        "mandatory": false,
+        "name": "query",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "cmaagaatzfkaaeeaahddffiibbaaffxkiivir",
+        "inherited": false,
+        "label": "views",
+        "mandatory": false,
+        "name": "views",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "cmaagaatzfkaaeeaaiddffiibbkgiigjjddpo",
+        "inherited": false,
+        "label": "activityLogs",
+        "mandatory": false,
+        "name": "activityLogs",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "cmaagaatzfkaaeeaajddffiibbjqkcffdwm",
+        "inherited": false,
+        "label": "fields",
+        "mandatory": false,
+        "name": "fields",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "cmaagaatzfkaaeeaakddffiibbiittcczhggq",
+        "inherited": false,
+        "label": "screen",
+        "mandatory": false,
+        "name": "screen",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "cmaagaatzfkaaeeaalddffiibbxacmbbffeea",
+        "inherited": false,
+        "label": "selectedTabIndex",
+        "mandatory": false,
+        "name": "selectedTabIndex",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "cmaagaatzfkaaeeaamddffiibbwmtthiipjj",
+        "inherited": false,
+        "label": "userPrefs",
+        "mandatory": false,
+        "name": "userPrefs",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-30 00:47:07</sys_created_on>
+        <sys_id>e218f50693509e903a7efca97bba10cc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>INQ mail draft</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ux_macroponent_e218f50693509e903a7efca97bba10cc</sys_update_name>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-30 01:16:42</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=e218f50693509e903a7efca97bba10cc"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>e218f50693509e903a7efca97bba10cc</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-30 00:47:07</sys_created_on>
+        <sys_id>6a18f50693509e903a7efca97bba10cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-30 00:47:07</sys_updated_on>
+        <tablename>sys_ux_macroponent</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="78c3074793981ad03a7efca97bba1036" sys_domain="global" table="interactioninteraction" version="3" view="">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>interactioninteraction</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-02 08:51:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78c3074793981ad03a7efca97bba1036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>interactioninteraction</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+            <sys_update_name>sys_ui_section_78c3074793981ad03a7efca97bba1036</sys_update_name>
+            <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-02 08:51:36</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="デフォルトビュー" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

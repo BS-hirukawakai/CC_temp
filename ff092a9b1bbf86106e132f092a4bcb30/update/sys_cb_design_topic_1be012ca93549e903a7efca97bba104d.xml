@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="csp_va_flow_main 3">f6e0de8a93549e903a7efca97bba10f1</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"22db04e4c7fc497a868c171988e058d7","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"22db04e4c7fc497a868c171988e058d7"}],"goals":[{"name":"primary","trigger_id":"22db04e4c7fc497a868c171988e058d7","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"8b981f5fd84b4d738b9899880237e178","name":"Start","expert_mode":false},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"58c07a799ddc41618317c84de836985d","name":"End","expert_mode":false},{"type":"InputPrompt","variable_id":"9d0b79f552d34ca0a5eda4a1c33afc28","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"How can we help you?\", vaContext.getRequesterLang())"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"request_feedback":true,"skippable":{"type":"Applicability","mode":"script","value":"false"},"skipreprompt":{"type":"Applicability","mode":"script","value":"false"},"id":"b97e00468f5240f3a4e71781333cf8a8","name":"hello","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"formatType":"Text","validationScript":"","description":""},{"type":"LibraryCall","library_topic_name":"AI Search","library_topic_id":"b19775fa536310103296ddeeff7b12ff","library_topic_is_template":false,"parameter-mappings":[{"parameter-name":"search_term","value":{"type":"String","mode":"string","value":"{{vaInputs.hello}}"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"search_application_configuration","value":{"type":"String","mode":"string","value":"492f958dc30101103f4fcd7b7940dd2a"},"metadata":{"type":"Reference","list":false,"items":[],"use_items":false,"table":"sys_search_context_config"}},{"parameter-name":"ask_another_search","value":{"type":"String","mode":"string","value":"false"},"metadata":{"type":"True/False","list":false,"items":[],"use_items":false}}],"return-value-mappings":[{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"geniussearchresults","main_topic_mapped_variable_name":"geniussearchresults"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"searchresults","main_topic_mapped_variable_name":"searchresults"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"shouldaskinfohelpful","main_topic_mapped_variable_name":"shouldaskinfohelpful"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"newsearchterm","main_topic_mapped_variable_name":"newsearchterm"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"shouldrunfallbacktopic","main_topic_mapped_variable_name":"shouldrunfallbacktopic"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"searchmetadata","main_topic_mapped_variable_name":"searchmetadata"}],"id":"408d5dec69734592abeb28a7bb6b128d","name":"AI Search","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false},{"type":"ChoiceInputPrompt","expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"id":"b2218f86251f41a89995135b23613ef8","name":"Get Resolved","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"variable_id":"e7d2861b370c4aa8bc43662680d8c52c","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"No results were found. Would you like to make further inquiries about this matter?\", vaContext.getRequesterLang())"},"request_feedback":false,"skippable":{"type":"Applicability","mode":"script","value":"false"},"skipreprompt":{"type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"description":""},{"type":"Decision","name":"Decision","branches":[{"type":"Branch","label":"yes","expression":{"type":"Applicability","mode":"query","value":"get_resolved=Yes^NQvaInputs.more_inquiries=Yes"},"id":"a2e36d5fdba5465c875e2d051ee67301","name":"yes","expert_mode":false},{"type":"Branch","label":"no","expression":{"type":"Applicability","mode":"query","value":"get_resolved=No^NQvaInputs.more_inquiries=No"},"id":"8364f9adfc314f79a3b9eef5e41ae174","name":"no","expert_mode":false}],"id":"dba5eff8a4e2479badeb9a43a7551229","goal_id":"primary","expert_mode":false},{"type":"LibraryCall","library_topic_name":"Request Catalog Item","library_topic_id":"a39acd71c3a3330012d1758a7ff57eb6","library_topic_is_template":false,"parameter-mappings":[{"parameter-name":"catalog_item_id","value":{"type":"String","mode":"string","value":"1a1b9fa41b0092106e132f092a4bcb5e"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"execute_contextual_search","value":{"type":"String","mode":"string","value":"false"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"confirm_catalog_item","value":{"type":"String","mode":"string","value":"false"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"show_end_state_card","value":{"type":"String","mode":"string","value":"true"},"metadata":{"type":"True/False","list":false,"items":[],"use_items":false}}],"return-value-mappings":[{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"record_id","main_topic_mapped_variable_name":"record_id"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"record_table","main_topic_mapped_variable_name":"record_table"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"variables","main_topic_mapped_variable_name":"variables"}],"id":"6f4ca55d5d164a11b8b4e5849bedab16","name":"Request Catalog Item","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false},{"type":"ScriptedAction","script":"(function execute() {\n    vaSystem.endConversation();\n    vaSystem.switchTopicById('4f5b795950d6b110f87780049c17ae27', 'resume');\n})()","id":"1dc4807e9b034b9b86a48d5e775558bf","name":"Close and Restart Conversation","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false},{"type":"Decision","name":"Decision","branches":[{"type":"Branch","label":" notExistSearchResults","expression":{"type":"Applicability","mode":"query","value":"searchresultsISEMPTY"},"id":"71c8aedc517c4a5a89b120e1056ae1cb","name":" notExistSearchResults","expert_mode":false},{"type":"Branch","label":" existSearchResults","expression":{"type":"Applicability","mode":"query","value":"searchresultsISNOTEMPTY"},"id":"4e4514869b5e4df692e700c281b5d8c9","name":" existSearchResults","expert_mode":false}],"id":"a14ccc6a26034f3f8c3222ab7eaf921c","goal_id":"primary","expert_mode":false},{"type":"ChoiceInputPrompt","expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"id":"5c628ad4da914b4dbfb6d89f98f00a14","name":"more inquiries","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"variable_id":"9775ffb92aca4c6a89121304a0afa3b0","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Would you like to make further inquiries about this matter?\", vaContext.getRequesterLang())"},"request_feedback":false,"skippable":{"type":"Applicability","mode":"script","value":"false"},"skipreprompt":{"type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"description":""}],"edges":[{"type":"Edge","source_node_id":"8b981f5fd84b4d738b9899880237e178","target_node_id":"b97e00468f5240f3a4e71781333cf8a8","id":"10a8b27cd8ce4188970ae6c1ff3d6ddc"},{"type":"Edge","source_node_id":"b97e00468f5240f3a4e71781333cf8a8","target_node_id":"408d5dec69734592abeb28a7bb6b128d","id":"9e5979b1adf4484a81bc823176603bad"},{"type":"Edge","source_node_id":"b2218f86251f41a89995135b23613ef8","target_node_id":"dba5eff8a4e2479badeb9a43a7551229","id":"aa6fbdf9b07b4b17989306b870ae6088"},{"type":"Edge","source_node_id":"dba5eff8a4e2479badeb9a43a7551229","target_node_id":"6f4ca55d5d164a11b8b4e5849bedab16","branch_id":"a2e36d5fdba5465c875e2d051ee67301","id":"856e9368e4c54f94a63da6c21e10a966","name":"a2e36d5fdba5465c875e2d051ee67301"},{"type":"Edge","source_node_id":"dba5eff8a4e2479badeb9a43a7551229","target_node_id":"1dc4807e9b034b9b86a48d5e775558bf","branch_id":"8364f9adfc314f79a3b9eef5e41ae174","id":"65562ca5e9334e03b2ee19b607b66f1a","name":"8364f9adfc314f79a3b9eef5e41ae174"},{"type":"Edge","source_node_id":"6f4ca55d5d164a11b8b4e5849bedab16","target_node_id":"1dc4807e9b034b9b86a48d5e775558bf","id":"9dda2e3874404ab5a46992b547533213"},{"type":"Edge","source_node_id":"1dc4807e9b034b9b86a48d5e775558bf","target_node_id":"58c07a799ddc41618317c84de836985d","id":"334baf21c53b4ce590e0749e6ebd8d9b"},{"type":"Edge","source_node_id":"408d5dec69734592abeb28a7bb6b128d","target_node_id":"a14ccc6a26034f3f8c3222ab7eaf921c","id":"6ba40f30b73d4979a2ccd4c9f4f1fee7"},{"type":"Edge","source_node_id":"a14ccc6a26034f3f8c3222ab7eaf921c","target_node_id":"b2218f86251f41a89995135b23613ef8","branch_id":"71c8aedc517c4a5a89b120e1056ae1cb","id":"d1118621879a4d3d9fb243f02a00c102","name":"71c8aedc517c4a5a89b120e1056ae1cb"},{"type":"Edge","source_node_id":"a14ccc6a26034f3f8c3222ab7eaf921c","target_node_id":"5c628ad4da914b4dbfb6d89f98f00a14","branch_id":"4e4514869b5e4df692e700c281b5d8c9","id":"9f6330cb5e874a33a030541c93e47436","name":"4e4514869b5e4df692e700c281b5d8c9"},{"type":"Edge","source_node_id":"5c628ad4da914b4dbfb6d89f98f00a14","target_node_id":"dba5eff8a4e2479badeb9a43a7551229","id":"273874c3578a4529adc890b6bb309384"}],"id":"primary"}],"script_variables":[{"type":"String","name":"LiveAgent_portal","value":{"type":"String","mode":"string"},"list":false,"id":"266c99ac8d2748f88e368573e9e4d008","formatType":"text","secure":false,"sensitive":false,"aiInput":false}],"glide_variables":[{"type":"Reference","table":"sys_user","id":"01413f936a9d4626a395800e47c2b379","name":"user","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false},{"type":"String","name":"hello","list":false,"id":"9d0b79f552d34ca0a5eda4a1c33afc28","formatType":"Text","validationScript":"","secure":false,"sensitive":false,"aiInput":false},{"type":"Choice","choices":[{"name":"Yes","element":"Yes"},{"name":"No","element":"No"}],"id":"e7d2861b370c4aa8bc43662680d8c52c","name":"get_resolved","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false,"label":"Get Resolved"},{"type":"String","name":"record_id","list":false,"id":"91adc911c2a24213982de3cc9289c485","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false,"aiInput":false},{"type":"String","name":"record_table","list":false,"id":"657ba71eed8044929ff16e87d91fd8a9","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false,"aiInput":false},{"type":"String","name":"variables","list":false,"id":"b4e9046c04344f34ab738938f9c5855c","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false,"aiInput":false},{"type":"String","name":"geniussearchresults","list":false,"id":"3433805fab834a88be05f1246e0a9074","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false,"aiInput":false},{"type":"String","name":"searchresults","list":false,"id":"78cbf65513144285950fe9602e7b8c62","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false,"aiInput":false},{"type":"String","name":"shouldaskinfohelpful","list":false,"id":"e7d64ee793be49afb2ff69f2bfd145d7","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false,"aiInput":false},{"type":"String","name":"newsearchterm","list":false,"id":"7e6f19b701194dce89bf8bbb63811e3a","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false,"aiInput":false},{"type":"String","name":"shouldrunfallbacktopic","list":false,"id":"e2d1fa477caa4797a117dd8273e95799","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false,"aiInput":false},{"type":"String","name":"searchmetadata","list":false,"id":"fc14fd7171e8420e8faf392c45eb1284","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false,"aiInput":false},{"type":"Choice","choices":[{"name":"Yes","element":"Yes"},{"name":"No","element":"No"}],"id":"9775ffb92aca4c6a89121304a0afa3b0","name":"more_inquiries","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false,"label":"More Inquiries"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":["public"],"scope":"ff092a9b1bbf86106e132f092a4bcb30","domain":"global","topic_type":"SETUP_TOPIC","channels":[],"dialog_acts_enabled":false,"id":"e870920a93549e903a7efca97bba107c","name":"csp_va_flow_main 3","key_phrases":["csp_va_flow_main 3","csp_va_flow_main 2","csp_va_flow_main"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"description":"CSPポータルにて使用するメインフロー\nNLUにて作成","model_type":"nlu_keyword","foundational":false,"modify_confirmation_enabled":false,"context_profiles":[],"title":"csp_va_flow_main 3","library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>e870920a93549e903a7efca97bba107c</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.66",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "8b981f5fd84b4d738b9899880237e178": {
+          "id": "8b981f5fd84b4d738b9899880237e178",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "58c07a799ddc41618317c84de836985d": {
+          "id": "58c07a799ddc41618317c84de836985d",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "b97e00468f5240f3a4e71781333cf8a8": {
+          "id": "b97e00468f5240f3a4e71781333cf8a8",
+          "stepType": "TextPrompt",
+          "name": "hello",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "How can we help you?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "9d0b79f552d34ca0a5eda4a1c33afc28",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "408d5dec69734592abeb28a7bb6b128d": {
+          "id": "408d5dec69734592abeb28a7bb6b128d",
+          "stepType": "ReusableTopic",
+          "name": "AI Search",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "useTemplateTopic": false,
+          "reusableTopicChoice": "AI Search",
+          "reusableTopicId": "b19775fa536310103296ddeeff7b12ff",
+          "inputs": {
+            "search_term": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.hello}}",
+                        "displayValue": "入力変数➛Hello"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "search_application_configuration": {
+              "value": "492f958dc30101103f4fcd7b7940dd2a",
+              "mode": "string",
+              "type": "Reference",
+              "table": "sys_search_context_config"
+            },
+            "ask_another_search": {
+              "value": "false",
+              "mode": "simple",
+              "type": "True/False"
+            }
+          },
+          "outputs": [
+            {
+              "id": "3433805fab834a88be05f1246e0a9074",
+              "value": "geniussearchresults",
+              "mapping": "geniussearchresults",
+              "preventDisable": false
+            },
+            {
+              "id": "78cbf65513144285950fe9602e7b8c62",
+              "value": "searchresults",
+              "mapping": "searchresults",
+              "preventDisable": false
+            },
+            {
+              "id": "e7d64ee793be49afb2ff69f2bfd145d7",
+              "value": "shouldaskinfohelpful",
+              "mapping": "shouldaskinfohelpful",
+              "preventDisable": false
+            },
+            {
+              "id": "7e6f19b701194dce89bf8bbb63811e3a",
+              "value": "newsearchterm",
+              "mapping": "newsearchterm",
+              "preventDisable": false
+            },
+            {
+              "id": "e2d1fa477caa4797a117dd8273e95799",
+              "value": "shouldrunfallbacktopic",
+              "mapping": "shouldrunfallbacktopic",
+              "preventDisable": false
+            },
+            {
+              "id": "fc14fd7171e8420e8faf392c45eb1284",
+              "value": "searchmetadata",
+              "mapping": "searchmetadata",
+              "preventDisable": false
+            }
+          ],
+          "variableIds": [
+            "3433805fab834a88be05f1246e0a9074",
+            "78cbf65513144285950fe9602e7b8c62",
+            "e7d64ee793be49afb2ff69f2bfd145d7",
+            "7e6f19b701194dce89bf8bbb63811e3a",
+            "e2d1fa477caa4797a117dd8273e95799",
+            "fc14fd7171e8420e8faf392c45eb1284"
+          ],
+          "dynamicTopicBlockName": {
+            "value": "",
+            "mode": "simple"
+          },
+          "inputDynamicModal": {},
+          "outputDynamicModal": {},
+          "outdatedNote": false,
+          "loading": false
+        },
+        "b2218f86251f41a89995135b23613ef8": {
+          "name": "Get Resolved",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "No results were found. Would you like to make further inquiries about this matter?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "e7d2861b370c4aa8bc43662680d8c52c",
+          "detailDescription": "",
+          "id": "b2218f86251f41a89995135b23613ef8",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "dba5eff8a4e2479badeb9a43a7551229": {
+          "id": "dba5eff8a4e2479badeb9a43a7551229",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "6f4ca55d5d164a11b8b4e5849bedab16": {
+          "id": "6f4ca55d5d164a11b8b4e5849bedab16",
+          "stepType": "ReusableTopic",
+          "name": "Request Catalog Item",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "useTemplateTopic": false,
+          "reusableTopicChoice": "Request Catalog Item",
+          "reusableTopicId": "a39acd71c3a3330012d1758a7ff57eb6",
+          "inputs": {
+            "catalog_item_id": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "1a1b9fa41b0092106e132f092a4bcb5e"
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "execute_contextual_search": {
+              "value": "false",
+              "mode": "simple",
+              "type": "String"
+            },
+            "confirm_catalog_item": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "false"
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "show_end_state_card": {
+              "value": "true",
+              "mode": "string",
+              "type": "True/False"
+            }
+          },
+          "outputs": [
+            {
+              "id": "91adc911c2a24213982de3cc9289c485",
+              "value": "record_id",
+              "mapping": "record_id"
+            },
+            {
+              "id": "657ba71eed8044929ff16e87d91fd8a9",
+              "value": "record_table",
+              "mapping": "record_table"
+            },
+            {
+              "id": "b4e9046c04344f34ab738938f9c5855c",
+              "value": "variables",
+              "mapping": "variables"
+            }
+          ],
+          "variableIds": [
+            "91adc911c2a24213982de3cc9289c485",
+            "657ba71eed8044929ff16e87d91fd8a9",
+            "b4e9046c04344f34ab738938f9c5855c"
+          ],
+          "dynamicTopicBlockName": {
+            "value": "",
+            "mode": "simple"
+          },
+          "inputDynamicModal": {},
+          "outputDynamicModal": {}
+        },
+        "1dc4807e9b034b9b86a48d5e775558bf": {
+          "id": "1dc4807e9b034b9b86a48d5e775558bf",
+          "name": "Close and Restart Conversation",
+          "script": "(function execute() {\n    vaSystem.endConversation();\n    vaSystem.switchTopicById('4f5b795950d6b110f87780049c17ae27', 'resume');\n})()",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "a14ccc6a26034f3f8c3222ab7eaf921c": {
+          "id": "a14ccc6a26034f3f8c3222ab7eaf921c",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "5c628ad4da914b4dbfb6d89f98f00a14": {
+          "name": "more inquiries",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Would you like to make further inquiries about this matter?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "9775ffb92aca4c6a89121304a0afa3b0",
+          "detailDescription": "",
+          "id": "5c628ad4da914b4dbfb6d89f98f00a14",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        }
+      },
+      "edges": [
+        {
+          "id": "10a8b27cd8ce4188970ae6c1ff3d6ddc",
+          "edgeType": "Edge",
+          "source": "8b981f5fd84b4d738b9899880237e178",
+          "target": "b97e00468f5240f3a4e71781333cf8a8",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9e5979b1adf4484a81bc823176603bad",
+          "edgeType": "Edge",
+          "source": "b97e00468f5240f3a4e71781333cf8a8",
+          "target": "408d5dec69734592abeb28a7bb6b128d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "aa6fbdf9b07b4b17989306b870ae6088",
+          "edgeType": "Edge",
+          "source": "b2218f86251f41a89995135b23613ef8",
+          "target": "dba5eff8a4e2479badeb9a43a7551229",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "856e9368e4c54f94a63da6c21e10a966",
+          "edgeType": "Branch",
+          "source": "dba5eff8a4e2479badeb9a43a7551229",
+          "target": "6f4ca55d5d164a11b8b4e5849bedab16",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.get_resolved=Yes^NQvaInputs.more_inquiries=Yes",
+            "mode": "query"
+          },
+          "label": "yes"
+        },
+        {
+          "id": "65562ca5e9334e03b2ee19b607b66f1a",
+          "edgeType": "Branch",
+          "source": "dba5eff8a4e2479badeb9a43a7551229",
+          "target": "1dc4807e9b034b9b86a48d5e775558bf",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.get_resolved=No^NQvaInputs.more_inquiries=No",
+            "mode": "query"
+          },
+          "label": "no"
+        },
+        {
+          "id": "9dda2e3874404ab5a46992b547533213",
+          "edgeType": "Edge",
+          "source": "6f4ca55d5d164a11b8b4e5849bedab16",
+          "target": "1dc4807e9b034b9b86a48d5e775558bf",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "334baf21c53b4ce590e0749e6ebd8d9b",
+          "edgeType": "Edge",
+          "source": "1dc4807e9b034b9b86a48d5e775558bf",
+          "target": "58c07a799ddc41618317c84de836985d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6ba40f30b73d4979a2ccd4c9f4f1fee7",
+          "edgeType": "Edge",
+          "source": "408d5dec69734592abeb28a7bb6b128d",
+          "target": "a14ccc6a26034f3f8c3222ab7eaf921c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d1118621879a4d3d9fb243f02a00c102",
+          "edgeType": "Branch",
+          "source": "a14ccc6a26034f3f8c3222ab7eaf921c",
+          "target": "b2218f86251f41a89995135b23613ef8",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.searchresultsISEMPTY",
+            "mode": "query"
+          },
+          "label": " notExistSearchResults"
+        },
+        {
+          "id": "9f6330cb5e874a33a030541c93e47436",
+          "edgeType": "Branch",
+          "source": "a14ccc6a26034f3f8c3222ab7eaf921c",
+          "target": "5c628ad4da914b4dbfb6d89f98f00a14",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.searchresultsISNOTEMPTY",
+            "mode": "query"
+          },
+          "label": " existSearchResults"
+        },
+        {
+          "id": "273874c3578a4529adc890b6bb309384",
+          "edgeType": "Edge",
+          "source": "5c628ad4da914b4dbfb6d89f98f00a14",
+          "target": "dba5eff8a4e2479badeb9a43a7551229",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "266c99ac8d2748f88e368573e9e4d008": {
+      "id": "266c99ac8d2748f88e368573e9e4d008",
+      "name": "LiveAgent_portal",
+      "value": {
+        "mode": "simple",
+        "value": null
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "01413f936a9d4626a395800e47c2b379": {
+      "category": "vaInputs",
+      "id": "01413f936a9d4626a395800e47c2b379",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "9d0b79f552d34ca0a5eda4a1c33afc28": {
+      "id": "9d0b79f552d34ca0a5eda4a1c33afc28",
+      "name": "hello",
+      "label": "Hello",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcyNDgxMzkxMzQxNCBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "b97e00468f5240f3a4e71781333cf8a8",
+      "isHidden": false
+    },
+    "e7d2861b370c4aa8bc43662680d8c52c": {
+      "id": "e7d2861b370c4aa8bc43662680d8c52c",
+      "name": "get_resolved",
+      "label": "Get Resolved",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "b2218f86251f41a89995135b23613ef8",
+      "isHidden": false
+    },
+    "91adc911c2a24213982de3cc9289c485": {
+      "id": "91adc911c2a24213982de3cc9289c485",
+      "name": "record_id",
+      "label": "Record_id",
+      "defaultValue": "record_id",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "6f4ca55d5d164a11b8b4e5849bedab16",
+      "isHidden": false
+    },
+    "657ba71eed8044929ff16e87d91fd8a9": {
+      "id": "657ba71eed8044929ff16e87d91fd8a9",
+      "name": "record_table",
+      "label": "Record_table",
+      "defaultValue": "record_table",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "6f4ca55d5d164a11b8b4e5849bedab16",
+      "isHidden": false
+    },
+    "b4e9046c04344f34ab738938f9c5855c": {
+      "id": "b4e9046c04344f34ab738938f9c5855c",
+      "name": "variables",
+      "label": "Variables",
+      "defaultValue": "variables",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "6f4ca55d5d164a11b8b4e5849bedab16",
+      "isHidden": false
+    },
+    "3433805fab834a88be05f1246e0a9074": {
+      "id": "3433805fab834a88be05f1246e0a9074",
+      "name": "geniussearchresults",
+      "label": "Geniussearchresults",
+      "defaultValue": "geniussearchresults",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "408d5dec69734592abeb28a7bb6b128d",
+      "isHidden": false
+    },
+    "78cbf65513144285950fe9602e7b8c62": {
+      "id": "78cbf65513144285950fe9602e7b8c62",
+      "name": "searchresults",
+      "label": "Searchresults",
+      "defaultValue": "searchresults",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "408d5dec69734592abeb28a7bb6b128d",
+      "isHidden": false
+    },
+    "e7d64ee793be49afb2ff69f2bfd145d7": {
+      "id": "e7d64ee793be49afb2ff69f2bfd145d7",
+      "name": "shouldaskinfohelpful",
+      "label": "Shouldaskinfohelpful",
+      "defaultValue": "shouldaskinfohelpful",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "408d5dec69734592abeb28a7bb6b128d",
+      "isHidden": false
+    },
+    "7e6f19b701194dce89bf8bbb63811e3a": {
+      "id": "7e6f19b701194dce89bf8bbb63811e3a",
+      "name": "newsearchterm",
+      "label": "Newsearchterm",
+      "defaultValue": "newsearchterm",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "408d5dec69734592abeb28a7bb6b128d",
+      "isHidden": false
+    },
+    "e2d1fa477caa4797a117dd8273e95799": {
+      "id": "e2d1fa477caa4797a117dd8273e95799",
+      "name": "shouldrunfallbacktopic",
+      "label": "Shouldrunfallbacktopic",
+      "defaultValue": "shouldrunfallbacktopic",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "408d5dec69734592abeb28a7bb6b128d",
+      "isHidden": false
+    },
+    "fc14fd7171e8420e8faf392c45eb1284": {
+      "id": "fc14fd7171e8420e8faf392c45eb1284",
+      "name": "searchmetadata",
+      "label": "Searchmetadata",
+      "defaultValue": "searchmetadata",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "408d5dec69734592abeb28a7bb6b128d",
+      "isHidden": false
+    },
+    "9775ffb92aca4c6a89121304a0afa3b0": {
+      "id": "9775ffb92aca4c6a89121304a0afa3b0",
+      "name": "more_inquiries",
+      "label": "More Inquiries",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "5c628ad4da914b4dbfb6d89f98f00a14",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <name>csp_va_flow_main 3</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>mori.kairi@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-30 02:35:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1be012ca93549e903a7efca97bba104d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_cb_design_topic_1be012ca93549e903a7efca97bba104d</sys_update_name>
+        <sys_updated_by>mori.kairi@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-30 02:35:34</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

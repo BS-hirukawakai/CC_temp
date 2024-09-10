@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="上席へエスカレーション">2a77c93f93dc9ed03a7efca97bba109c</action>
+        <active>true</active>
+        <color>secondary</color>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>上席へエスカレーション</label>
+        <layout_group/>
+        <name>上席へエスカレーション</name>
+        <order>100</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>nagatomo.kaito@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-04 07:44:02</sys_created_on>
+        <sys_id>2e770d3f93dc9ed03a7efca97bba1069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>上席へエスカレーション</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_2e770d3f93dc9ed03a7efca97bba1069</sys_update_name>
+        <sys_updated_by>nagatomo.kaito@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-04 07:44:02</sys_updated_on>
+        <table>x_bllt_bs_cc_inquiry</table>
+    </sys_ux_form_action_layout_item>
+</record_update>

@@ -1,116 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Notes" section_id="9fc257971bbfc6103de3fdd2cd4bcbe6" sys_domain="global" table="x_bllt_bs_cc_inquiry" version="3" view="workspace">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>0</position>
-            <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
-            <sys_created_on>2024-08-09 08:04:24</sys_created_on>
-            <sys_id>1bc297971bbfc6103de3fdd2cd4bcb01</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="012e49ad1b1302103de3fdd2cd4bcbc5">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
-            <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
-            <sys_updated_on>2024-08-09 08:04:24</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>watch_list</element>
-            <position>1</position>
-            <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
-            <sys_created_on>2024-08-09 08:04:24</sys_created_on>
-            <sys_id>13c297971bbfc6103de3fdd2cd4bcb01</sys_id>
+            <position>0</position>
+            <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 08:25:21</sys_created_on>
+            <sys_id>c8f055f7c3d452d0e8adb011150131c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="012e49ad1b1302103de3fdd2cd4bcbc5">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
-            <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
-            <sys_updated_on>2024-08-09 08:04:24</sys_updated_on>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="042e7f8f933302103a7efca97bba1070">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
+            <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 08:25:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
-            <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
-            <sys_created_on>2024-08-09 08:04:24</sys_created_on>
-            <sys_id>13c297971bbfc6103de3fdd2cd4bcb02</sys_id>
+            <position>1</position>
+            <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 08:25:21</sys_created_on>
+            <sys_id>04f055f7c3d452d0e8adb011150131ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="012e49ad1b1302103de3fdd2cd4bcbc5">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
-            <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
-            <sys_updated_on>2024-08-09 08:04:24</sys_updated_on>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="042e7f8f933302103a7efca97bba1070">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
+            <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 08:25:21</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes_list</element>
-            <position>3</position>
-            <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
-            <sys_created_on>2024-08-09 08:04:24</sys_created_on>
-            <sys_id>1fc297971bbfc6103de3fdd2cd4bcb00</sys_id>
+            <position>2</position>
+            <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 08:25:21</sys_created_on>
+            <sys_id>4cf055f7c3d452d0e8adb011150131ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="012e49ad1b1302103de3fdd2cd4bcbc5">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
-            <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
-            <sys_updated_on>2024-08-09 08:04:24</sys_updated_on>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="042e7f8f933302103a7efca97bba1070">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
+            <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 08:25:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>4</position>
-            <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
-            <sys_created_on>2024-08-09 08:04:24</sys_created_on>
-            <sys_id>1fc297971bbfc6103de3fdd2cd4bcb01</sys_id>
+            <position>3</position>
+            <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 08:25:21</sys_created_on>
+            <sys_id>84f055f7c3d452d0e8adb011150131cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="012e49ad1b1302103de3fdd2cd4bcbc5">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
-            <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
-            <sys_updated_on>2024-08-09 08:04:24</sys_updated_on>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="042e7f8f933302103a7efca97bba1070">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
+            <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 08:25:21</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>activity.xml</element>
-            <position>5</position>
-            <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
-            <sys_created_on>2024-08-09 08:04:24</sys_created_on>
-            <sys_id>9bc257971bbfc6103de3fdd2cd4bcbe7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="012e49ad1b1302103de3fdd2cd4bcbc5">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
-            <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
-            <sys_updated_on>2024-08-09 08:04:24</sys_updated_on>
-            <sys_user/>
-            <type>formatter</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comments</element>
-            <position>6</position>
-            <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
-            <sys_created_on>2024-08-09 08:04:24</sys_created_on>
-            <sys_id>17c297971bbfc6103de3fdd2cd4bcb01</sys_id>
+            <position>4</position>
+            <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 08:25:21</sys_created_on>
+            <sys_id>ccf055f7c3d452d0e8adb011150131cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="012e49ad1b1302103de3fdd2cd4bcbc5">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
-            <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
-            <sys_updated_on>2024-08-09 08:04:24</sys_updated_on>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="042e7f8f933302103a7efca97bba1070">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
+            <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 08:25:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>7</position>
-            <sys_created_by>nishida.hayato@blueship.co.jp</sys_created_by>
-            <sys_created_on>2024-08-09 08:04:24</sys_created_on>
-            <sys_id>17c297971bbfc6103de3fdd2cd4bcb02</sys_id>
+            <position>5</position>
+            <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 08:25:21</sys_created_on>
+            <sys_id>08f055f7c3d452d0e8adb011150131cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="notes" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="012e49ad1b1302103de3fdd2cd4bcbc5">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
-            <sys_updated_by>nishida.hayato@blueship.co.jp</sys_updated_by>
-            <sys_updated_on>2024-08-09 08:04:24</sys_updated_on>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="042e7f8f933302103a7efca97bba1070">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
+            <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 08:25:21</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>6</position>
+            <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
+            <sys_created_on>2024-09-04 08:25:21</sys_created_on>
+            <sys_id>40f055f7c3d452d0e8adb011150131cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Notes" display_value="メモ" name="x_bllt_bs_cc_inquiry" sys_domain="global" view="042e7f8f933302103a7efca97bba1070">9fc257971bbfc6103de3fdd2cd4bcbe6</sys_ui_section>
+            <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
+            <sys_updated_on>2024-09-04 08:25:21</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Notes</caption>
@@ -134,7 +120,7 @@
             <sys_updated_on>2024-08-09 08:04:24</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="ワークスペース" name="workspace">012e49ad1b1302103de3fdd2cd4bcbc5</view>
+            <view display_value="ワークスペース" name="workspace">042e7f8f933302103a7efca97bba1070</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

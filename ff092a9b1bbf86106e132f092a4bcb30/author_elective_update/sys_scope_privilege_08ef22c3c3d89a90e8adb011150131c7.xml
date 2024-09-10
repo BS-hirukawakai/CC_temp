@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>create</operation>
+        <source_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-02 07:26:00</sys_created_on>
+        <sys_id>08ef22c3c3d89a90e8adb011150131c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sys_email_draft</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_scope_privilege_08ef22c3c3d89a90e8adb011150131c7</sys_update_name>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-02 07:26:31</sys_updated_on>
+        <target_name>sys_email_draft</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>a12977c7ebbf065856eafddacad0cda9</instance_id>
+        <instance_name>democreatorwf81141</instance_name>
+        <name>sys_scope_privilege_08ef22c3c3d89a90e8adb011150131c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>create</operation><source_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by><sys_created_on>2024-09-02 07:26:00</sys_created_on><sys_id>08ef22c3c3d89a90e8adb011150131c7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sys_email_draft</sys_name><sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package><sys_policy/><sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope><sys_update_name>sys_scope_privilege_08ef22c3c3d89a90e8adb011150131c7</sys_update_name><sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by><sys_updated_on>2024-09-02 07:26:31</sys_updated_on><target_name>sys_email_draft</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>890937799</payload_hash>
+        <record_name>sys_email_draft</record_name>
+        <reverted_from/>
+        <source>65e13d8e93dc5e903a7efca97bba1002</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-02 07:26:31</sys_created_on>
+        <sys_id>66407ec3c3d89a90e8adb011150131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191b1a0cfad0000001</sys_recorded_at>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-02 07:26:31</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>e6407ec3b8d89a909157bd66b12e0ac2</update_guid>
+        <update_guid_history>e6407ec3b8d89a909157bd66b12e0ac2:890937799,032036c34bd89a903b04dc86b22e0a0f:1685117803</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>akamatsu.shota@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-02 07:27:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>093bd68bac894a2ca0a4ce0c2761fe10</sys_id>
+        <sys_metadata>08ef22c3c3d89a90e8adb011150131c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_email_draft</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_08ef22c3c3d89a90e8adb011150131c7</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_08ef22c3c3d89a90e8adb011150131c7">66407ec3c3d89a90e8adb011150131c3</sys_update_version>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-02 07:27:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

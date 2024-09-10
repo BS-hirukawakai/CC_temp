@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description>Displays details of the created catalog request</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.66",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "54bb65e00ef94078967d378943738729": {
+          "id": "54bb65e00ef94078967d378943738729",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          },
+          "parameters": [
+            {
+              "type": "String",
+              "value": "",
+              "id": "9f34392cf5c24f8f8e1ce6830b5c06f6",
+              "name": "record_id",
+              "required": true,
+              "referenced": true,
+              "disabled": false
+            },
+            {
+              "type": "String",
+              "value": "",
+              "id": "bd59e61fc9ab40828cd768923eb8db60",
+              "name": "record_table",
+              "required": true,
+              "referenced": true,
+              "disabled": false
+            }
+          ],
+          "variableIds": [
+            "9f34392cf5c24f8f8e1ce6830b5c06f6",
+            "bd59e61fc9ab40828cd768923eb8db60"
+          ]
+        },
+        "8359ec1b12da46248bb23f412b330570": {
+          "id": "8359ec1b12da46248bb23f412b330570",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "2050dd89076e452b95111c6dc8333913": {
+          "id": "2050dd89076e452b95111c6dc8333913",
+          "name": "Process end state details",
+          "script": "(function execute() {\n    var tableName = vaInputs.record_table;\n    var recordId = vaInputs.record_id;\n\n    var tableUtils = new TableUtils(tableName);\n    vaVars.isTaskBasedTable = (tableUtils.getAbsoluteBase() == 'task');\n\n    var pageId = 'form';\n    if (vaVars.isTaskBasedTable)\n        pageId = 'ticket';\n\n    var link = '';\n    var screenId = '';\n    if (vaVars.portalName === 'mesp') {\n        var mobileDLink = new global.MobileDeepLinkGenerator('request');\n        if (tableName == 'sc_req_item')\n            screenId = '7516f9d787232300e0ef0cf888cb0b4d';\n        else if (tableName == 'sc_request')\n            screenId = '276dd3edb79033001befcd58de11a9c7';\n        else if (tableName == 'incident')\n            screenId = 'ebb94d9c0f2033001befa68ca8767e4e';\n        else\n            screenId = 'd39eb2db87772300e0ef0cf888cb0bcb';\n\n        link = mobileDLink.getFormScreenLink(screenId, tableName, recordId);\n    } else\n        link = vaSystem.applyLinkTemplate(recordId, tableName);\n    vaVars.recordLink = link;\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "1abf35ab0ba34b6e90779b7e45172cf1": {
+          "id": "1abf35ab0ba34b6e90779b7e45172cf1",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "187b43f77e04434b813dac071c6f8620": {
+          "id": "187b43f77e04434b813dac071c6f8620",
+          "stepType": "TextOutput",
+          "name": "Request complete message",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Your request has been submitted. Here are the details:"
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "3ad892d84e324da7bcfde7a737e34dfb"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "requestFeedback": true
+        },
+        "a515aaa444ee4ce0a95c3727ddc4908e": {
+          "id": "a515aaa444ee4ce0a95c3727ddc4908e",
+          "stepType": "ScriptOutput",
+          "name": "Your request has been submitted. Here ar",
+          "output_type": "single_part",
+          "script": "(function execute() {\n\n    var tableName = vaInputs.record_table;\n    var recordId = vaInputs.record_id;\n\n    var title = '';\n    var subtitle = '';\n    var fields = [];\n\n    var gr = new GlideRecord(tableName);\n    gr.addQuery('sys_id', recordId);\n    gr.query();\n    title = gr.getClassDisplayValue();\n    if (gr.next()) {\n        if (gr.isValidField('task_effective_number'))\n            subtitle = gr.getValue('task_effective_number').toString();\n        else\n            subtitle = gr.number.toString();\n\n        if (gr.isValidField('short_description')) {\n            fields.push({\n                \"fieldLabel\": gr.getElement('short_description').getLabel(),\n                \"fieldValue\": gr.getDisplayValue('short_description').toString()\n            });\n        }\n        if (gr.isValidField('state')) {\n            fields.push({\n                \"fieldLabel\": gr.getElement('state').getLabel(),\n                \"fieldValue\": gr.getDisplayValue('state').toString()\n            });\n        }\n    }\n\n    var card_data = JSON.stringify({\n        \"title\": title,\n        \"subtitle\": subtitle,\n        \"fields\": fields,\n        \"url\": ''\n    });\n    return vaSystem.renderCard(\"Card\", card_data);\n})()\n",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "5858329093e44fad9390e9baeeccdd87": {
+          "id": "5858329093e44fad9390e9baeeccdd87",
+          "stepType": "LinkOutput",
+          "name": "Submitted record link",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaVars.recordLink}}",
+                      "displayValue": "Script Variables➛recordLink"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click here to view the created record"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Your request has been submitted"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        }
+      },
+      "edges": [
+        {
+          "id": "11a8808a65084935a0592687e60986c5",
+          "edgeType": "Edge",
+          "source": "54bb65e00ef94078967d378943738729",
+          "target": "2050dd89076e452b95111c6dc8333913",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b967ca2d569742d28049c921aaad2543",
+          "edgeType": "Edge",
+          "source": "2050dd89076e452b95111c6dc8333913",
+          "target": "1abf35ab0ba34b6e90779b7e45172cf1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c25b4eb54db246af81f3c58966defd7b",
+          "edgeType": "Branch",
+          "source": "1abf35ab0ba34b6e90779b7e45172cf1",
+          "target": "187b43f77e04434b813dac071c6f8620",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaVars.isTaskBasedTable;\n})()\n"
+          },
+          "label": "Task based table"
+        },
+        {
+          "id": "a51b85e542064d2895f1d55c141bbdea",
+          "edgeType": "Edge",
+          "source": "187b43f77e04434b813dac071c6f8620",
+          "target": "a515aaa444ee4ce0a95c3727ddc4908e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dfacf9fda80644fc9a2fbd14f6745a7f",
+          "edgeType": "Edge",
+          "source": "a515aaa444ee4ce0a95c3727ddc4908e",
+          "target": "8359ec1b12da46248bb23f412b330570",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "675db47c5ec747b291f740b364adcbd7",
+          "edgeType": "Branch",
+          "source": "1abf35ab0ba34b6e90779b7e45172cf1",
+          "target": "5858329093e44fad9390e9baeeccdd87",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return !vaVars.isTaskBasedTable;\n})()\n"
+          },
+          "label": "Non-Task based table"
+        },
+        {
+          "id": "81b9266abe5642968c020bddc4043204",
+          "edgeType": "Edge",
+          "source": "5858329093e44fad9390e9baeeccdd87",
+          "target": "8359ec1b12da46248bb23f412b330570",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "d4736e763e064e25bbe4beb0665472ca": {
+      "category": "vaInputs",
+      "id": "d4736e763e064e25bbe4beb0665472ca",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "67234ddd4da9441eba71688d365aafb8": {
+      "id": "67234ddd4da9441eba71688d365aafb8",
+      "value": {
+        "mode": "script",
+        "value": "(function execute() {\n    return gs.getProperty('glide.servlet.uri', '');\n})()"
+      },
+      "name": "baseUri",
+      "label": "baseUri",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "703f753814554efa899cdfa9f5f4678f": {
+      "id": "703f753814554efa899cdfa9f5f4678f",
+      "value": {
+        "mode": "simple",
+        "value": "false"
+      },
+      "name": "isTaskBasedTable",
+      "label": "isTaskBasedTable",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "73c217e3eebb4c06b5d7ed0a3c961a72": {
+      "id": "73c217e3eebb4c06b5d7ed0a3c961a72",
+      "value": {
+        "mode": "script",
+        "value": "(function execute() {\n    if (vaContext.deviceType == 'ios' || vaContext.deviceType == 'android')\n        return 'mesp';\n\n    return gs.getProperty('sn_itsm_va.com.snc.itsm.virtualagent.portal_url','sp');\n})()\n"
+      },
+      "name": "portalName",
+      "label": "portalName",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "763e12631ad043c6bd3d7421d44471cc": {
+      "id": "763e12631ad043c6bd3d7421d44471cc",
+      "value": {
+        "mode": "script",
+        "value": "(function execute() {\n    /* return 'a default value'; */\n    return '';\n})()\n"
+      },
+      "name": "recordLink",
+      "label": "recordLink",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "9f34392cf5c24f8f8e1ce6830b5c06f6": {
+      "id": "9f34392cf5c24f8f8e1ce6830b5c06f6",
+      "name": "record_id",
+      "label": "Record_id",
+      "defaultValue": "",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "input"
+      },
+      "nodeId": "54bb65e00ef94078967d378943738729",
+      "isHidden": false
+    },
+    "bd59e61fc9ab40828cd768923eb8db60": {
+      "id": "bd59e61fc9ab40828cd768923eb8db60",
+      "name": "record_table",
+      "label": "Record_table",
+      "defaultValue": "",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "input"
+      },
+      "nodeId": "54bb65e00ef94078967d378943738729",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases/>
+        <library>true</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>End state card for CC Portal</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id>4aef659d50930110fa9b861f7d83d769</root_topic_id>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id>4aef659d50930110fa9b861f7d83d769</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>doiguchi.kazuya@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-30 06:29:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2c768f42939c9e903a7efca97bba1063</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>End state card for CC Portal</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_cb_topic_2c768f42939c9e903a7efca97bba1063</sys_update_name>
+        <sys_updated_by>doiguchi.kazuya@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-30 06:41:56</sys_updated_on>
+        <title>End state card for CC Portal</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>TOPIC_BLOCK</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=2c768f42939c9e903a7efca97bba1063"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>2c768f42939c9e903a7efca97bba1063</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>doiguchi.kazuya@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-30 06:29:25</sys_created_on>
+        <sys_id>64768f42939c9e903a7efca97bba1064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>doiguchi.kazuya@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-30 06:29:25</sys_updated_on>
+        <tablename>sys_cb_topic</tablename>
+        <value>Displays details of the created catalog request</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>2c768f42939c9e903a7efca97bba1063</documentkey>
+        <fieldname>title</fieldname>
+        <language>ja</language>
+        <sys_created_by>doiguchi.kazuya@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-30 06:29:25</sys_created_on>
+        <sys_id>b0768f42939c9e903a7efca97bba1067</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>doiguchi.kazuya@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-30 06:29:25</sys_updated_on>
+        <tablename>sys_cb_topic</tablename>
+        <value>End state card for CC Portal</value>
+    </sys_translated_text>
+</record_update>

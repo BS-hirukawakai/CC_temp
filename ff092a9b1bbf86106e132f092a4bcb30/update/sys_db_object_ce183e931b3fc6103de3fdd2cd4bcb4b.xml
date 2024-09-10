@@ -9,6 +9,7 @@
         <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>true</delete_access>
+        <is_document_table>false</is_document_table>
         <is_extendable>true</is_extendable>
         <label>問い合わせ</label>
         <live_feed_enabled>false</live_feed_enabled>

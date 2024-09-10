@@ -3,27 +3,231 @@
         <choices/>
         <description/>
         <name>chrome_header</name>
-        <page display_value="INQ">97702efa1b4416103de3fdd2cd4bcb9d</page>
-        <required_translations>[ ]</required_translations>
-        <route/>
-        <suffix/>
+        <page display_value="もしも CCポータル">97702efa1b4416103de3fdd2cd4bcb9d</page>
+        <required_translations>[ {
+  "message" : "Configure Workspace",
+  "comment" : ""
+}, {
+  "message" : "Display Preferences",
+  "comment" : ""
+}, {
+  "message" : "Notifications",
+  "comment" : ""
+}, {
+  "message" : "Settings",
+  "comment" : ""
+}, {
+  "message" : "Show badge count",
+  "comment" : ""
+}, {
+  "message" : "Show banners",
+  "comment" : ""
+}, {
+  "message" : "Show ribbon",
+  "comment" : ""
+}, {
+  "message" : "Show sidebar",
+  "comment" : ""
+}, {
+  "message" : "UserMenu",
+  "comment" : ""
+}, {
+  "message" : "Wrap list text",
+  "comment" : ""
+} ]</required_translations>
+        <route display_value="INQ default record">2692aebe1b4416103de3fdd2cd4bcbcc</route>
+        <suffix>chrome_header</suffix>
         <sys_class_name>sys_ux_page_property</sys_class_name>
         <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
         <sys_created_on>2024-08-20 01:23:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>c780eefa1b4416103de3fdd2cd4bcb3e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>chrome_header</sys_name>
         <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
         <sys_update_name>sys_ux_page_property_c780eefa1b4416103de3fdd2cd4bcb3e</sys_update_name>
-        <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
-        <sys_updated_on>2024-08-20 01:38:44</sys_updated_on>
+        <sys_updated_by>akamatsu.shota@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-29 05:41:02</sys_updated_on>
         <type>json</type>
-        <unique_name>x_bllt_bs_cc.97702efa1b4416103de3fdd2cd4bcb9d.root.chrome_header</unique_name>
-        <value>{"privatePage":{"userPrefsEnabled":false,"searchEnabled":false,"currentScreenLinkConfiguration":{},"globalTools":{"collapsingMenuId":0,"primaryItems":[],"secondaryItems":[]},"notificationsEnabled":true},"publicPage":{"menuEnabled":false,"searchEnabled":false,"logoRoute":{},"actionButtons":[]}}</value>
+        <unique_name>x_bllt_bs_cc.97702efa1b4416103de3fdd2cd4bcb9d.route.chrome_header.2692aebe1b4416103de3fdd2cd4bcbcc</unique_name>
+        <value>{&#13;
+	"privatePage": {&#13;
+		"notificationsEnabled": true,&#13;
+		"searchEnabled": true,&#13;
+		"userPrefsEnabled": true,&#13;
+		"currentScreenLinkConfiguration": {&#13;
+			"roles": [&#13;
+				"workspace_admin"&#13;
+			],&#13;
+			"position": 150&#13;
+		},&#13;
+		"globalTools": {&#13;
+			"collapsingMenuId": 0,&#13;
+			"primaryItems": [&#13;
+				{&#13;
+					"label": {&#13;
+						"translatable": true,&#13;
+						"message": "UserMenu"&#13;
+					},&#13;
+					"icon": "user",&#13;
+					"type": "menu",&#13;
+					"primaryDisplay": "icon",&#13;
+					"value": {&#13;
+						"children": [&#13;
+							{&#13;
+								"_roles": [&#13;
+									"ui_builder_admin"&#13;
+								],&#13;
+								"label": {&#13;
+									"translatable": true,&#13;
+									"message": "Configure Workspace"&#13;
+								},&#13;
+								"type": "navigation",&#13;
+								"position": 100,&#13;
+								"primaryDisplay": "none",&#13;
+								"value": {&#13;
+									"type": "external",&#13;
+									"opensWindow": "true",&#13;
+									"value": {&#13;
+										"href": "/nav_to.do?uri=/sys_ux_app_config.do?sys_id=f224e5a3530210102c30ddeeff7b128d"&#13;
+									}&#13;
+								}&#13;
+							},&#13;
+							{&#13;
+								"label": {&#13;
+									"translatable": true,&#13;
+									"message": "Settings"&#13;
+								},&#13;
+								"type": "menu",&#13;
+								"position": 50,&#13;
+								"value": {&#13;
+									"children": [&#13;
+										{&#13;
+											"label": {&#13;
+												"translatable": true,&#13;
+												"message": "Display Preferences"&#13;
+											},&#13;
+											"type": "divider"&#13;
+										},&#13;
+										{&#13;
+											"label": {&#13;
+												"translatable": true,&#13;
+												"message": "Show ribbon"&#13;
+											},&#13;
+											"type": "toggle",&#13;
+											"value": {&#13;
+												"_meta": {&#13;
+													"_type": "userPreferences",&#13;
+													"_path": "userPrefName",&#13;
+													"_value": {&#13;
+														"userPrefName": "workspace.showRibbon"&#13;
+													},&#13;
+													"_default": {&#13;
+														"userPrefName": "true"&#13;
+													}&#13;
+												}&#13;
+											}&#13;
+										},&#13;
+										{&#13;
+											"label": {&#13;
+												"translatable": true,&#13;
+												"message": "Show sidebar"&#13;
+											},&#13;
+											"type": "toggle",&#13;
+											"value": {&#13;
+												"_meta": {&#13;
+													"_type": "userPreferences",&#13;
+													"_path": "userPrefName",&#13;
+													"_value": {&#13;
+														"userPrefName": "workspace.showAgentAssist"&#13;
+													},&#13;
+													"_default": {&#13;
+														"userPrefName": "true"&#13;
+													}&#13;
+												}&#13;
+											}&#13;
+										},&#13;
+										{&#13;
+											"label": {&#13;
+												"translatable": true,&#13;
+												"message": "Wrap list text"&#13;
+											},&#13;
+											"type": "toggle",&#13;
+											"value": {&#13;
+												"_meta": {&#13;
+													"_type": "userPreferences",&#13;
+													"_path": "userPrefName",&#13;
+													"_value": {&#13;
+														"userPrefName": "workspace.wrapListText"&#13;
+													},&#13;
+													"_default": {&#13;
+														"userPrefName": "false"&#13;
+													}&#13;
+												}&#13;
+											}&#13;
+										},&#13;
+										{&#13;
+											"label": {&#13;
+												"translatable": true,&#13;
+												"message": "Notifications"&#13;
+											},&#13;
+											"type": "divider"&#13;
+										},&#13;
+										{&#13;
+											"label": {&#13;
+												"translatable": true,&#13;
+												"message": "Show banners"&#13;
+											},&#13;
+											"type": "toggle",&#13;
+											"value": {&#13;
+												"_meta": {&#13;
+													"_type": "userPreferences",&#13;
+													"_path": "userPrefName",&#13;
+													"_value": {&#13;
+														"userPrefName": "workspace.notifications.showPopups"&#13;
+													},&#13;
+													"_default": {&#13;
+														"userPrefName": "true"&#13;
+													}&#13;
+												}&#13;
+											}&#13;
+										},&#13;
+										{&#13;
+											"label": {&#13;
+												"translatable": true,&#13;
+												"message": "Show badge count"&#13;
+											},&#13;
+											"type": "toggle",&#13;
+											"value": {&#13;
+												"_meta": {&#13;
+													"_type": "userPreferences",&#13;
+													"_path": "userPrefName",&#13;
+													"_value": {&#13;
+														"userPrefName": "workspace.notifications.showBadgeCount"&#13;
+													},&#13;
+													"_default": {&#13;
+														"userPrefName": "true"&#13;
+													}&#13;
+												}&#13;
+											}&#13;
+										}&#13;
+									]&#13;
+								}&#13;
+							}&#13;
+						]&#13;
+					}&#13;
+				}&#13;
+			],&#13;
+			"secondaryItems": []&#13;
+		}&#13;
+	},&#13;
+	"publicPage": {&#13;
+		"actionButtons": []&#13;
+	}&#13;
+}</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=c780eefa1b4416103de3fdd2cd4bcb3e"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

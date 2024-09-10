@@ -2,54 +2,45 @@
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config>{
     "029f04e053610110ac9bddeeff7b1294": {
-        "activityLogs": null,
-        "detailsContext": null,
-        "fields": null,
-        "forcedViewName": "",
+        "forcedViewName": null,
         "inputExtraParams": null,
         "inputQuery": null,
-        "inputSysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "inputSysId": "ad76ace593501a903a7efca97bba105d",
         "inputTable": "x_bllt_bs_cc_inquiry",
-        "screen": null,
-        "selectedTabIndex": 0,
-        "userPrefs": null,
-        "view": "workspace"
+        "selectedTabIndex": null
     },
-    "a4a0fbae64611110fa9baad96557fb37": {
-        "inputIsLoading": false,
-        "inputSecondaryItems": {},
-        "isNewRecord": false
-    },
+    "a4a0fbae64611110fa9baad96557fb37": {},
     "625bc24c43f51110772811618bb8f253": {
-        "tableName": ""
+        "sysId": "ad76ace593501a903a7efca97bba105d",
+        "tableName": "x_bllt_bs_cc_inquiry"
     },
     "ff29f706f8266110f8779039584d84c2": {
-        "sysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "sysId": "ad76ace593501a903a7efca97bba105d",
         "tableName": "x_bllt_bs_cc_inquiry"
     },
     "819f84251b347910a96e76a9cc4bcbc0": {
-        "sysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+        "sysId": "ad76ace593501a903a7efca97bba105d",
         "table": "x_bllt_bs_cc_inquiry"
     },
     "table": "x_bllt_bs_cc_inquiry",
-    "sysId": "1bbca3601b44d2103de3fdd2cd4bcbe9",
+    "sysId": "aa4993d7c3985e90e8adb01115013151",
     "query": null,
     "extraParams": null,
     "views": "",
     "selectedTabIndex": 0
 }</macroponent_config>
-        <screen display_value="CSM デフォルトのレコードページ 問い合わせ">5b0f24891bc412103de3fdd2cd4bcb7c</screen>
+        <screen display_value="【廃止】CSM デフォルトのレコードページ 問い合わせ">5b0f24891bc412103de3fdd2cd4bcb7c</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
         <sys_created_on>2024-08-14 06:38:20</sys_created_on>
         <sys_id>970f24891bc412103de3fdd2cd4bcb82</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_970f24891bc412103de3fdd2cd4bcb82</sys_update_name>
         <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
-        <sys_updated_on>2024-08-19 01:11:44</sys_updated_on>
+        <sys_updated_on>2024-09-03 05:23:57</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

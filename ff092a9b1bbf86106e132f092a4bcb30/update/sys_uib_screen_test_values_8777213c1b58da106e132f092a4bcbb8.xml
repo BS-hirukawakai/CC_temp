@@ -2,7 +2,7 @@
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config>{
     "table": "x_bllt_bs_cc_inquiry",
-    "sysId": "0d29c73f1b0cd6106e132f092a4bcb9f",
+    "sysId": "ad76ace593501a903a7efca97bba105d",
     "query": "",
     "extraParams": "",
     "views": "",
@@ -11,26 +11,74 @@
         "activityLogs": null,
         "detailsContext": null,
         "fields": null,
-        "forcedViewName": null,
+        "forcedViewName": "",
         "inputExtraParams": null,
         "inputQuery": null,
-        "inputSysId": "0d29c73f1b0cd6106e132f092a4bcb9f",
+        "inputSysId": "d41ad35bc3985e90e8adb01115013140",
         "inputTable": "x_bllt_bs_cc_inquiry",
         "screen": null,
-        "selectedTabIndex": null,
-        "userPrefs": null
+        "selectedTabIndex": 0,
+        "userPrefs": null,
+        "view": "workspace"
     },
-    "a4a0fbae64611110fa9baad96557fb37": {},
+    "a4a0fbae64611110fa9baad96557fb37": {
+        "inputRibbonLocation": "sidebar",
+        "inputSecondaryLocation": "sidebar"
+    },
     "625bc24c43f51110772811618bb8f253": {
-        "sysId": "0d29c73f1b0cd6106e132f092a4bcb9f",
+        "configMapping": [
+            {
+                "agent_assist": [
+                    {
+                        "table=incident": "e15061a4b30303002bf182c136a8dc34"
+                    },
+                    {
+                        "table=sn_onboarding_case": "f878a69753b6001031cdddeeff7b12a9"
+                    },
+                    {
+                        "tableSTARTSWITHkb_template": "5cb4030e73e2330021741c86fbf6a7e1"
+                    },
+                    {
+                        "tableSTARTSWITHu_kb_template": "5cb4030e73e2330021741c86fbf6a7e1"
+                    },
+                    {
+                        "table=kb_knowledge": "5cb4030e73e2330021741c86fbf6a7e1"
+                    },
+                    {
+                        "table=kb_knowledge_block": "5cb4030e73e2330021741c86fbf6a7e1"
+                    },
+                    {
+                        "table=wm_order": "f0f4085f0f0733005cbf3694ba767e19"
+                    },
+                    {
+                        "table=wm_task": "b4654c5f0f0733005cbf3694ba767e6a"
+                    },
+                    {
+                        "table=sn_customerservice_case": "0a73bc83c3041300e2fd5cb981d3ae29"
+                    },
+                    {
+                        "table=csm_order_case": "ea707b1487121300e2fd5171d7cb0b82"
+                    },
+                    {
+                        "table=interaction": "e48774eab3f33300acb582c136a8dcfc"
+                    }
+                ],
+                "response_template": [
+                    {
+                        "table=sn_customerservice_case": "5f0a5f7e77840010ec75945caa1061a5"
+                    }
+                ]
+            }
+        ],
+        "sysId": "d41ad35bc3985e90e8adb01115013140",
         "tableName": "x_bllt_bs_cc_inquiry"
     },
     "ff29f706f8266110f8779039584d84c2": {
-        "sysId": "0d29c73f1b0cd6106e132f092a4bcb9f",
+        "sysId": "d41ad35bc3985e90e8adb01115013140",
         "tableName": "x_bllt_bs_cc_inquiry"
     },
     "819f84251b347910a96e76a9cc4bcbc0": {
-        "sysId": "0d29c73f1b0cd6106e132f092a4bcb9f",
+        "sysId": "d41ad35bc3985e90e8adb01115013140",
         "table": "x_bllt_bs_cc_inquiry"
     }
 }</macroponent_config>
@@ -39,13 +87,13 @@
         <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
         <sys_created_on>2024-08-26 02:22:07</sys_created_on>
         <sys_id>8777213c1b58da106e132f092a4bcbb8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_8777213c1b58da106e132f092a4bcbb8</sys_update_name>
         <sys_updated_by>muramatsu.keishin@blueship.co.jp</sys_updated_by>
-        <sys_updated_on>2024-08-26 02:25:31</sys_updated_on>
+        <sys_updated_on>2024-09-04 01:48:25</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

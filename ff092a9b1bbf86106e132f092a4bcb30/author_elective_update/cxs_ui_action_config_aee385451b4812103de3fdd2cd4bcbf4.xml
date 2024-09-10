@@ -125,7 +125,7 @@
         <update_guid_history>aee3c5451a4812105abacea834a71053:61573742,2ee3c545a8481210aee995d0fb90b151:2013839643,66e3c545f6481210d540f7117505dd4f:-1846277262</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Add link in email">2df9e67f1b48d6106e132f092a4bcb7a</sys_audit_delete>
+        <sys_audit_delete display_value="">2df9e67f1b48d6106e132f092a4bcb7a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>muramatsu.keishin@blueship.co.jp</sys_created_by>
         <sys_created_on>2024-08-23 04:38:37</sys_created_on>

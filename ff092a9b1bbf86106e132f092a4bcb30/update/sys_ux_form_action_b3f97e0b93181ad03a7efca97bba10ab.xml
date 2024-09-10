@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>上席へエスカレーション</name>
+        <specificity>40</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>nagatomo.kaito@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-02 08:08:56</sys_created_on>
+        <sys_id>b3f97e0b93181ad03a7efca97bba10ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>上席へエスカレーション</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_ux_form_action_b3f97e0b93181ad03a7efca97bba10ab</sys_update_name>
+        <sys_updated_by>nagatomo.kaito@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-02 08:08:56</sys_updated_on>
+        <table>x_bllt_bs_cc_inquiry</table>
+        <ui_action display_value="上席へエスカレーション">0fb9fac793181ad03a7efca97bba101b</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=b3f97e0b93181ad03a7efca97bba10ab"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>b3f97e0b93181ad03a7efca97bba10ab</documentkey>
+        <fieldname>name</fieldname>
+        <language>ja</language>
+        <sys_created_by>nagatomo.kaito@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-02 08:08:56</sys_created_on>
+        <sys_id>f7f97e0b93181ad03a7efca97bba10ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nagatomo.kaito@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-02 08:08:56</sys_updated_on>
+        <tablename>sys_ux_form_action</tablename>
+        <value>上席へエスカレーション</value>
+    </sys_translated_text>
+</record_update>

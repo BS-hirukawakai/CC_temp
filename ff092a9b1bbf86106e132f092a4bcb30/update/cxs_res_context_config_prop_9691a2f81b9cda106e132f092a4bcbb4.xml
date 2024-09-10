@@ -2,7 +2,7 @@
     <cxs_res_context_config_prop action="INSERT_OR_UPDATE">
         <active>true</active>
         <choices/>
-        <cxs_res_context_config display_value="knowledge">d691eeb81b9cda106e132f092a4bcbd0</cxs_res_context_config>
+        <cxs_res_context_config/>
         <default_value>false</default_value>
         <description>Excludes pinned articles from the result set. Should only be set to 'true' if pinned articles are included in this Searcher.</description>
         <id>knowledge_sr.exclude_pinned</id>

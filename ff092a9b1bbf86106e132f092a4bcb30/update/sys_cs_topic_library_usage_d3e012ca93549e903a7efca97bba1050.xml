@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_library_usage">
+    <sys_cs_topic_library_usage action="INSERT_OR_UPDATE">
+        <calling_cs_topic_id display_value="csp_va_flow_main 3">f6e0de8a93549e903a7efca97bba10f1</calling_cs_topic_id>
+        <library_cs_topic_id display_value="AI Search">b19775fa536310103296ddeeff7b12ff</library_cs_topic_id>
+        <library_usage>{"type":"LibraryCall","library_topic_name":"AI Search","library_topic_id":"b19775fa536310103296ddeeff7b12ff","library_topic_is_template":false,"parameter-mappings":[{"parameter-name":"search_term","value":{"type":"String","mode":"string","value":"{{vaInputs.hello}}"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"search_application_configuration","value":{"type":"String","mode":"string","value":"492f958dc30101103f4fcd7b7940dd2a"},"metadata":{"type":"Reference","list":false,"items":[],"use_items":false,"table":"sys_search_context_config"}},{"parameter-name":"ask_another_search","value":{"type":"String","mode":"string","value":"false"},"metadata":{"type":"True/False","list":false,"items":[],"use_items":false}}],"return-value-mappings":[{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"geniussearchresults","main_topic_mapped_variable_name":"geniussearchresults"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"searchresults","main_topic_mapped_variable_name":"searchresults"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"shouldaskinfohelpful","main_topic_mapped_variable_name":"shouldaskinfohelpful"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"newsearchterm","main_topic_mapped_variable_name":"newsearchterm"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"shouldrunfallbacktopic","main_topic_mapped_variable_name":"shouldrunfallbacktopic"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"searchmetadata","main_topic_mapped_variable_name":"searchmetadata"}],"id":"408d5dec69734592abeb28a7bb6b128d","name":"AI Search","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false}</library_usage>
+        <node_id>408d5dec69734592abeb28a7bb6b128d</node_id>
+        <sys_class_name>sys_cs_topic_library_usage</sys_class_name>
+        <sys_created_by>mori.kairi@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-30 02:35:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d3e012ca93549e903a7efca97bba1050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_cs_topic_library_usage_d3e012ca93549e903a7efca97bba1050</sys_update_name>
+        <sys_updated_by>mori.kairi@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-30 02:35:34</sys_updated_on>
+    </sys_cs_topic_library_usage>
+</record_update>

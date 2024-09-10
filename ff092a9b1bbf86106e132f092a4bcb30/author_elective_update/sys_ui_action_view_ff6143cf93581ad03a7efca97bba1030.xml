@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="DELETE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-02 08:41:26</sys_created_on>
+        <sys_id>ff6143cf93581ad03a7efca97bba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>上席へエスカレーション.もしもCC</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_ui_action display_value="上席へエスカレーション">0fb9fac793181ad03a7efca97bba101b</sys_ui_action>
+        <sys_ui_view display_value="もしもCC" name="もしもcc">21584671935cda903a7efca97bba10ed</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_ff6143cf93581ad03a7efca97bba1030</sys_update_name>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-02 08:41:26</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</application>
+        <file_path/>
+        <instance_id>a12977c7ebbf065856eafddacad0cda9</instance_id>
+        <instance_name>democreatorwf81141</instance_name>
+        <name>sys_ui_action_view_ff6143cf93581ad03a7efca97bba1030</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by><sys_created_on>2024-09-02 08:41:26</sys_created_on><sys_id>ff6143cf93581ad03a7efca97bba1030</sys_id><sys_mod_count>0</sys_mod_count><sys_name>上席へエスカレーション.もしもCC</sys_name><sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package><sys_policy/><sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope><sys_ui_action display_value="上席へエスカレーション">0fb9fac793181ad03a7efca97bba101b</sys_ui_action><sys_ui_view display_value="もしもCC" name="もしもcc">21584671935cda903a7efca97bba10ed</sys_ui_view><sys_update_name>sys_ui_action_view_ff6143cf93581ad03a7efca97bba1030</sys_update_name><sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by><sys_updated_on>2024-09-02 08:41:26</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+        <payload_hash>-779518802</payload_hash>
+        <record_name>include</record_name>
+        <reverted_from/>
+        <source>7a730a4793dcd6d03a7efca97bba10b7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-02 08:41:26</sys_created_on>
+        <sys_id>736143cf93581ad03a7efca97bba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191b1e566ab0000001</sys_recorded_at>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-02 08:41:26</sys_updated_on>
+        <type>UI View Action</type>
+        <update_guid>376143cf3c581ad0e42c47794ee2af32</update_guid>
+        <update_guid_history>376143cf3c581ad0e42c47794ee2af32:-779518802</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hirukawa.kai@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-09-02 08:54:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_view">sys_ui_action_view</sys_db_object>
+        <sys_id>96ef6c96d5e94c8e9bdd0c3b5783e8c4</sys_id>
+        <sys_metadata>ff6143cf93581ad03a7efca97bba1030</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>上席へエスカレーション.もしもCC</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_parent display_value="上席へエスカレーション">0fb9fac793181ad03a7efca97bba101b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_scope_delete display_value="">b2ab4ec1074e4841827ce296952ecb21</sys_scope_delete>
+        <sys_update_name>sys_ui_action_view_ff6143cf93581ad03a7efca97bba1030</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_view_ff6143cf93581ad03a7efca97bba1030">736143cf93581ad03a7efca97bba1033</sys_update_version>
+        <sys_updated_by>hirukawa.kai@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-09-02 08:54:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

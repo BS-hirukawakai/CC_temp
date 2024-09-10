@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description>CSPポータルにて使用するメインフロー
+NLUにて作成</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.66",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "2b88c1d1e88f466a84cd43fd4f8af225": {
+          "id": "2b88c1d1e88f466a84cd43fd4f8af225",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "8b0ff128745c4c2da2f380f326e461e9": {
+          "id": "8b0ff128745c4c2da2f380f326e461e9",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "51cf972ee876416fa088c13dd97042f8": {
+          "id": "51cf972ee876416fa088c13dd97042f8",
+          "stepType": "TextPrompt",
+          "name": "hello",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "How can we help you?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "b93c067ec5894298b4b97e19cedae060",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "5a3aae6678184deab483d0b98ecf4b1b": {
+          "id": "5a3aae6678184deab483d0b98ecf4b1b",
+          "stepType": "ReusableTopic",
+          "name": "AI Search",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "useTemplateTopic": false,
+          "reusableTopicChoice": "AI Search",
+          "reusableTopicId": "b19775fa536310103296ddeeff7b12ff",
+          "inputs": {
+            "search_term": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.hello}}",
+                        "displayValue": "入力変数➛Hello"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "search_application_configuration": {
+              "value": "492f958dc30101103f4fcd7b7940dd2a",
+              "mode": "string",
+              "type": "Reference",
+              "table": "sys_search_context_config"
+            },
+            "ask_another_search": {
+              "value": "false",
+              "mode": "simple",
+              "type": "True/False"
+            }
+          },
+          "outputs": [
+            {
+              "id": "c8f993dd9c5b456cb0e8ca498adbd7df",
+              "value": "geniussearchresults",
+              "mapping": "geniussearchresults",
+              "preventDisable": false
+            },
+            {
+              "id": "2d4059aa5dae4c12a9a8c3b7be12b4cf",
+              "value": "searchresults",
+              "mapping": "searchresults",
+              "preventDisable": false
+            },
+            {
+              "id": "7815636d0fd3494688794a2555443370",
+              "value": "shouldaskinfohelpful",
+              "mapping": "shouldaskinfohelpful",
+              "preventDisable": false
+            },
+            {
+              "id": "0ab7249ab87c4465acf96a26f6ee5797",
+              "value": "newsearchterm",
+              "mapping": "newsearchterm",
+              "preventDisable": false
+            },
+            {
+              "id": "d871d6e8afe64f2dafed8b203af98953",
+              "value": "shouldrunfallbacktopic",
+              "mapping": "shouldrunfallbacktopic",
+              "preventDisable": false
+            },
+            {
+              "id": "94043b181a114bd1940cc9bd28e77ba7",
+              "value": "searchmetadata",
+              "mapping": "searchmetadata",
+              "preventDisable": false
+            }
+          ],
+          "variableIds": [
+            "c8f993dd9c5b456cb0e8ca498adbd7df",
+            "2d4059aa5dae4c12a9a8c3b7be12b4cf",
+            "7815636d0fd3494688794a2555443370",
+            "0ab7249ab87c4465acf96a26f6ee5797",
+            "d871d6e8afe64f2dafed8b203af98953",
+            "94043b181a114bd1940cc9bd28e77ba7"
+          ],
+          "dynamicTopicBlockName": {
+            "value": "",
+            "mode": "simple"
+          },
+          "inputDynamicModal": {},
+          "outputDynamicModal": {},
+          "outdatedNote": false,
+          "loading": false
+        },
+        "d58cc85eec534deaa1844ddfc1f4582f": {
+          "name": "Get Resolved",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "No results were found. Would you like to make further inquiries about this matter?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "b79ba84d02de4b15bfe6627cc954a035",
+          "detailDescription": "",
+          "id": "d58cc85eec534deaa1844ddfc1f4582f",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "d5aefd8e12214b6680c2832414f2c1f3": {
+          "id": "d5aefd8e12214b6680c2832414f2c1f3",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "7add789df8504f82bd55ee47b4e96b6f": {
+          "id": "7add789df8504f82bd55ee47b4e96b6f",
+          "stepType": "ReusableTopic",
+          "name": "Request Catalog Item",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "useTemplateTopic": false,
+          "reusableTopicChoice": "Request Catalog Item",
+          "reusableTopicId": "a39acd71c3a3330012d1758a7ff57eb6",
+          "inputs": {
+            "catalog_item_id": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "1a1b9fa41b0092106e132f092a4bcb5e"
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "execute_contextual_search": {
+              "value": "false",
+              "mode": "simple",
+              "type": "String"
+            },
+            "confirm_catalog_item": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "false"
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "show_end_state_card": {
+              "value": "true",
+              "mode": "string",
+              "type": "True/False"
+            }
+          },
+          "outputs": [
+            {
+              "id": "7015da433db24f44baa3ee1f4e7d3f13",
+              "value": "record_id",
+              "mapping": "record_id"
+            },
+            {
+              "id": "37985604b3424e8fb5c1a872258059d4",
+              "value": "record_table",
+              "mapping": "record_table"
+            },
+            {
+              "id": "fc4f2667b2d44477b7a499c9002542cc",
+              "value": "variables",
+              "mapping": "variables"
+            }
+          ],
+          "variableIds": [
+            "7015da433db24f44baa3ee1f4e7d3f13",
+            "37985604b3424e8fb5c1a872258059d4",
+            "fc4f2667b2d44477b7a499c9002542cc"
+          ],
+          "dynamicTopicBlockName": {
+            "value": "",
+            "mode": "simple"
+          },
+          "inputDynamicModal": {},
+          "outputDynamicModal": {}
+        },
+        "9a2f872a1719458b807a80913d7d7656": {
+          "id": "9a2f872a1719458b807a80913d7d7656",
+          "name": "Close and Restart Conversation",
+          "script": "(function execute() {\n    vaSystem.endConversation();\n    vaSystem.switchTopicById('4f5b795950d6b110f87780049c17ae27', 'resume');\n})()",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "e73f1f74fc4f43bb84602a78545b81bd": {
+          "id": "e73f1f74fc4f43bb84602a78545b81bd",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "49d7faae53454ddfaf210949e24daf74": {
+          "name": "more inquiries",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Would you like to make further inquiries about this matter?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "83fe3632a4e64786b9bc74839e45a5f3",
+          "detailDescription": "",
+          "id": "49d7faae53454ddfaf210949e24daf74",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        }
+      },
+      "edges": [
+        {
+          "id": "4c0a4b58c0604a9ebe190b510d6139b2",
+          "edgeType": "Edge",
+          "source": "2b88c1d1e88f466a84cd43fd4f8af225",
+          "target": "51cf972ee876416fa088c13dd97042f8",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e53983559ce349cf8654b64a1f2b887c",
+          "edgeType": "Edge",
+          "source": "51cf972ee876416fa088c13dd97042f8",
+          "target": "5a3aae6678184deab483d0b98ecf4b1b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0fb75ffa20664ac39b17722905c4ca6b",
+          "edgeType": "Edge",
+          "source": "d58cc85eec534deaa1844ddfc1f4582f",
+          "target": "d5aefd8e12214b6680c2832414f2c1f3",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "fa8fe647dcd745738f988737978cb99b",
+          "edgeType": "Branch",
+          "source": "d5aefd8e12214b6680c2832414f2c1f3",
+          "target": "7add789df8504f82bd55ee47b4e96b6f",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.get_resolved=Yes^NQvaInputs.more_inquiries=Yes",
+            "mode": "query"
+          },
+          "label": "yes"
+        },
+        {
+          "id": "e035f2aceacb446693e5ae5dac7c3b5c",
+          "edgeType": "Branch",
+          "source": "d5aefd8e12214b6680c2832414f2c1f3",
+          "target": "9a2f872a1719458b807a80913d7d7656",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.get_resolved=No^NQvaInputs.more_inquiries=No",
+            "mode": "query"
+          },
+          "label": "no"
+        },
+        {
+          "id": "36ce7962251b44a7b256493b0c71fed9",
+          "edgeType": "Edge",
+          "source": "7add789df8504f82bd55ee47b4e96b6f",
+          "target": "9a2f872a1719458b807a80913d7d7656",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "de17ed003f5842cbb4b786fe388f078e",
+          "edgeType": "Edge",
+          "source": "9a2f872a1719458b807a80913d7d7656",
+          "target": "8b0ff128745c4c2da2f380f326e461e9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9cc9c88b0fe34df388150718cd5d8ee5",
+          "edgeType": "Edge",
+          "source": "5a3aae6678184deab483d0b98ecf4b1b",
+          "target": "e73f1f74fc4f43bb84602a78545b81bd",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dcb396a04ced4e1fa755e669d3cc2cb6",
+          "edgeType": "Branch",
+          "source": "e73f1f74fc4f43bb84602a78545b81bd",
+          "target": "d58cc85eec534deaa1844ddfc1f4582f",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.searchresultsISEMPTY",
+            "mode": "query"
+          },
+          "label": " notExistSearchResults"
+        },
+        {
+          "id": "b91cb4a602d14e5d9acbb6714ce6875e",
+          "edgeType": "Branch",
+          "source": "e73f1f74fc4f43bb84602a78545b81bd",
+          "target": "49d7faae53454ddfaf210949e24daf74",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.searchresultsISNOTEMPTY",
+            "mode": "query"
+          },
+          "label": " existSearchResults"
+        },
+        {
+          "id": "01f8dbc169b9423f9502dde50a04902f",
+          "edgeType": "Edge",
+          "source": "49d7faae53454ddfaf210949e24daf74",
+          "target": "d5aefd8e12214b6680c2832414f2c1f3",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "6d6c7f2153374eeb91af66228ca4fccd": {
+      "id": "6d6c7f2153374eeb91af66228ca4fccd",
+      "name": "LiveAgent_portal",
+      "value": {
+        "mode": "simple",
+        "value": null
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "a13a0ce86b4449279690cc4ef568500e": {
+      "category": "vaInputs",
+      "id": "a13a0ce86b4449279690cc4ef568500e",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "b93c067ec5894298b4b97e19cedae060": {
+      "id": "b93c067ec5894298b4b97e19cedae060",
+      "name": "hello",
+      "label": "Hello",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcyNDgxMzkxMzQxNCBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "51cf972ee876416fa088c13dd97042f8",
+      "isHidden": false
+    },
+    "b79ba84d02de4b15bfe6627cc954a035": {
+      "id": "b79ba84d02de4b15bfe6627cc954a035",
+      "name": "get_resolved",
+      "label": "Get Resolved",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "d58cc85eec534deaa1844ddfc1f4582f",
+      "isHidden": false
+    },
+    "7015da433db24f44baa3ee1f4e7d3f13": {
+      "id": "7015da433db24f44baa3ee1f4e7d3f13",
+      "name": "record_id",
+      "label": "Record_id",
+      "defaultValue": "record_id",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "7add789df8504f82bd55ee47b4e96b6f",
+      "isHidden": false
+    },
+    "37985604b3424e8fb5c1a872258059d4": {
+      "id": "37985604b3424e8fb5c1a872258059d4",
+      "name": "record_table",
+      "label": "Record_table",
+      "defaultValue": "record_table",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "7add789df8504f82bd55ee47b4e96b6f",
+      "isHidden": false
+    },
+    "fc4f2667b2d44477b7a499c9002542cc": {
+      "id": "fc4f2667b2d44477b7a499c9002542cc",
+      "name": "variables",
+      "label": "Variables",
+      "defaultValue": "variables",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "7add789df8504f82bd55ee47b4e96b6f",
+      "isHidden": false
+    },
+    "c8f993dd9c5b456cb0e8ca498adbd7df": {
+      "id": "c8f993dd9c5b456cb0e8ca498adbd7df",
+      "name": "geniussearchresults",
+      "label": "Geniussearchresults",
+      "defaultValue": "geniussearchresults",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "5a3aae6678184deab483d0b98ecf4b1b",
+      "isHidden": false
+    },
+    "2d4059aa5dae4c12a9a8c3b7be12b4cf": {
+      "id": "2d4059aa5dae4c12a9a8c3b7be12b4cf",
+      "name": "searchresults",
+      "label": "Searchresults",
+      "defaultValue": "searchresults",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "5a3aae6678184deab483d0b98ecf4b1b",
+      "isHidden": false
+    },
+    "7815636d0fd3494688794a2555443370": {
+      "id": "7815636d0fd3494688794a2555443370",
+      "name": "shouldaskinfohelpful",
+      "label": "Shouldaskinfohelpful",
+      "defaultValue": "shouldaskinfohelpful",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "5a3aae6678184deab483d0b98ecf4b1b",
+      "isHidden": false
+    },
+    "0ab7249ab87c4465acf96a26f6ee5797": {
+      "id": "0ab7249ab87c4465acf96a26f6ee5797",
+      "name": "newsearchterm",
+      "label": "Newsearchterm",
+      "defaultValue": "newsearchterm",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "5a3aae6678184deab483d0b98ecf4b1b",
+      "isHidden": false
+    },
+    "d871d6e8afe64f2dafed8b203af98953": {
+      "id": "d871d6e8afe64f2dafed8b203af98953",
+      "name": "shouldrunfallbacktopic",
+      "label": "Shouldrunfallbacktopic",
+      "defaultValue": "shouldrunfallbacktopic",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "5a3aae6678184deab483d0b98ecf4b1b",
+      "isHidden": false
+    },
+    "94043b181a114bd1940cc9bd28e77ba7": {
+      "id": "94043b181a114bd1940cc9bd28e77ba7",
+      "name": "searchmetadata",
+      "label": "Searchmetadata",
+      "defaultValue": "searchmetadata",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "5a3aae6678184deab483d0b98ecf4b1b",
+      "isHidden": false
+    },
+    "83fe3632a4e64786b9bc74839e45a5f3": {
+      "id": "83fe3632a4e64786b9bc74839e45a5f3",
+      "name": "more_inquiries",
+      "label": "More Inquiries",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "49d7faae53454ddfaf210949e24daf74",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>cap_va_flow_main 3,csp_va_flow_main 2,csp_va_flow_main</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>cap_va_flow_main 3</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>public</roles>
+        <root_topic_id>14f2c06593d8d6903a7efca97bba10d7</root_topic_id>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id>446c1da1935c1a903a7efca97bba1021</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>mori.kairi@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-30 02:12:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>59bb460e93149e903a7efca97bba1025</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>cap_va_flow_main 3</sys_name>
+        <sys_package display_value="CCテンプレート" source="x_bllt_bs_cc">ff092a9b1bbf86106e132f092a4bcb30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCテンプレート">ff092a9b1bbf86106e132f092a4bcb30</sys_scope>
+        <sys_update_name>sys_cb_topic_59bb460e93149e903a7efca97bba1025</sys_update_name>
+        <sys_updated_by>mori.kairi@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-30 02:14:49</sys_updated_on>
+        <title>cap_va_flow_main 3</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>SETUP_TOPIC</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=59bb460e93149e903a7efca97bba1025"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>59bb460e93149e903a7efca97bba1025</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>mori.kairi@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-30 02:12:46</sys_created_on>
+        <sys_id>5dbb460e93149e903a7efca97bba1027</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mori.kairi@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-30 02:12:46</sys_updated_on>
+        <tablename>sys_cb_topic</tablename>
+        <value>CSPポータルにて使用するメインフロー
+NLUにて作成</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>59bb460e93149e903a7efca97bba1025</documentkey>
+        <fieldname>title</fieldname>
+        <language>ja</language>
+        <sys_created_by>mori.kairi@blueship.co.jp</sys_created_by>
+        <sys_created_on>2024-08-30 02:12:46</sys_created_on>
+        <sys_id>d9bb460e93149e903a7efca97bba102a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mori.kairi@blueship.co.jp</sys_updated_by>
+        <sys_updated_on>2024-08-30 02:12:46</sys_updated_on>
+        <tablename>sys_cb_topic</tablename>
+        <value>cap_va_flow_main 3</value>
+    </sys_translated_text>
+</record_update>
